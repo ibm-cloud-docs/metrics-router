@@ -1,0 +1,5 @@
+includes:
+  - https://github.ibm.com/cloud-docs/metrics-router-cli
+translation:
+  exclude:
+    byFilePath:
