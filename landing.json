@@ -1,0 +1,38 @@
+{
+    "title": "IBM Cloud Metrics Routing",
+    "lastupdated": "2023-01-30",
+    "introduction": "Use IBM Cloud Metrics Routing to configure how to route platform metrics in your IBM Cloud account.",
+    "section_devtools": {
+      "api": "/apidocs/metrics-router/metrics-router-v3",
+      "cli": "/docs/metrics-router?topic=metrics-router-metrics-router-cli",
+      "terraform": ""
+    },
+    "section_recommended": [
+      {
+        "title": "Understanding IBM Cloud Metrics Routing",
+        "description": "Learn about how to manage metrics by using IBM Cloud Metrics Routing",
+        "href": "/docs/metrics-router?topic=metrics-router-about"
+      },
+      {
+        "title": "Getting started with IBM Cloud Metrics Routing",
+        "description": "Use the IBM Cloud Metrics Routing CLI to configure your account to manage metrics.",
+        "href": "/docs/metrics-router?topic=metrics-router-getting-started"
+      },
+      {
+        "title": "Planning your environment",
+        "description": "Plan how to configure the account to manage metrics.",
+        "href": "/docs/metrics-router?topic=metrics-router-planning"
+      },
+      {
+        "title": "See what's new",
+        "description": "Read about the latest changes to IBM Cloud Metrics Routing. ",
+        "href": "/docs/metrics-router?topic=metrics-router-metrics-router-release-notes"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/home"
+    }
+}

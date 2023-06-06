@@ -1,0 +1,182 @@
+toc:
+  properties:
+    subcollection: metrics-router
+    service-name: metrics-router
+    version: 2
+    category: logging_monitoring
+    audience: service
+    href: /docs/metrics-router
+    path: metrics-router
+    label: Metrics Routing
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+
+      - topic: getting-started.md
+        navtitle: Getting started
+
+      - topicgroup:
+          label:  About
+          topics:
+          - topic: about.md
+            navtitle: IBM Cloud Metrics Routing
+          - topic: settings-about.md
+            navtitle: Account settings
+          - topic: target.md
+            navtitle: Targets
+          - topic: route.md
+            navtitle: Routes
+
+      - topic: planning.md
+        navtitle: Planning
+
+      - topic: cloud-services-mr.md
+        navtitle: Cloud services generating metrics
+
+      - topic: releasenotes.md
+        navtitle: Release notes
+
+  - navgroup:
+      id: howto
+      topics:
+
+      - topicgroup:
+          label: Controlling access
+          topics:
+          - topic: iam.md
+            navtitle: Managing IAM access
+          - topic: iam-assign-access.md
+            navtitle: Assigning access
+          - topic: iam-service-auth.md
+            navtitle: Managing authorizations
+          - topic: iam-custom-roles.md
+            navtitle: Managing custom roles
+
+      - topicgroup:
+          label: Enhancing security
+          topics:
+          - topic: core/architecture-workload-isolation.md
+            navtitle: Architecture and workload isolation
+          - topic: core/service-endpoints.md
+            navtitle: Service endpoints
+          - topic: core/mng-data.md
+            navtitle: Securing your data
+
+      - topicgroup:
+          label: Generating reports
+          topics:
+          - topic: config_report.md
+            navtitle: Generating a report
+
+      - topicgroup:
+          label: Managing account settings
+          topics:
+          - topic: settings.md
+            navtitle: Configuring account settings
+      - topicgroup:
+          label: Managing endpoints
+          topics:
+          - topic: endpoints_about.md
+            navtitle: About endpoints
+          - topic: endpoints-enforce-private.md
+            navtitle: Enforcing private endpoints
+
+      - topicgroup:
+          label: Managing targets
+          topics:
+          - topic: target-manage.md
+            navtitle: Managing targets
+          - topic: target-default.md
+            navtitle: Configuring default targets
+          - topic: target-locations.md
+            navtitle: Enforcing target locations
+          - topic: target-default-reset.md
+            navtitle: Reseting default targets
+          - topic: target-default-locations-reset.md
+            navtitle: Reseting permitted target locations
+
+      - topicgroup:
+          label: Managing routes
+          topics:
+          - topic: route-manage.md
+            navtitle: Managing routes
+          - topic: route_precedence.md
+            navtitle: Routing precedence
+          - topic: route_rules_definitions.md
+            navtitle: Defining a rule
+          - topic: route-rule-all-metrics.md
+            navtitle: Routing all metrics
+          - topic: route-from-1-location.md
+            navtitle: Routing metrics from 1 location
+          - topic: route-drop.md
+            navtitle: Excluding metrics by using the drop action
+          - topic: route-drop-all.md
+            navtitle: Excluding all metrics by using the drop action
+
+      - topicgroup:
+          label: Observability
+          topics:
+          - topic: observability/at_events.md
+            navtitle: Activity Tracker events
+          - topic: observability/platform_metrics.md
+            navtitle: Platform metrics
+
+  - navgroup:
+      id: reference
+      topics:
+      - topic: endpoints.md
+        navtitle: Endpoints
+      - topic: iam_by_role.md
+        navtitle: IAM actions by role
+      - topic: limits.md
+        navtitle: Limits
+      - topic: regions.md
+        navtitle: Regions
+      - topic: core/shared-responsibilities.md
+        navtitle: Understanding your responsibilities
+      - topicgroup:
+          label: High availability and disaster recovery
+          topics:
+          - topic: ha-dr/ha.md
+            navtitle: Understanding high availability
+
+      - topicgroup:
+          label: CLI Reference
+          topics:
+          - topic: cli-config.md
+            navtitle: Configuring the CLI
+          - include: ../metrics-router-cli/metrics-router-cli.md
+
+      - topicgroup:
+          label: API Reference
+          links:
+            - link:
+                label: Metrics Router API V3
+                href: https://{DomainName}/apidocs/metrics-router/metrics-router-v3
+            - link:
+                label: Metrics Router Internal Onboarding
+                href: https://{DomainName}/apidocs/metrics-router/metrics-router-onboarding
+
+  - navgroup:
+        id: help
+        topics:
+        - gettinghelp.md
+        - topic: releasenotes_notifications.md
+          navtitle: Notifications about functional changes
+        - topicgroup:
+            label: Q&A
+            topics:
+            - topic: iam-check-policy.md
+              navtitle: Checking IAM policies
+            - topic: iam-retrieve-token.md
+              navtitle: Retrieving IAM access tokens
+
+        - topicgroup:
+            label: Troubleshooting
+            topics:
+            - topic: ts-validate-target.md
+              navtitle: Incorrect target configuration
+            - topic: ts-primary-metadata.md
+              navtitle: Error when configuring a target or route
