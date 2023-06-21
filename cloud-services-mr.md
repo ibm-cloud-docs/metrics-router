@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-06-21"
 
 keywords:
 
@@ -18,36 +18,135 @@ subcollection: metrics-router
 List of {{site.data.keyword.cloud}} services that generate metrics that you can manage through {{site.data.keyword.metrics_router_full_notm}}.
 {: shortdesc}
 
-{{site.data.keyword.metrics_router_full_notm}} routes metrics based on the location, service-name, service-instance, resource, and resource-type that is specified in the CRN labels included with each metric. You can define a target, the resource where metrics are routed to, in any {{site.data.keyword.metrics_router_full_notm}} supported region. However, the target resource can be located in any region where that type of target is supported, in the same account or in a different account. You can define rules to determine where metrics are to be routed by configuring 1 or more routes in the account. You can define rules for managing routing of metrics that are generated in regions where {{site.data.keyword.metrics_router_full_notm}} is supported.
+
+There are 2 ways that services send metrics:
+- As platform metrics
+
+    You monitor these metrics through the monitoring instance that is configured to receive platform metrics. [Learn more about enabling platform metrics](/docs/monitoring?topic=monitoring-platform_metrics_enabling).
+
+- By configuring a {{site.data.keyword.mon_short}} agent
+
+    You configure the agent to send metrics to the {{site.data.keyword.mon_short}} instance that you choose. You monitor these metrics through that instance.
+
+
+{{site.data.keyword.metrics_router_full_notm}} routes platform metrics based on the location, service-name, service-instance, resource, and resource-type that is specified in the CRN labels included with each metric. You can define a target, the resource where metrics are routed to, in any {{site.data.keyword.metrics_router_full_notm}} supported region. However, the target resource can be located in any region where that type of target is supported, in the same account or in a different account. You can define rules to determine where metrics are to be routed by configuring 1 or more routes in the account. You can define rules for managing routing of metrics that are generated in regions where {{site.data.keyword.metrics_router_full_notm}} is supported.
 {: important}
 
-## {{site.data.keyword.cloud_notm}} services
-{: #cloud-services-mr-1}
 
-| Service     | CRN service name |
-|-------------|--------------|
-| [{{site.data.keyword.appconfig_full}}](/docs/app-configuration?topic=app-configuration-getting-started) | `apprapp` |
-|[{{site.data.keyword.codeenginefull}}](/docs/codeengine?topic=codeengine-getting-started) | `codeengine` |
-| [{{site.data.keyword.registrylong}}](/docs/Registry?topic=Registry-getting-started) | `container-registry` |
-| [{{site.data.keyword.dns_full}}](/docs/dns-svcs?topic=dns-svcs-getting-started) | `dns-svcs` |
-| [{{site.data.keyword.en_full}}](/docs/event-notifications?topic=event-notifications-getting-started) | `event-notifications` |
-| [{{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-operational-metrics) | `hs-crypto` |
-| [Load Balancer for VPC](/docs/vpc?topic=vpc-load-balancers) | `is.load-balancer` |
-| [{{site.data.keyword.messagehub_full}}](/docs/EventStreams?topic=EventStreams-getting_started) | `messagehub` |
-| [MQ on IBM Cloud](/docs/mqcloud?topic=mqcloud-mqoc_getting_started) | `mqcloud` |
-| [{{site.data.keyword.sqlquery_full}}](/docs/sql-query?topic=sql-query-overview#overview) | `sql-query` |
-| [Toolchain](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd_about) | `toolchain` |
-| [{{site.data.keyword.vmware-service_notm}}](/docs/vmwaresolutions) | `vmware` |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/vmwaresolutions?topic=vmwaresolutions-vc_vcenterserveroverview) | `vmware-solutions` |
-{: caption="Table 1. {{site.data.keyword.cloud_notm}} services that send metrics to {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
+
+## Container services
+{: #container}
+
+| Service     | CRN service name | Metrics |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.registrylong_notm}}](/docs/Registry?topic=Registry-getting-started) |`container-registry` | [Platform metrics](/docs/Registry?topic=Registry-registry_monitor)|
+{: caption="Table 1. List of {{site.data.keyword.cloud_notm}} container services" caption-side="top"}
+
+
+## Database services
+{: #database}
+
+
+| Service           |  CRN service name | Metrics |
+|-------------------|-------------------|---------|
+| [{{site.data.keyword.sqlquery_full}}](/docs/services/sql-query?topic=sql-query-gettingstarted)| `sql-query` | [Platform metrics](/docs/services/sql-query?topic=sql-query-metrics) |
+{: caption="Table 2. List of database services" caption-side="top"}
+
+
+
+## Developer tools
+{: #devops}
+
+The following table lists developer tools and DevOps services that are enabled for {{site.data.keyword.mon_full_notm}}:
+
+| Service     | CRN service name | Metrics |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.contdelivery_full}}](/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started)| `toolchain` | [Platform metrics](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-monitor-sysdig) |
+| [{{site.data.keyword.appconfig_full}}](/docs/app-configuration?topic=app-configuration-getting-started)| `apprapp` | [Platform metrics](/docs/app-configuration?topic=app-configuration-ac-monitoring) |
+| [{{site.data.keyword.en_full}}](/docs/event-notifications?topic=event-notifications-getting-started)|  `event-notifications` | [Platform metrics](/docs/event-notifications?topic=event-notifications-en-monitoring) |
+{: caption="Table 3. List of developer tools and DevOps services" caption-side="top"}
+
+
+## Integration services
+{: #integration}
+
+The following table lists integration services that are enabled for {{site.data.keyword.mon_full_notm}}:
+
+| Service     | CRN service name | Metrics |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-getting_started)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
+| [{{site.data.keyword.mq_full}}](/docs/mqcloud?topic=mqcloud-getting_started)| `mqcloud` | [Platform metrics](/docs/mqcloud?topic=mqcloud-monitor_sysdig) |
+{: caption="Table 4. List of integration services" caption-side="top"}
+
+
+## Networking services
+{: #networking}
+
+The following table lists services that are enabled for {{site.data.keyword.mon_full_notm}}:
+
+| Service     | CRN service name | Metrics             |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.dns_full}}](/docs/dns-svcs?topic=dns-svcs-getting-started) | `dns-svcs` | [Platform metrics](/docs/dns-svcs?topic=dns-svcs-monitor-ibm-cloud-pm) |
+{: caption="Table 5. List of networking services" caption-side="top"}
 
 
 ## {{site.data.keyword.cloud_notm}} platform services
 {: #cloud-services-mr-2}
 
-
-| Service     | CRN service name |
-|-------------|--------------|
+| Service     | CRN service name  | Metrics             |
+|-------------|--------------|---------|
 | [{{site.data.keyword.atracker_full_notm}}](/docs/atracker) | `atracker` |
 | [{{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router) | `metrics-router` |
-{: caption="Table 2. {{site.data.keyword.cloud_notm}} platform services that send metrics to {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
+{: caption="Table 6. {{site.data.keyword.cloud_notm}} platform services that send metrics to {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
+
+
+## Security services
+{: #security}
+
+
+| Service     | CRN service name | More info |
+|-------------|-------------|-------------------------------------------------------------------------|
+| [{{site.data.keyword.keymanagementservicelong}}](/docs/key-protect?topic=key-protect-getting-started-tutorial#getting-started-tutorial) | `kms` | [Platform metrics](/docs/key-protect?topic=key-protect-operational-metrics) |
+| [{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started) | `hs-crypto` | [Platform metrics](/docs/hs-crypto?topic=hs-crypto-operational-metrics) |
+{: caption="Table 7. List of security services" caption-side="top"}
+
+
+
+## Serverless
+{: #compute_serverless}
+
+
+| Service     | CRN service name | Metrics |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.codeenginefull_notm}}](/docs/codeengine?topic=codeengine-getting-started) | `codeengine` | [Platform metrics](/docs/codeengine?topic=codeengine-monitor)|
+{: caption="Table 8. List of serverless services" caption-side="top"}
+
+
+## VMware
+{: #vmware}
+
+The following table lists Cloud services that are enabled for {{site.data.keyword.mon_full_notm}}:
+
+| Service     | CRN service name | Metrics           |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.vmware-service_short}}](/docs/vmware-service?topic=vmware-service-getting-started) | `vmware` | [Platform metrics](/docs/vmware-service?topic=vmware-service-single-tenant-monitoring) |
+| [VMware solutions](/docs/vmwaresolutions) | `vmware-solutions` | [Platform metrics](/docs/vmwaresolutions?topic=vmwaresolutions-shared-monitor) |
+{: caption="Table 9. VMware" caption-side="top"}
+
+
+
+## VPC
+{: #vpc}
+
+
+| Service     | CRN service name | Metrics             |
+|-------------|-------------|-------------------|
+| [VPC virtual server instances](/docs/vpc?topic=vpc-about-advanced-virtual-servers&interface=ui) | `is` | [Platform metrics](/docs/vpc?topic=vpc-vpc-monitoring-metrics)|
+| [Flow Logs for VPC](/docs/vpc?topic=vpc-flow-logs) | `is` | [Platform metrics](/docs/vpc?topic=vpc-fl-monitoring-metrics) |
+| [Load Balancer for VPC](/docs/vpc?topic=vpc-network-load-balancers)| `is.load-balancer`  | [Application Load Balancer platform metrics](/docs/vpc?topic=vpc-monitoring-metrics-alb) \n [Network Load Balancer platform metrics](/docs/vpc?topic=vpc-nlb_monitoring-metrics) |
+| [VPN for VPC (site-to-site VPN)](/docs/vpc?topic=vpc-using-vpn)| `is.vpn` | [Platform metrics](/docs/vpc?topic=vpc-vpn-monitoring-metrics) |
+| [Client VPN for VPC](/docs/vpc?topic=vpc-vpn-client-to-site-overview)| `is.vpn-server` | [Platform metrics](/docs/vpc?topic=vpc-vpn-client-to-site-monitoring) |
+{: caption="Table 10. List of VPC services (generation 2)" caption-side="top"}
+
+
+In addition, some VPC resources have quotas associated with them that you can monitor through the VPC resource quota overview dashboard. For more information, see [VPC resource quota overview](/docs/vpc?topic=vpc-vpc-quota-metrics).
