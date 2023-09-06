@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023
-lastupdated: "2023-07-14"
+lastupdated: "2023-09-06"
 
 keywords:
 
@@ -64,6 +64,7 @@ The following table lists developer tools and DevOps services that are enabled f
 | [{{site.data.keyword.contdelivery_full}}](/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started)| `toolchain` | [Platform metrics](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-monitor-sysdig) |
 | [{{site.data.keyword.appconfig_full}}](/docs/app-configuration?topic=app-configuration-getting-started)| `apprapp` | [Platform metrics](/docs/app-configuration?topic=app-configuration-ac-monitoring) |
 | [{{site.data.keyword.en_full}}](/docs/event-notifications?topic=event-notifications-getting-started)|  `event-notifications` | [Platform metrics](/docs/event-notifications?topic=event-notifications-en-monitoring) |
+| [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started) | `schematics` | [Platform metrics](/docs/schematics?topic=schematics-monitoring-instances) |
 {: caption="Table 3. List of developer tools and DevOps services" caption-side="top"}
 
 
