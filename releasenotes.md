@@ -25,7 +25,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: release-note}
 
 Madrid region support
-:   Madrid is now a supported region for {{site.data.keyword.metrics_router_full_notm}}. Services can now be provisioned in Madrid and Madrid endpoints can be used. Platform metrics will continue flowing to the Frankfurt region.
+:   Madrid is now an online region for {{site.data.keyword.metrics_router_full_notm}}. Services can now be provisioned in Madrid and Madrid endpoints can be used. Platform metrics will continue flowing to the Frankfurt region.
 
 
 ## 6 June 2023
