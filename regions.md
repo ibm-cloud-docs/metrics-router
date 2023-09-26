@@ -2,7 +2,7 @@
 
 copyright:
   years:  2022, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-09-12"
 
 keywords:
 
@@ -27,8 +27,9 @@ subcollection: metrics-router
 | `Asia Pacific`        | `Sydney (au-syd)`            | `N/A`        | `MZR`     |
 | `Europe`              | `Frankfurt (eu-de) [*]`      | `YES`        | `MZR`     |
 | `Europe`              | `London (eu-gb)`             | `NO`         | `MZR`     |
-| `North America`       | `Washington DC (us-east)`    | `N/A`        | `MZR`     |
+| `Europe`              | `Madrid (eu-es) [*]`      | `YES`        | `MZR`     |
 | `North America`       | `Dallas (us-south)`          | `N/A`        | `MZR`     |
+| `North America`       | `Washington DC (us-east)`    | `N/A`        | `MZR`     |
 {: caption="Table 1. List of locations for {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
 
 Where
