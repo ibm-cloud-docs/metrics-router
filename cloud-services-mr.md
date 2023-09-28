@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023
-lastupdated: "2023-09-06"
+lastupdated: "2023-09-28"
 
 keywords:
 
@@ -151,3 +151,11 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 
 
 In addition, some VPC resources have quotas associated with them that you can monitor through the VPC resource quota overview dashboard. For more information, see [VPC resource quota overview](/docs/vpc?topic=vpc-vpc-quota-metrics).
+
+## Power IaaS services
+{: #power_iaas}
+
+| Service     | CRN service name | Metrics           |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-getting-started) | `power-iaas` | [Platform metrics](/docs/power-iaas?topic=power-iaas-monitor-sysdig) |
+{: caption="Table 11. Power IaaS services" caption-side="top"}
