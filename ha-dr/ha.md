@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-10-24"
 
 keywords:
 
@@ -51,6 +51,7 @@ The following table lists the high-availability (HA) status for the regions (loc
 | `North America`       | `Washington DC (us-east)`   | `N/A`        | `MZR`     |
 | `Europe`              | `Frankfurt (eu-de)`      | ![Checkmark icon](../images/checkmark-icon.svg "checkmark") | `MZR`     |
 | `Europe`              | `London (eu-gb)`         | `N/A`        | `MZR`     |
+| `Europe`              | `Madrid (eu-es)`         | ![Checkmark icon](../images/checkmark-icon.svg "checkmark")         | `MZR`     |
 | `Asia Pacific`        | `Sydney (au-syd)`        | `N/A`        | `MZR`     |
 {: caption="Table 1. List of locations where the service is available." caption-side="top"}
 
