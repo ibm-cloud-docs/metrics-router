@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-11-23"
 
 keywords:
 
@@ -36,7 +36,7 @@ Ensure you have the [correct IAM permissions to configure {{site.data.keyword.me
 {: #settings-prereqs-cli}
 {: cli}
 
-Before you use the the CLI to manage {{site.data.keyword.metrics_router_full_notm}} account settings, [Install the {{site.data.keyword.metrics_router_full_notm}} CLI](/docs/metrics_router?topic=metrics_router-metrics_router-cli-config).
+Before you use the the CLI to manage {{site.data.keyword.metrics_router_full_notm}} account settings, [Install the {{site.data.keyword.metrics_router_full_notm}} CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli-config).
 
 Check that you have IAM permissions to read, update, or both the {{site.data.keyword.metrics_router_full_notm}} account settings.
 
@@ -120,8 +120,8 @@ If the update is successful, the current settings will be displayed.
 {: api}
 
 To make API calls to manage settings, complete the following steps:
-1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics_router?topic=metrics_router-retrieve-iam-token).
-2. Identify the API endpoint in the region where you plan to configure or manage settings. For more information, see [Endpoints](/docs/metrics_router?topic=metrics_router-endpoints#endpoints_api).
+1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-retrieve-iam-token).
+2. Identify the API endpoint in the region where you plan to configure or manage settings. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api).
 
 
 ## Getting settings using the API
@@ -138,7 +138,7 @@ curl -X GET  ENDPOINT/api/v3/settings   -H "Authorization:  $ACCESS_TOKEN"
 Where:
 
 `ENDPOINT`
-:   Is the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics_router?topic=metrics_router-endpoints#endpoints_api).
+:   Is the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api).
 
 For example, you can use the following cURL request to get the account settings information:
 
@@ -230,7 +230,7 @@ curl -X PATCH   https://<ENDPOINT>/api/v3/settings
 Where:
 
 `ENDPOINT`
-:    Is the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics_router?topic=metrics_router-endpoints#endpoints_api).
+:    Is the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api).
 
 `default_targets`
 :   Is a list of target IDs.  If no routing rules cause metrics to be sent to other targets, these targets will received the metrics.

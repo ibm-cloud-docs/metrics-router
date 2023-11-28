@@ -2,7 +2,7 @@
 
 copyright:
   years:  2022, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-11-23"
 
 keywords:
 
@@ -26,7 +26,7 @@ When you configure or modify the {{site.data.keyword.metrics_router_full_notm}} 
 - Before you disable public endpoints by setting `--private-api-endpoint-only TRUE`, make sure your account has access to the private endpoint.  You can do this by running the command `ibmcloud account show`.  If `VRF Enabled` is `true` and `Service Endpoint Enabled` is `true` then you have access to the private endpoint.  If you do not have access to the private endpoint, you will be unable to re-enable the public endpoint since private endpoint access is required to re-enable the public endpoint.
 {: important}
 
-- You can use private and public endpoints to manage settings. For more information about the list of `ENDPOINTS` that are available, see [Endpoints](/docs/metrics_router?topic=metrics_router-endpoints).
+- You can use private and public endpoints to manage settings. For more information about the list of `ENDPOINTS` that are available, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 
     Through the private network, you must use an API endpoint with the following format: `https://private.<region>.metrics_router.cloud.ibm.com`
 
@@ -42,7 +42,7 @@ You can define any of the following information:
 
     By metadata, we refer to the target/route/settings data that is available across the account in any region.
 
-    You can choose any of the supported locations where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Locations](/docs/metrics_router?topic=metrics_router-regions&interface=cli).
+    You can choose any of the supported locations where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Locations](/docs/metrics-router?topic=metrics-router-regions&interface=cli).
 
     You can choose a location where the data is stored. You can also configure a backup location where the metadata is stored for recovery purposes.
 
@@ -58,7 +58,7 @@ You can define any of the following information:
 
 * The locations where an account administrator can define targets to collect metrics.
 
-    You can choose any of the supported locations where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Locations](/docs/metrics_router?topic=metrics_router-regions&interface=cli).
+    You can choose any of the supported locations where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Locations](/docs/metrics-router?topic=metrics-router-regions&interface=cli).
 
     Take into account any corporate or industry compliance requirements such as Financial Services Validated locations, or EU-managed regions.
 

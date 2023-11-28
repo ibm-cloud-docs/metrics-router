@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-11-23"
 
 keywords:
 
@@ -32,7 +32,7 @@ Before you use the CLI to save your {{site.data.keyword.metrics_router_full_notm
 
 4. Log in to {{site.data.keyword.cloud_notm}}. Run the following command: [ibmcloud login](/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login).
 
-5. Make sure you have configured your [settings](/docs/metrics-router?topic=metrics-router-settings), [targets](/docs/metrics-router?topic=metrics-router-target-monitoring) and [routes.](/docs/metrics-router?topic=metrics-router-route_rules_definitions)
+5. Make sure you have configured your [settings](/docs/metrics-router?topic=metrics-router-settings), [targets](/docs/metrics-router?topic=metrics-router-target-monitoring) and [routes](/docs/metrics-router?topic=metrics-router-route_rules_definitions).
 
 
 ## Saving a copy of your account settings
