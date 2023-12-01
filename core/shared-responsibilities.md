@@ -63,8 +63,7 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task                                       | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |--------------------------------------------|-------------------------------------------------|-----------------------|
-| `Encrypt data`  | Encrypt data in motion and at rest per compliance specifications. | `N/A` |
-| `Meet security and compliance objectives`  | Maintain controls that are commensurate to various industry compliance standards such as SOC2, PCI, HIPAA and Privacy Shield. | Set up and maintain security and regulation compliance for your apps and data.  |
+| `Meet security and compliance objectives`  | Maintain controls that are commensurate to various industry compliance standards such as SOC2, PCI, HIPAA and Privacy Shield. For more information, see [Securing your data](/docs/metrics-router?topic=metrics-router-mng-data) | Set up and maintain security and regulation compliance for your apps and data.  |
 {: caption="Table 4. Responsibilities for security and regulation compliance" caption-side="top"}
 
 
