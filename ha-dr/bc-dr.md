@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023
-lastupdated: "2023-10-24"
+lastupdated: "2023-12-01"
 
 keywords:
 
@@ -67,6 +67,8 @@ Disaster recovery is about surviving a catastrophic failure or loss of availabil
 
 {{site.data.keyword.metrics_router_full_notm}} is a platform service, there is no automatic cross-regional failover or cross-regional disaster recovery. If all of the availability zones in a region fail, {{site.data.keyword.metrics_router_full_notm}} becomes unavailable in that region.
 
+[You can create a configuration to route to a backup target in a different region.](/docs/metrics-router?topic=metrics-router-dr_config)
+{: tip}
 
 In the event of a regional disaster, you must complete the following steps to establish cross-region high availability:
 
