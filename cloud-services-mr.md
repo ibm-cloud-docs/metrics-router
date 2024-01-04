@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-01-04"
 
 keywords:
 
@@ -161,4 +161,12 @@ In addition, some VPC resources have quotas associated with them that you can mo
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-getting-started) | `power-iaas` | [Platform metrics](/docs/power-iaas?topic=power-iaas-monitor-sysdig) |
 {: caption="Table 11. Power IaaS services" caption-side="top"}
+
+## Watson AI services
+{: #watson}
+
+| Service     | CRN service name | Metrics           |
+|-------------|-------------|-------------------|
+| [{{site.data.keyword.lakehouse_short}}](/docs/watsonxdata) | `lakehouse` | [Platform metrics](/docs/watsonxdata?topic=watsonxdata-monitor_wxd) |
+{: caption="Table 12. Watson AI services" caption-side="top"}
 
