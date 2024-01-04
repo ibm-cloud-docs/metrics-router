@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-09-28"
+  years:  2023, 2024
+lastupdated: "2024-01-03"
 
 keywords:
 
@@ -88,6 +88,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 | Service     | CRN service name | Metrics             |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.dns_full}}](/docs/dns-svcs?topic=dns-svcs-getting-started) | `dns-svcs` | [Platform metrics](/docs/dns-svcs?topic=dns-svcs-monitor-ibm-cloud-pm) |
+| [{{site.data.keyword.loadbalancer_full}}](/docs/loadbalancer-service) | `ibm-cloud-load-balancer` | [Platform metrics](/docs/loadbalancer-service?topic=loadbalancer-service-monitoring-metrics) |
 {: caption="Table 5. List of networking services" caption-side="top"}
 
 
@@ -152,6 +153,7 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 
 In addition, some VPC resources have quotas associated with them that you can monitor through the VPC resource quota overview dashboard. For more information, see [VPC resource quota overview](/docs/vpc?topic=vpc-vpc-quota-metrics).
 
+
 ## Power IaaS services
 {: #power_iaas}
 
@@ -159,3 +161,4 @@ In addition, some VPC resources have quotas associated with them that you can mo
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-getting-started) | `power-iaas` | [Platform metrics](/docs/power-iaas?topic=power-iaas-monitor-sysdig) |
 {: caption="Table 11. Power IaaS services" caption-side="top"}
+
