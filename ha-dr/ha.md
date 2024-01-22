@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-10-24"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -66,7 +66,7 @@ Where
     A region contains [multiple availability zones](https://www.ibm.com/cloud/data-centers/) to meet local access, low latency, and security requirements for the region.
 
 * `N/A` means feature that is not applicable to that geography.
-* `MZR` means multi-zone region. [Learn more](/docs/overview?topic=overview-locations#mzr-table).
+* `MZR` means multi-zone region. [Learn more](/docs/overview?topic=overview-locations#table-mzr).
 
 
 ## Data availability

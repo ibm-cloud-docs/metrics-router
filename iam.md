@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -88,7 +88,7 @@ The {{site.data.keyword.metrics_router_full_notm}} service provides the followin
 When you define a policy, the *Resources* scope must be set to **All resources**. If this is not set, you will not be able to manage your {{site.data.keyword.metrics_router_full_notm}} instance and you will get a return code of `403`.
 {: important}
 
-If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles#custom-access-roles) and pick the actions to include.
+If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
 ### Targets

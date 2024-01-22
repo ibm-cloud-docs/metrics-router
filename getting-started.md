@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -20,7 +20,7 @@ subcollection: metrics-router
 Use {{site.data.keyword.metrics_router_full}} to configure the routing of platform metrics generated in your {{site.data.keyword.cloud_notm}} account.
 {: shortdesc}
 
-You can use {{site.data.keyword.metrics_router_full_notm}}, a platform service, to manage platform metrics at the account-level by configuring targets and routes that define where data points are routed. {{site.data.keyword.metrics_router_full_notm}} can only route metrics that are generated in [supported regions](/docs/metrics-router?topic=metrics-router-regions#regions-metrics-router) by enabled services. Other regions, where {{site.data.keyword.metrics_router_full_notm}} is not available, continue to manage metrics by using [{{site.data.keyword.mon_full_notm}}](/docs/monitoring?topic=monitoring-getting-started). For more information about {{site.data.keyword.metrics_router_full_notm}}, see [About {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-about).
+You can use {{site.data.keyword.metrics_router_full_notm}}, a platform service, to manage platform metrics at the account-level by configuring targets and routes that define where data points are routed. {{site.data.keyword.metrics_router_full_notm}} can only route metrics that are generated in [supported regions](/docs/metrics-router?topic=metrics-router-regions) by enabled services. Other regions, where {{site.data.keyword.metrics_router_full_notm}} is not available, continue to manage metrics by using [{{site.data.keyword.mon_full_notm}}](/docs/monitoring?topic=monitoring-getting-started). For more information about {{site.data.keyword.metrics_router_full_notm}}, see [About {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-about).
 
 ![A diagram that shows a sample {{site.data.keyword.metrics_router_full_notm}} architecture.](/images/metrics-routing-ov.png "{{site.data.keyword.metrics_router_full_notm}} architecture sample."){: caption="Figure 1. {{site.data.keyword.metrics_router_full_notm}} sample architecture" caption-side="bottom"}
 

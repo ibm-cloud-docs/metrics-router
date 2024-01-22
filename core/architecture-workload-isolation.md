@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -19,8 +19,6 @@ subcollection: metrics-router
 
 Review the following sample architecture for {{site.data.keyword.metrics_router_full_notm}}, and learn more about different isolation levels so that you can choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
 {: shortdesc}
-
-
 
 ## {{site.data.keyword.metrics_router_full_notm}} architecture
 {: #architecture}
@@ -43,7 +41,7 @@ After you configure the primary metadata region, you must create 1 or more targe
 - A target defines a destination where you want to route metrics and store them for further analysis. A target resource definition is a regional resource. However, some of the target's details are required in the account's primary and backup metadata locations for operational purposes.
 - A route defines the rules on how to route metrics across the account to your destinations (targets). A route resource definition is a global resource that defines rules whose scope goemight go beyond a region.
 
-In your account, metrics are automatically collected from {{site.data.keyword.cloud_notm}} services that run in the account, with the exception of some services that require additional configuration to enable metrics. For more information about services that generate metrics, see [Cloud services](/docs/metrics-router?topic=metrics-router-cloud_services).
+In your account, metrics are automatically collected from {{site.data.keyword.cloud_notm}} services that run in the account, with the exception of some services that require additional configuration to enable metrics. For more information about services that generate metrics, see [Cloud services](/docs/metrics-router?topic=metrics-router-cloud-services-mr).
 
 After you configure {{site.data.keyword.metrics_router_full_notm}} in your account, metrics are routed to the target of your choice. You are responsible for managing the metrics in the target resources.
 

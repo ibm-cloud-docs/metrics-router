@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -18,7 +18,7 @@ subcollection: metrics-router
 You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
 {: shortdesc}
 
-For more information on {{site.data.keyword.metrics_router_full_notm}} routes, see [routes](/docs/metrics-router?topic=metrics-router-route).
+For more information on {{site.data.keyword.metrics_router_full_notm}} routes, see [routes](/docs/metrics-router?topic=metrics-router-routes&interface=cli).
 
 
 
@@ -314,7 +314,7 @@ For more information about the REST API, see [routes](https://{DomainName}/apido
 {: api}
 
 To make API calls to manage routes, complete the following steps:
-1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-retrieve-iam-token).
+1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-iam-retrieve-token&interface=cli).
 2. Identify the API endpoint in the region where you plan to configure or manage a route. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 
 

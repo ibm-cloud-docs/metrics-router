@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-11-23"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -140,8 +140,8 @@ For more information, see [{{site.data.keyword.metrics_router_full_notm}} v3 CLI
 {: api}
 
 Before you use the API to manage routes, complete the following steps:
-1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-retrieve-iam-token).
-2. Identify the API endpoint in the region where you plan to configure or manage a route. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api).
+1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-iam-retrieve-token&interface=cli).
+2. Identify the API endpoint in the region where you plan to configure or manage a route. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 
 
 ## API methods
