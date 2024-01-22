@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -310,7 +310,7 @@ For more information about the REST API, see [Targets](https://{DomainName}/apid
 {: api}
 
 To make API calls to manage targets, complete the following steps:
-1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-retrieve-iam-token).
+1. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-iam-retrieve-token&interface=cli).
 2. Identify the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 3. Before you configure {{site.data.keyword.metrics_router_full_notm}} routes or targets, you must configure a primary metadata region. The primary metadata region is configured using the [modify settings API method.](/apidocs/metrics-router/metrics-router-v3#update-settings)
 

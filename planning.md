@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -121,7 +121,7 @@ Define the routing rules that indicate how to route metrics in your account.
 
 - You can define 1 or more routes to configure how metrics across all regions in your account are collected and stored in 1 or more targets.
 
-- For each route that you define, you can configure 4 rules. These rules are applied top down. When a rule is identified for a region, any follow up rules withing that route definition that apply to that region are not considered.
+- For each route that you define, you can configure 4 rules. These rules are applied in order. When a rule is identified for a region, any follow up rules withing that route definition that apply to that region are not considered.
 
 Decide if you want to drop the collection of metrics in 1 or more regions. Check any compliance requirements to confirm that you can.
 

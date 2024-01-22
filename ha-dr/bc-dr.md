@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-12-01"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -74,7 +74,7 @@ In the event of a regional disaster, you must complete the following steps to es
 
 1. Decide which location is going to be your recovery region. Choose 1 of the following options:
 
-    - [Check the suggested DR recovery region](/docs/metrics-router?topic=metrics-router-ha_dr#ha_dr_metrics_recovery_region) and use that region as your recovery region.
+    - [Check the suggested DR recovery region](/docs/metrics-router?topic=metrics-router-bc-dr#bc-dr-locations) and use that region as your recovery region.
 
     - If you have configured the {{site.data.keyword.metrics_router_full_notm}} account settings with a primary location and a secondary backup location, check if either location is still operational and use the one that is still operational as your recovery region.
 

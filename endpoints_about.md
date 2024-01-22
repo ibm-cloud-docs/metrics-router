@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-06-06"
+  years: 2022, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -32,7 +32,7 @@ By default, private endpoints are enabled.
 
 - The private endpoint format is `https://private.<region>.metrics-router.cloud.ibm.com/api/v3`.
 
-- For more information about the list of `ENDPOINTS` that is available, see [Private endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api-private).
+- For more information about the list of `ENDPOINTS` that is available, see [Private endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints-api-metrics-router-private).
 
 To manage {{site.data.keyword.metrics_router_full_notm}} in your account by using private endpoints only, see [Enforcing private endpoints to configure {{site.data.keyword.metrics_router_full_notm}} resources](/docs/metrics-router?topic=metrics-router-endpoints-enforce-private&interface=cli).
 
@@ -48,4 +48,4 @@ After public endpoints are disabled, you can enable public endpoints only by usi
 
 The public endpoint format is `https://<region>.metrics-router.cloud.ibm.com/api/v3`.
 
-For more information about the list of `ENDPOINTS` that is available, see [Public endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api-public).
+For more information about the list of `ENDPOINTS` that is available, see [Public endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints-api-metrics-router-public).

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -43,7 +43,7 @@ You can manage auditing events in an {{site.data.keyword.cloud_notm}} account in
 
     For more information about how to configure {{site.data.keyword.atracker_short}}, see [Getting started with {{site.data.keyword.atracker_short}}](/docs/atracker?topic=atracker-getting-started).
 
-    {{site.data.keyword.atracker_short}} can only route events that are generated in [supported regions](/docs/atracker?topic=atracker-regions#regions-atracker). Other regions, where {{site.data.keyword.atracker_short}} is not available, continue to manage events by using {{site.data.keyword.at_short}} hosted event search.
+    {{site.data.keyword.atracker_short}} can only route events that are generated in [supported regions](/docs/atracker?topic=atracker-regions). Other regions, where {{site.data.keyword.atracker_short}} is not available, continue to manage events by using {{site.data.keyword.at_short}} hosted event search.
     {: important}
 
 
@@ -79,7 +79,7 @@ If you manage auditing events in the account using {{site.data.keyword.atracker_
 
 You can define a target, the resource where events are routed to, in any {{site.data.keyword.atracker_short}} supported region. However, the target resource can be located in any region where that type of target is supported, in the same account or in a different account. For more information about supported targets, see [Targets](/docs/atracker?topic=atracker-atracker-resources#atracker-resources-targets).
 
-You can define rules to determine where auditing events are to be routed by configuring 1 or more routes in the account. You can define rules for managing global events and location-based events that are generated in regions where {{site.data.keyword.atracker_short}} is supported. For more information, see [supported regions](/docs/atracker?topic=atracker-regions#regions-atracker).
+You can define rules to determine where auditing events are to be routed by configuring 1 or more routes in the account. You can define rules for managing global events and location-based events that are generated in regions where {{site.data.keyword.atracker_short}} is supported. For more information, see [supported regions](/docs/atracker?topic=atracker-regions).
 
 To view events, you must access the target and download the object.
 
@@ -91,7 +91,7 @@ To view events, you must access the target and download the object.
 
 {{site.data.keyword.metrics_router_full_notm}} events are automatically forwarded to the {{site.data.keyword.at_short}} instance that is provisioned in Frankfurt.
 
-{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in Frankfurt. For more information, see [Launching the web UI through the {{site.data.keyword.cloud_notm}} UI](/docs/atracker?topic=atracker-launch).
+{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in Frankfurt. For more information, see [Launching the web UI through the {{site.data.keyword.cloud_notm}} UI](/docs/activity-tracker?topic=activity-tracker-launch).
 
 
 

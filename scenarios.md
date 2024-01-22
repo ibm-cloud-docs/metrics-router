@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2023
-lastupdated: "2022-10-24"
+  years:  2022, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -12,25 +12,21 @@ subcollection: metrics-router
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Scenarios
+# Scenarios (WIP)
 {: #scenarios}
 
 Check out these sample scenarios to learn how to set up your account so that you can manage auditing events by using {{site.data.keyword.atracker_full}}.
 {: shortdesc}
 
+- Forward your activity event data to {{site.data.keyword.cos_full_notm}} for {{site.data.keyword.cloud_notm}} Financial Services compliance. See [Financial Services (FS) Validated scenario](/docs/atracker?topic=atracker-scenarios#scenarios-1).
 
-<!--[![Financial Services (FS) Validated](/images/scenario_fsvalidated.svg)](#scenarios-1) [![EU-managed account](/images/scenario_eumanaged.svg)](#scenarios-2) [![Enterprise account](/images/scenario_enterprise.svg)](#scenarios-3) [![Global events](/images/scenario_global.svg)](#scenarios-4) [![Data lake scenario](/images/scenario_datalake.svg)](#scenarios-5)-->
+- Improve data residency compliance by keeping data at-rest within specific locations such as the EU-managed locations. See [EU-managed account scenario](/docs/atracker?topic=atracker-scenarios#scenarios-2).
 
+- Consolidate {{site.data.keyword.atracker_short}} data to the account and region of your primary operations. You can also route auditing events to multiple locations. See [Enterprise account scenario](/docs/atracker?topic=atracker-scenarios#scenarios-3).
 
-- Forward your activity event data to {{site.data.keyword.cos_full_notm}} for {{site.data.keyword.cloud_notm}} Financial Services compliance. See [Financial Services (FS) Validated scenario](/docs/atracker?topic=atracker-atracker-scenarios&interface=cli#scenarios-1).
+- Manage global events in an account and route them to the location of your choice. See [Global events scenario](/docs/atracker?topic=atracker-scenarios#scenarios-4).
 
-- Improve data residency compliance by keeping data at-rest within specific locations such as the EU-managed locations. See [EU-managed account scenario](/docs/atracker?topic=atracker-atracker-scenarios&interface=cli#scenarioss-2).
-
-- Consolidate {{site.data.keyword.atracker_short}} data to the account and region of your primary operations. You can also route auditing events to multiple locations. See [Enterprise account scenario](/docs/atracker?topic=atracker-atracker-scenarios&interface=cli#scenarioss-3).
-
-- Manage global events in an account and route them to the location of your choice. See [Global events scenario](/docs/atracker?topic=atracker-atracker-scenarios&interface=cli#scenarioss-4).
-
-- Route data to a Data Lake for analytics. See [Data lake scenario](/docs/atracker?topic=atracker-atracker-scenarios&interface=cli#scenarioss-5).
+- Route data to a Data Lake for analytics. See [Data lake scenario](/docs/atracker?topic=atracker-scenarios#scenarios-5).
 
 
 
@@ -131,7 +127,7 @@ target-cross-acc-cos       <COS TARGET ID 2>                      eu-de    cloud
 
 
 ## EU-managed account scenario
-{: #scenarioss-2}
+{: #scenarios-2}
 
 Improve data residency compliance by keeping data at-rest within EU-managed locations.
 {: note}
@@ -204,7 +200,7 @@ target-cos      <COS TARGET ID>                        eu-de    cloud_object_sto
 
 
 ## Enterprise account scenario
-{: #scenarioss-3}
+{: #scenarios-3}
 
 Consolidate {{site.data.keyword.atracker_short}} data to the account and region of your primary operations. You can also route auditing events to multiple locations.
 {: note}
@@ -323,7 +319,7 @@ target-cross-acc-cos       <COS TARGET ID 2>                      eu-de    cloud
 
 
 ## Global events scenario
-{: #scenarioss-4}
+{: #scenarios-4}
 
 
 Manage global events in an account and route them to the location of your choice.

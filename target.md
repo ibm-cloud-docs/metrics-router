@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-11-23"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -143,9 +143,9 @@ Before you use the API  to manage targets, complete the following steps:
 
 1. Ensure you have the [correct IAM permissions to configure {{site.data.keyword.metrics_router_full_notm}}.](/docs/metrics-router?topic=metrics-router-iam)
 
-2. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-retrieve-iam-token).
+2. Get an IAM access token. For more information, see [Retrieving IAM access tokens](/docs/metrics-router?topic=metrics-router-iam-retrieve-token&interface=cli).
 
-3. Identify the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints#endpoints_api).
+3. Identify the API endpoint in the region where you plan to configure or manage a target. For more information, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 
 
 ## API methods

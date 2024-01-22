@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -49,7 +49,7 @@ There are 2 ways that services send metrics:
 
 | Service           |  CRN service name | Metrics |
 |-------------------|-------------------|---------|
-| [{{site.data.keyword.sqlquery_full}}](/docs/services/sql-query?topic=sql-query-gettingstarted)| `sql-query` | [Platform metrics](/docs/services/sql-query?topic=sql-query-metrics) |
+| [{{site.data.keyword.sqlquery_full}}](//docs/sql-query?topic=sql-query-getting-started)| `sql-query` | [Platform metrics](/docs/sql-query?topic=sql-query-metrics) |
 {: caption="Table 2. List of database services" caption-side="top"}
 
 
@@ -75,7 +75,7 @@ The following table lists integration services that are enabled for {{site.data.
 
 | Service     | CRN service name | Metrics |
 |-------------|-------------|-------------------|
-| [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-getting_started)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
+| [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-getting-started)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
 | [{{site.data.keyword.mq_full}}](/docs/mqcloud?topic=mqcloud-getting_started)| `mqcloud` | [Platform metrics](/docs/mqcloud?topic=mqcloud-monitor_sysdig) |
 {: caption="Table 4. List of integration services" caption-side="top"}
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-06-06"
+  years: 2022, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -32,9 +32,9 @@ You can configure your account to manage private and public endpoints by using t
 
 | Step | Description | Link |
 | ---- | -------------- | -------------- |
-| **1** | Check that your account is VRF enabled. | [link](#mng-endpoints-step1) |
-| **2** | Disable public endpoints. | [link](#mng-endpoints-step2) |
-| **3** | Check you have access to private endpoints. | [link](#mng-endpoints-step3) |
+| **1** | Check that your account is VRF enabled. | [link](#endpoints-enforce-private-step1) |
+| **2** | Disable public endpoints. | [link](#endpoints-enforce-private-step2) |
+| **3** | Check you have access to private endpoints. | [link](#endpoints-enforce-private-step3) |
 {: caption="Table 1. Configuration steps" caption-side="bottom"}
 
 ## Prerequisites

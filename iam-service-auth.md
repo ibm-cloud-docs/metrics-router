@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -101,7 +101,7 @@ For more information about all of the parameters that are available for this com
 Before you can create an authorization by using Terraform, make sure that you have completed the following:
 
 - Install the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {{site.data.keyword.cloud}}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
-- Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
+- Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
 
 Use the following steps to create an authorization by using Terraform:
 
@@ -125,14 +125,14 @@ Use the following steps to create an authorization by using Terraform:
    - You may provide `target_resource_instance_id` to scope a specific IBM Cloud Monitoring instance.
    - For more examples, see the [Terraform documentation for authorization resources](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_authorization_policy){: external}.
 
-1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://www.terraform.io/cli/init){: external}.
+1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://developer.hashicorp.com/terraform/cli/init){: external}.
 
    ```terraform
    terraform init
    ```
    {: pre}
 
-1. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://www.terraform.io/cli/run){: external}.
+1. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
 
    1. Run `terraform plan` to generate a Terraform execution plan to preview the proposed actions.
 
@@ -155,7 +155,7 @@ Use the following steps to create an authorization by using Terraform:
 You must have access to the target service to create an authorization between services. You can grant only the level of access that you have as a user of the target service. The autorization that you define for the {{site.data.keyword.metrics_router_full_notm}} service requires that you have `Administrator` role for the {{site.data.keyword.mon_full_notm}} service.
 {: important}
 
-To authorize a source service access to a target service, use the [IAM Policy Management API](/apidocs/iam-policy-management#create-a-policy). See the following API example for Create a policy method with the `type=authorization` specified.
+To authorize a source service access to a target service, use the [IAM Policy Management API](/apidocs/iam-policy-management#create-policy). See the following API example for Create a policy method with the `type=authorization` specified.
 
 The supported attributes for creating an authorization policy depend on what each service supports. For more information about the supported attributes for each service, see the documentation for the services that you're using.
 {: note}
