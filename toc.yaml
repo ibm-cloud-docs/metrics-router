@@ -166,9 +166,6 @@ toc:
             - link:
                 label: Metrics Router API V3
                 href: https://{DomainName}/apidocs/metrics-router/metrics-router-v3
-            - link:
-                label: Metrics Router Internal Onboarding
-                href: https://{DomainName}/apidocs/metrics-router/metrics-router-onboarding
 
   - navgroup:
         id: help

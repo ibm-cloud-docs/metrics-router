@@ -103,9 +103,9 @@ Deploying a VSI has additional costs.
 
 1. [Generate an ssh key](/docs/vpc?topic=vpc-ssh-keys).
 
-2. [Create a VSI](https://test.cloud.ibm.com/docs/vpc?topic=vpc-creating-virtual-servers) in your account.
+2. [Create a VSI](/docs/vpc?topic=vpc-creating-virtual-servers) in your account.
 
-3. [Connect to the VSI](https://test.cloud.ibm.com/docs/vpc?topic=vpc-vsi_is_connecting_linux) from a terminal in your local environment.
+3. [Connect to the VSI](/docs/vpc?topic=vpc-vsi_is_connecting_linux) from a terminal in your local environment.
 
 4. After you ssh into the VSI, [install the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-install-ibmcloud-cli). Run the following command:
 
