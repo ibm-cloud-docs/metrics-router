@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-02-07"
 
 keywords:
 
@@ -91,3 +91,18 @@ The MZR architecture offers automatic failover between zones within the region, 
 - The settings metadata locations indicate the region where data is backup.
 - Regular backups are done daily.
 - {{site.data.keyword.metrics_router_full_notm}} data is replicated across regions based on your account configuration for the primary and backup metadata locations.
+
+{{site.data.keyword.metrics_router_full_notm}} data is replicated across multiple regions.
+- Regular backups are stored across multiple regions, and are restorable to other regions.
+
+The following table shows the regions where the copy of a regular backup is replicated and available:
+
+| Geography             | Region                   | Other regions that keep a copy of the backup   |
+|-----------------------|--------------------------|-------------------------|
+| `North America`       | `Dallas (us-south)`      | `Washington (us-east)`  |
+| `North America`       | `Washington (us-east)`   | `Dallas (us-south)`     |
+| `Europe`              | `Frankfurt (eu-de)`      | `Madrid (eu-es)`        |
+| `Europe`              | `London (eu-gb)`         | `Sydney (au-syd)`       |
+| `Europe`              | `Madrid (eu-es)`         | `Frankfurt (eu-de)`     |
+| `Asia Pacific`        | `Sydney (au-syd)`        | `London (eu-gb)`        |
+{: caption="Table 2. List of locations where a copy of the backup is available" caption-side="top"}
