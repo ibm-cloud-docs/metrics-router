@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-04-10"
 
 keywords:
 
@@ -19,7 +19,7 @@ subcollection: metrics-router
 To define a routing rule, you must specify 1 or more targets as the destinations for metrics. You can also define 1 or more inclusion filters that define the conditions of how those metrics are routed to those destinations.
 {: shortdesc}
 
-For each route that you define in the account, you can configure up to 4 rules. The rules specify what metrics are routed in a region and where to route them. For more information, see [Understanding how routes work in your account](/docs/metrics-router?topic=metrics-router-routes&interface=cli#route_behaviour).
+For each route that you define in the account, you can configure up to 10 rules. The rules specify what metrics are routed in a region and where to route them. For more information, see [Understanding how routes work in your account](/docs/metrics-router?topic=metrics-router-routes&interface=cli#route_behaviour).
 
 A rule consists of 1 action, 1 or more targets, and 0 or more inclusion filters.
 

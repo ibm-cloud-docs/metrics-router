@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-09-26"
+  years: 2022, 2023, 2024
+lastupdated: "2023-04-10"
 
 keywords:
 
@@ -19,6 +19,13 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+## 10 April 2024
+{: #metrics-router-apr1024}
+{: release-note}
+
+Increase routes and rules limits
+:   The maximum number of routes for each account is increased to 30 and the maximum number of rules for each route is increased to 10.
 
 ## 26 September 2023
 {: #metrics-router-sep2623}

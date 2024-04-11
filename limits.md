@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2023
-lastupdated: "2023-06-06"
+  years:  2022, 2023, 2024
+lastupdated: "2024-04-10"
 
 keywords:
 
@@ -40,11 +40,11 @@ Learn about known limits for {{site.data.keyword.metrics_router_full_notm}}.
 
 * You can define a route in any of the supported locations where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Locations](/docs/metrics-router?topic=metrics-router-regions).
 
-* You can define up to 4 routes for an account.
+* You can define up to 30 routes for an account.
 
 * By default, the account has 0 routes configured.
 
-* You can configure up to 4 rules for each route.
+* You can configure up to 10 rules for each route.
 
 * You can configure up to 3 targets for each rule.
 
