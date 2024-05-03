@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-04-10"
+lastupdated: "2023-05-03"
 
 keywords:
 
@@ -19,6 +19,13 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+## 3 May 2024
+{: #metrics-router-may0324}
+{: release-note}
+
+{{site.data.keyword.metrics_router_full_notm}} is planned to be supported in the br-sao, ca-tor, jp-osa, and jp-tok regions in June 2024.
+:   You might need to consider changes to your {{site.data.keyword.metrics_router_full_notm}} configuration. For more information, see [Required actions for newly supported regions](/docs/metrics-router?topic=metrics-router-new_region_support&interface=cli).
 
 ## 10 April 2024
 {: #metrics-router-apr1024}

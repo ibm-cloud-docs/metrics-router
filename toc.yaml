@@ -35,6 +35,9 @@ toc:
       - topic: cloud-services-mr.md
         navtitle: Cloud services generating metrics
 
+      - topic: new_region_support.md
+        navtitle: Required actions for newly supported regions
+
       - topic: releasenotes.md
         navtitle: Release notes
 
