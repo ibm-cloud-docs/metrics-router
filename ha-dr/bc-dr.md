@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-05-28"
 
 keywords:
 
@@ -48,12 +48,14 @@ The following table indicates the recovery region in the event of a DR situation
 
 | Geography             | Source region            | Recovery region   |
 |-----------------------|--------------------------|--------------|
-| `North America`       | `Dallas (us-south)`      | `Washington (us-east)`  |
-| `North America`       | `Washington (us-east)`   | `Dallas (us-south)`     |
-| `Europe`              | `Frankfurt (eu-de)`      | `Madrid (eu-es)`        |
-| `Europe`              | `London (eu-gb)`         | `Frankfurt (eu-de)`     |
-| `Europe`              | `Madrid (eu-es)`         | `Frankfurt (eu-de)`     |
-| `Asia Pacific`        | `Sydney (au-syd)`        | `Frankfurt (eu-de)`     |
+| Asia Pacific        | Sydney (`au-syd`)        | Frankfurt (`eu-de`)     |
+| Europe              | Frankfurt (`eu-de`)      | Madrid (`eu-es`)        |
+| Europe              | London (`eu-gb`)         | Frankfurt (`eu-de`)     |
+| Europe              | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |
+| North America       | Dallas (`us-south`)      | Washington (`us-east`)  |
+| North America       | Toronto (`ca-tor`)       | Washington (`us-east`)  |
+| North America       | Washington DC (`us-east`)   | Dallas (`us-south`)     |
+| South America       | Sao Paulo (`br-sao`)     | Washington (`us-east`)     |
 {: caption="Table 2. List of locations where a region is recovered" caption-side="top"}
 
 

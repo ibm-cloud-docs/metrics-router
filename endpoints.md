@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2023
-lastupdated: "2023-09-22"
+  years:  2022, 2024
+lastupdated: "2023-05-28"
 
 keywords:
 
@@ -30,7 +30,9 @@ The following table shows the private API endpoints:
 | Frankfurt (`eu-de`)      | `https://private.eu-de.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.248.114  \n 166.9.248.147  \n 166.9.248.83 |
 | London (`eu-gb`)         | `https://private.eu-gb.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.244.80  \n 166.9.244.17  \n 166.9.244.43 |
 | Madrid (`eu-es`)         | `https://private.eu-es.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.225.9  \n  166.9.226.10  \n 166.9.227.9 |
+| Sao Paulo (`br-sao`)        | `https://private.br-sao.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.246.79  \n 166.9.246.111  \n 166.9.246.135 |
 | Sydney (`au-syd`)        | `https://private.au-syd.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.244.134  \n 166.9.244.103  \n 166.9.244.168 |
+| Toronto (`ca-tor`)        | `https://private.ca-tor.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.247.156  \n 166.9.247.187  \n 166.9.247.218 |
 | Washington DC (`us-east`)   | `https://private.us-east.metrics-router.cloud.ibm.com`  | `https/443`  | 166.9.232.8  \n 166.9.251.111  \n 166.9.231.220 |
 {: caption="Table 1. Lists of private API endpoints for interacting with {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
 
@@ -45,6 +47,8 @@ The following table shows the public API endpoints:
 | Frankfurt (`eu-de`)      | `https://eu-de.metrics-router.cloud.ibm.com`            | `https/443`  |
 | London (`eu-gb`)         | `https://eu-gb.metrics-router.cloud.ibm.com`            | `https/443`  |
 | Madrid (`eu-es`)         | `https://eu-es.metrics-router.cloud.ibm.com`            | `https/443`  |
+| Sao Paulo (`br-sao`)        | `https://br-sao.metrics-router.cloud.ibm.com`           | `https/443`  |
 | Sydney (`au-syd`)        | `https://au-syd.metrics-router.cloud.ibm.com`           | `https/443`  |
+| Toronto (`ca-tor`)        | `https://ca-tor.metrics-router.cloud.ibm.com`           | `https/443`  |
 | Washington DC (`us-east`)   | `https://us-east.metrics-router.cloud.ibm.com`          | `https/443`  |
 {: caption="Table 2. Lists of public API endpoints for interacting with {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}

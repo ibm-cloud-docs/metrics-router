@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2023
-lastupdated: "2023-09-12"
+  years:  2022, 2024
+lastupdated: "2024-05-28"
 
 keywords:
 
@@ -24,12 +24,14 @@ subcollection: metrics-router
 
 | Geography             | Region                       | EU-Supported | HA Status |
 |-----------------------|------------------------------|--------------|-----------|
-| `Asia Pacific`        | `Sydney (au-syd)`            | `N/A`        | `MZR`     |
-| `Europe`              | `Frankfurt (eu-de) [*]`      | `YES`        | `MZR`     |
-| `Europe`              | `London (eu-gb)`             | `NO`         | `MZR`     |
-| `Europe`              | `Madrid (eu-es) [*]`      | `YES`        | `MZR`     |
-| `North America`       | `Dallas (us-south)`          | `N/A`        | `MZR`     |
-| `North America`       | `Washington DC (us-east)`    | `N/A`        | `MZR`     |
+| Asia Pacific        | Sydney (`au-syd)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Europe              | Frankfurt (`eu-de`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
+| Europe              | London (`eu-gb`)             | [Not applicable]{: tag-cool-gray}         | `MZR`     |
+| Europe              | Madrid (`eu-es`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
+| North America       | Dallas (`us-south`)          | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| North America       | Toronto (`ca-tor`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| North America       | Washington DC (`us-east`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| South America       | Sao Paulo (`br-sao`)    | [Not applicable]{: tag-cool-gray}       | `MZR`     |
 {: caption="Table 1. List of locations for {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
 
 Where

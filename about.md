@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-05-28"
 
 keywords:
 
@@ -53,17 +53,16 @@ The following table outlines the locations where you can configure {{site.data.k
 
 | Geo                   | Region                   | {{site.data.keyword.metrics_router_full_notm}} |
 |-----------------------|--------------------------|----------------------------------------------------|
-| `Asia Pacific`        | `Chennai (in-che)`       |  |
-| `Asia Pacific`        | `Tokyo (jp-tok)`         |  |
-| `Asia Pacific`        | `Seoul (kr-seo)`         |  |
-| `Asia Pacific`        | `Sydney (au-syd)`        |  ![Checkmark icon](images/checkmark-icon.svg) |
-| `Asia Pacific`        | `Osaka (jp-osa)`         |  |
-| `Europe`              | `Frankfurt (eu-de)`      |  ![Checkmark icon](images/checkmark-icon.svg) |
-| `Europe`              | `London (eu-gb)`         |  ![Checkmark icon](images/checkmark-icon.svg) |
-| `North America`       | `Dallas (us-south)`      |  ![Checkmark icon](images/checkmark-icon.svg) |
-| `North America`       | `Washington DC (us-east)`   |  ![Checkmark icon](images/checkmark-icon.svg) |
-| `North America`       | `Toronto (ca-tor)`       |  |
-| `South America`       | `Sao Paulo (br-sao)`     |  |
+| Asia Pacific        | Chennai (`in-che`)       | [No]{: tag-red} |
+| Asia Pacific        | Tokyo (`jp-tok`)         | [No]{: tag-red} |
+| Asia Pacific        | Sydney (`au-syd`)        |  [Yes]{: tag-green} |
+| Asia Pacific        | Osaka (`jp-osa`)         | [No]{: tag-red} |
+| Europe              | Frankfurt (`eu-de`)      | [Yes]{: tag-green} |
+| Europe              | London (`eu-gb`)         | [Yes]{: tag-green} |
+| North America       | Dallas (`us-south`)      | [Yes]{: tag-green} |
+| North America       | Toronto (`ca-tor`)       | [Yes]{: tag-green} |
+| North America       | Washington DC (`us-east`)   | [Yes]{: tag-green} |
+| South America       | Sao Paulo (`br-sao`)     | [Yes]{: tag-green} |
 {: caption="Table 2. Supported locations" caption-side="bottom"}
 
 

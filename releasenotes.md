@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2023-05-03"
+lastupdated: "2024-05-28"
 
 keywords:
 
@@ -19,6 +19,13 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+## 10 June 2024
+{: #metrics-router-jun100324}
+{: release-note}
+
+{{site.data.keyword.metrics_router_full_notm}} is available in Sao Paulo and Toronto.
+:   Sao Paulo (br-sao) and Toronto (ca-tor) are now online regions for {{site.data.keyword.metrics_router_full_notm}}. {{site.data.keyword.metrics_router_full_notm}} can be configured and endpoints can now be used in these regions.
 
 ## 3 May 2024
 {: #metrics-router-may0324}

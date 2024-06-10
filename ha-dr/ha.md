@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-02-07"
+lastupdated: "2024-05-28"
 
 keywords:
 
@@ -47,12 +47,14 @@ The following table lists the high-availability (HA) status for the regions (loc
 
 | Geography             | Region                   | EU-Supported | HA Status |
 |-----------------------|--------------------------|--------------|-----------|
-| `North America`       | `Dallas (us-south)`      | `N/A`        | `MZR`     |
-| `North America`       | `Washington DC (us-east)`   | `N/A`        | `MZR`     |
-| `Europe`              | `Frankfurt (eu-de)`      | ![Checkmark icon](../images/checkmark-icon.svg "checkmark") | `MZR`     |
-| `Europe`              | `London (eu-gb)`         | `N/A`        | `MZR`     |
-| `Europe`              | `Madrid (eu-es)`         | ![Checkmark icon](../images/checkmark-icon.svg "checkmark")         | `MZR`     |
-| `Asia Pacific`        | `Sydney (au-syd)`        | `N/A`        | `MZR`     |
+| Asia Pacific        | Sydney (`au-syd`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
+| Europe              | Frankfurt (`eu-de`)      | [Yes]{: tag-green}        | `MZR`     |
+| Europe              | London (`eu-gb`)         | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Europe              | Madrid (`eu-es`)         | [Yes]{: tag-green}        | `MZR`     |
+| North America       | Dallas (`us-south`)      | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| North America       | Toronto (`ca-tor`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| North America       | Washington DC (`us-east`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| South America       | Sao Paulo (`br-sao`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 {: caption="Table 1. List of locations where the service is available." caption-side="top"}
 
 
@@ -99,10 +101,12 @@ The following table shows the regions where the copy of a regular backup is repl
 
 | Geography             | Region                   | Other regions that keep a copy of the backup   |
 |-----------------------|--------------------------|-------------------------|
-| `North America`       | `Dallas (us-south)`      | `Washington (us-east)`  |
-| `North America`       | `Washington (us-east)`   | `Dallas (us-south)`     |
-| `Europe`              | `Frankfurt (eu-de)`      | `Madrid (eu-es)`        |
-| `Europe`              | `London (eu-gb)`         | `Sydney (au-syd)`       |
-| `Europe`              | `Madrid (eu-es)`         | `Frankfurt (eu-de)`     |
-| `Asia Pacific`        | `Sydney (au-syd)`        | `London (eu-gb)`        |
+| Asia Pacific         | Sydney (`au-syd`)        | London (`eu-gb`)        |
+| Europe               | Frankfurt (`eu-de`)      | Madrid (`eu-es`)        |
+| Europe               | London (`eu-gb`)         | Sydney (`au-syd`)       |
+| Europe               | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |
+| North America        | Dallas (`us-south`)      | Washington (`us-east`)  |
+| North America        | Toronto (`ca-tor`)       | Washington (`us-east`)  |
+| North America        | Washington (`us-east`)   | Dallas (`us-south`)     |
+| South America        | Sao Paulo (`br-sao`)     | Washington (`us-east`)  |
 {: caption="Table 2. List of locations where a copy of the backup is available" caption-side="top"}
