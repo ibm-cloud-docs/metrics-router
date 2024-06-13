@@ -2,7 +2,7 @@
 
 copyright:
   years:  2022, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -24,7 +24,9 @@ subcollection: metrics-router
 
 | Geography             | Region                       | EU-Supported | HA Status |
 |-----------------------|------------------------------|--------------|-----------|
-| Asia Pacific        | Sydney (`au-syd)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Asia Pacific        | Osaka (`jp-osa`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Asia Pacific        | Sydney (`au-syd`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Asia Pacific        | Tokyo (`jp-tok`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Europe              | Frankfurt (`eu-de`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
 | Europe              | London (`eu-gb`)             | [Not applicable]{: tag-cool-gray}         | `MZR`     |
 | Europe              | Madrid (`eu-es`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |

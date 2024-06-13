@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -48,7 +48,9 @@ The following table indicates the recovery region in the event of a DR situation
 
 | Geography             | Source region            | Recovery region   |
 |-----------------------|--------------------------|--------------|
+| Asia Pacific        | Osaka (`jp-osa`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific        | Sydney (`au-syd`)        | Frankfurt (`eu-de`)     |
+| Asia Pacific        | Tokyo (`jp-tok`)        | Osaka (`jp-osa`)     |
 | Europe              | Frankfurt (`eu-de`)      | Madrid (`eu-es`)        |
 | Europe              | London (`eu-gb`)         | Frankfurt (`eu-de`)     |
 | Europe              | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |

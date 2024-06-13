@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -20,8 +20,15 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
 
+## 13 June 2024
+{: #metrics-router-jun1324}
+{: release-note}
+
+{{site.data.keyword.metrics_router_full_notm}} is available in Osaka and Tokyo.
+:   Osaka (jp-osa) and Tokyo (jp-tok) are now online regions for {{site.data.keyword.metrics_router_full_notm}}. {{site.data.keyword.metrics_router_full_notm}} can be configured and endpoints can now be used in these regions.
+
 ## 10 June 2024
-{: #metrics-router-jun100324}
+{: #metrics-router-jun1024}
 {: release-note}
 
 {{site.data.keyword.metrics_router_full_notm}} is available in Sao Paulo and Toronto.

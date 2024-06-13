@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -47,7 +47,9 @@ The following table lists the high-availability (HA) status for the regions (loc
 
 | Geography             | Region                   | EU-Supported | HA Status |
 |-----------------------|--------------------------|--------------|-----------|
+| Asia Pacific        | Osaka (`jp-osa`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Asia Pacific        | Sydney (`au-syd`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
+| Asia Pacific        | Tokyo (`jp-tok`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Europe              | Frankfurt (`eu-de`)      | [Yes]{: tag-green}        | `MZR`     |
 | Europe              | London (`eu-gb`)         | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Europe              | Madrid (`eu-es`)         | [Yes]{: tag-green}        | `MZR`     |
@@ -101,7 +103,9 @@ The following table shows the regions where the copy of a regular backup is repl
 
 | Geography             | Region                   | Other regions that keep a copy of the backup   |
 |-----------------------|--------------------------|-------------------------|
+| Asia Pacific        | Osaka (`jp-osa`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific         | Sydney (`au-syd`)        | London (`eu-gb`)        |
+| Asia Pacific        | Tokyo (`jp-tok`)        | Osaka (`jp-osa`)     |
 | Europe               | Frankfurt (`eu-de`)      | Madrid (`eu-es`)        |
 | Europe               | London (`eu-gb`)         | Sydney (`au-syd`)       |
 | Europe               | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |

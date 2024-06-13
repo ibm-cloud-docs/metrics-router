@@ -2,7 +2,7 @@
 
 copyright:
   years:  2022, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -76,7 +76,11 @@ Americas locations
     Washington DC (`us-east`)
 
 Asia Pacific locations
+:   Osaka (`jp-osa`)
+
 :   Sydney (`au-syd`)
+
+:   Tokyo (`jp-tok`)
 
 Europe locations
 :   Frankfurt (`eu-de`)

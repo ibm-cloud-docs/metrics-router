@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -54,9 +54,9 @@ The following table outlines the locations where you can configure {{site.data.k
 | Geo                   | Region                   | {{site.data.keyword.metrics_router_full_notm}} |
 |-----------------------|--------------------------|----------------------------------------------------|
 | Asia Pacific        | Chennai (`in-che`)       | [No]{: tag-red} |
-| Asia Pacific        | Tokyo (`jp-tok`)         | [No]{: tag-red} |
+| Asia Pacific        | Tokyo (`jp-tok`)         | [Yes]{: tag-green} |
 | Asia Pacific        | Sydney (`au-syd`)        |  [Yes]{: tag-green} |
-| Asia Pacific        | Osaka (`jp-osa`)         | [No]{: tag-red} |
+| Asia Pacific        | Osaka (`jp-osa`)         | [Yes]{: tag-green} |
 | Europe              | Frankfurt (`eu-de`)      | [Yes]{: tag-green} |
 | Europe              | London (`eu-gb`)         | [Yes]{: tag-green} |
 | North America       | Dallas (`us-south`)      | [Yes]{: tag-green} |
