@@ -135,7 +135,4 @@ After the target and the route is configured, you must verify that metrics are a
 
 [Launch the {{site.data.keyword.mon_full_notm}} UI](/docs/monitoring?topic=monitoring-launch) for the {{site.data.keyword.mon_short}} instance that you configured as your target, and explore the metrics.
 
-<!--## Next
-{: #getting-started-next}
 
-Plan your account configuration. For more information, see [Planning your account configuration settings](/docs/metrics-router?topic=metrics-router-planning).-->

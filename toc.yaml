@@ -8,15 +8,12 @@ toc:
     href: /docs/metrics-router
     path: metrics-router
     label: Metrics Routing
-
   entries:
   - navgroup:
       id: learn
       topics:
-
       - topic: getting-started.md
         navtitle: Getting started
-
       - topicgroup:
           label:  About
           topics:
@@ -28,23 +25,17 @@ toc:
             navtitle: Targets
           - topic: route.md
             navtitle: Routes
-
       - topic: planning.md
         navtitle: Planning
-
       - topic: cloud-services-mr.md
         navtitle: Cloud services generating metrics
-
       - topic: new_region_support.md
         navtitle: Required actions for newly supported regions
-
       - topic: releasenotes.md
         navtitle: Release notes
-
   - navgroup:
       id: howto
       topics:
-
       - topicgroup:
           label: Controlling access
           topics:
@@ -56,7 +47,6 @@ toc:
             navtitle: Managing authorizations
           - topic: iam-custom-roles.md
             navtitle: Managing custom roles
-
       - topicgroup:
           label: Enhancing security
           topics:
@@ -66,13 +56,11 @@ toc:
             navtitle: Service endpoints
           - topic: core/mng-data.md
             navtitle: Securing your data
-
       - topicgroup:
           label: Generating reports
           topics:
           - topic: config_report.md
             navtitle: Generating a report
-
       - topicgroup:
           label: Managing account settings
           topics:
@@ -85,7 +73,6 @@ toc:
             navtitle: About endpoints
           - topic: endpoints-enforce-private.md
             navtitle: Enforcing private endpoints
-
       - topicgroup:
           label: Managing targets
           topics:
@@ -99,7 +86,6 @@ toc:
             navtitle: Reseting default targets
           - topic: target-default-locations-reset.md
             navtitle: Reseting permitted target locations
-
       - topicgroup:
           label: Managing routes
           topics:
@@ -117,15 +103,6 @@ toc:
             navtitle: Excluding metrics by using the drop action
           - topic: route-drop-all.md
             navtitle: Excluding all metrics by using the drop action
-
-      - topicgroup:
-          label: Working with metrics in non-supported locations
-          topics:
-          - topic: manage-metrics-for-new-region.md
-            navtitle: Working with metrics before a region is available
-          - topic: manage-metrics-to-new-region.md
-            navtitle: Working with metrics after a region is open for business
-
       - topicgroup:
           label: Observability
           topics:
@@ -133,7 +110,13 @@ toc:
             navtitle: Activity Tracker events
           - topic: observability/platform_metrics.md
             navtitle: Platform metrics
-
+      - topicgroup:
+          label: Working with metrics in non-supported locations
+          topics:
+          - topic: manage-metrics-for-new-region.md
+            navtitle: Working with metrics before a region is available
+          - topic: manage-metrics-to-new-region.md
+            navtitle: Working with metrics after a region is open for business
   - navgroup:
       id: reference
       topics:
@@ -155,21 +138,30 @@ toc:
           - topic: ha-dr/bc-dr.md
             navtitle: Understanding business continuity and disaster recovery
           - ha-dr/dr_config.md
-
       - topicgroup:
           label: CLI Reference
           topics:
           - topic: cli-config.md
             navtitle: Configuring the CLI
           - include: ../metrics-router-cli/metrics-router-cli.md
-
       - topicgroup:
           label: API Reference
           links:
             - link:
                 label: Metrics Router API V3
                 href: https://{DomainName}/apidocs/metrics-router/metrics-router-v3
-
+      - topicgroup:
+          label: Terraform Reference
+          links:
+            - link:
+                label: Settings
+                href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/metrics_router_settings
+            - link:
+                label: Target
+                href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/metrics_router_target
+            - link:
+                label: Route
+                href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/metrics_router_route
   - navgroup:
         id: help
         topics:
@@ -183,7 +175,6 @@ toc:
               navtitle: Checking IAM policies
             - topic: iam-retrieve-token.md
               navtitle: Retrieving IAM access tokens
-
         - topicgroup:
             label: Troubleshooting
             topics:
