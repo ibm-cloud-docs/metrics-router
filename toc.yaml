@@ -29,15 +29,6 @@ toc:
         navtitle: Planning
       - topic: cloud-services-mr.md
         navtitle: Cloud services generating metrics
-      - topic: scenarios.md
-        navtitle: Scenarios (Placeholder)
-      - topicgroup:
-          label: IBM Cloud services generating metrics
-          topics:
-          - topic: cloud_services.md
-            navtitle: Managed through IBM Cloud Metrics Routing (WIP)
-          - topic: cloud_services_other.md
-            navtitle: Managed through IBM Cloud Monitoring
       - topic: new_region_support.md
         navtitle: Required actions for newly supported regions
       - topic: releasenotes.md
@@ -121,8 +112,6 @@ toc:
             navtitle: Activity Tracker events
           - topic: observability/platform_metrics.md
             navtitle: Platform metrics
-          - topic: observability/platform_metrics_for_services-IBM_INTERNAL.md
-            navtitle: Platform metrics for on-boarded IBM Cloud services (internal-use only)
       - topicgroup:
           label: Working with metrics in non-supported locations
           topics:
@@ -163,9 +152,6 @@ toc:
             - link:
                 label: Metrics Router API V3
                 href: https://{DomainName}/apidocs/metrics-router/metrics-router-v3
-            - link:
-                label: Metrics Router Internal Onboarding
-                href: https://{DomainName}/apidocs/metrics-router/metrics-router-onboarding
       - topicgroup:
           label: Terraform Reference
           links:
