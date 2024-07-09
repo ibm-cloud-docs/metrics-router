@@ -36,8 +36,6 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - topic: tf/metrics-tf-config.md
-        navtitle: Configuring your account by using terraform
       - topicgroup:
           label: Controlling access
           topics:
