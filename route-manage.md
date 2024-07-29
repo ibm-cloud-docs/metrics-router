@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-07-29"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # Managing routes
 {: #route-manage}
 
-You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
+You can manage routes in your account by using  the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
 {: shortdesc}
 
 For more information on {{site.data.keyword.metrics_router_full_notm}} routes, see [routes](/docs/metrics-router?topic=metrics-router-routes&interface=cli).
@@ -37,6 +37,7 @@ You can configure {{site.data.keyword.metrics_router_full_notm}} to route metric
 {: #route-manage-iam}
 
 You must have the correct IAM permissions to manage routes. For information, see [Managing IAM access.](/docs/metrics-router?topic=metrics-router-iam)
+
 
 
 ## CLI prerequisites

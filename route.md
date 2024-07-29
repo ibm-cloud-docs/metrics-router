@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-04-10"
+lastupdated: "2024-07-29"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: metrics-router
 # About routes
 {: #routes}
 
-You can manage routes in your account by using the {{site.data.keyword.metrics_router_full}} CLI, {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. A route defines the rules that indicate what metrics are routed in a region and where to route them.
+You can manage routes in your account by using  the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
 {: shortdesc}
 
 
@@ -114,6 +114,7 @@ Before you use the CLI to manage routes, complete the following steps:
 1. [Install the {{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli).
 
 2. [Install the {{site.data.keyword.metrics_router_full_notm}} CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli-config).
+
 
 
 

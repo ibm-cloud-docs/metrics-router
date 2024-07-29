@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2023
-lastupdated: "2023-11-23"
+  years:  2023, 2024
+lastupdated: "2024-07-29"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # Configuring account settings
 {: #settings-about}
 
-You can configure your account settings for {{site.data.keyword.metrics_router_full}} by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. Set these settings to define where and how metrics are collected, routed, and managed in your account.
+You can configure your account settings for {{site.data.keyword.metrics_router_full}} by using  the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. Set these settings to define where and how metrics are collected, routed, and managed in your account.
 {: shortdesc}
 
 When you configure or modify the {{site.data.keyword.metrics_router_full_notm}} account settings, consider the following information:
@@ -77,8 +77,11 @@ Ensure you have the [correct IAM permissions to configure {{site.data.keyword.me
 
 
 
+
+
 ## CLI commands
 {: #settings-about-cli}
+{: cli}
 
 The following table lists the actions that you can run to manage settings:
 
@@ -94,6 +97,7 @@ For more information, see [{{site.data.keyword.metrics_router_full_notm}} CLI](/
 
 ## API methods
 {: #settings-about-api}
+{: api}
 
 
 The following table lists the actions that you can run to manage settings:
@@ -112,6 +116,7 @@ For more information about the REST API, see [the settings API](https://{DomainN
 
 ### HTTP response codes
 {: #settings-about-rc}
+{: api}
 
 
 When you use the {{site.data.keyword.metrics_router_full_notm}} REST API, you can get standard HTTP response codes to indicate whether a method completed successfully.
