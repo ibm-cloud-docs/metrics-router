@@ -23,6 +23,7 @@ To reset the {{site.data.keyword.metrics_router_full_notm}} account's permitted 
 
 ## Prereqs
 {: #target-default-locations-reset-prereqs}
+{: cli}
 
 1. [Install the {{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli).
 
