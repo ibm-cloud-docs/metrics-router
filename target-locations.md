@@ -49,6 +49,7 @@ The setting **Permitted target regions** list all the locations where you allowe
 
 ## Step 2.
 {: #target-locations-step2}
+{: cli}
 
 To manage the list of permitted regions, run the following command:
 
