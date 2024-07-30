@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-04-10"
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -108,6 +108,8 @@ Note these limitations when configuring inclusion filters.
 {: #rules_iam}
 
 Users must have the appropriate IAM roles to work with routing rules. For information on IAM roles, see [Managing IAM access.](/docs/metrics-router?topic=metrics-router-iam)
+
+
 
 ## Defining routing rules by using the CLI
 {: #define_rule}

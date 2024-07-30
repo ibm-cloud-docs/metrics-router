@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-29"
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # Configuring account settings
 {: #settings}
 
-You can configure your account settings for {{site.data.keyword.metrics_router_full}} by using  the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. Set these settings to define where and how metrics are collected, routed, and managed in your account.
+You can configure your account settings for {{site.data.keyword.metrics_router_full}} by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. Set these settings to define where and how metrics are collected, routed, and managed in your account.
 {: shortdesc}
 
 When you configure or modify the {{site.data.keyword.metrics_router_full_notm}} account settings, consider the following information:

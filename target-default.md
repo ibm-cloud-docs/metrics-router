@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -18,6 +18,9 @@ subcollection: metrics-router
 
 You can configure up to two default targets for collecting metrics data that is not explicitly managed in the {{site.data.keyword.metrics_router_full_notm}} account's routing rules.
 {: shortdesc}
+
+
+
 
 
 ## Prereqs

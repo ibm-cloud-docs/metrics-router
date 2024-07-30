@@ -95,14 +95,17 @@ toc:
             navtitle: Routing precedence
           - topic: route_rules_definitions.md
             navtitle: Defining a rule
-          - topic: route-rule-all-metrics.md
-            navtitle: Routing all metrics
-          - topic: route-from-1-location.md
-            navtitle: Routing metrics from 1 location
-          - topic: route-drop.md
-            navtitle: Excluding metrics by using the drop action
-          - topic: route-drop-all.md
-            navtitle: Excluding all metrics by using the drop action
+          - topicgroup:
+              label: Example routing scenarios
+              topics:
+               - topic: route-rule-all-metrics.md
+                 navtitle: Routing all metrics
+               - topic: route-from-1-location.md
+                 navtitle: Routing metrics from 1 location
+               - topic: route-drop.md
+                 navtitle: Excluding metrics by using the drop action
+               - topic: route-drop-all.md
+                 navtitle: Excluding all metrics by using the drop action
       - topicgroup:
           label: Observability
           topics:

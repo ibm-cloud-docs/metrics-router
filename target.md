@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-29"
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # About targets
 {: #target}
 
-You can manage {{site.data.keyword.mon_short}} targets in your account by using   the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A target is a resource where you can collect metrics. The resource can be located in the same {{site.data.keyword.cloud_notm}} account where metrics are generated or in a different account.
+You can manage {{site.data.keyword.mon_short}} targets in your account by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A target is a resource where you can collect metrics. The resource can be located in the same {{site.data.keyword.cloud_notm}} account where metrics are generated or in a different account.
 {: shortdesc}
 
 

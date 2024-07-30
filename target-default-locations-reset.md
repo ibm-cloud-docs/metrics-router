@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -18,6 +18,7 @@ subcollection: metrics-router
 
 To reset the {{site.data.keyword.metrics_router_full_notm}} account's permitted target regions, you must delete the permitted target regions from the account configuration.
 {: shortdesc}
+
 
 
 ## Prereqs
