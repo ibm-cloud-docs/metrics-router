@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -30,6 +30,7 @@ For more information, see [About account settings](/docs/metrics-router?topic=me
 {: #settings-access}
 
 Ensure you have the [correct IAM permissions to configure {{site.data.keyword.metrics_router_full_notm}} settings.](/docs/metrics-router?topic=metrics-router-iam)
+
 
 
 ## CLI prerequisites

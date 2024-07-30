@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -20,8 +20,12 @@ To reset the {{site.data.keyword.metrics_router_full_notm}} account's default ta
 {: shortdesc}
 
 
+
+
 ## Prereqs
 {: #target-default-reset-prereqs}
+{: cli}
+
 
 1. [Install the {{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli).
 

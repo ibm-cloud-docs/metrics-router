@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-07-30"
 
 keywords:
 
@@ -37,6 +37,7 @@ You can configure {{site.data.keyword.metrics_router_full_notm}} to route metric
 {: #route-manage-iam}
 
 You must have the correct IAM permissions to manage routes. For information, see [Managing IAM access.](/docs/metrics-router?topic=metrics-router-iam)
+
 
 
 ## CLI prerequisites
