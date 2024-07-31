@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-06-12"
+  years:  2023, 2024
+lastupdated: "2024-07-31"
 
 keywords:
 
@@ -19,6 +19,8 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+
 
 ## 13 June 2024
 {: #metrics-router-jun1324}
