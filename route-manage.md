@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-07-31"
 
 keywords:
 
@@ -25,9 +25,9 @@ For more information on {{site.data.keyword.metrics_router_full_notm}} routes, s
 ## About routes
 {: #route-manage-about}
 
-You can configure {{site.data.keyword.metrics_router_full_notm}} to route metrics that are generated in different regions where the service is supported to a target destination.
+You can configure {{site.data.keyword.metrics_router_full_notm}} to route platform metrics that are generated in different regions where the service is supported to a target destination.
 
--  You can only route metrics that are generated in regions where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Regions](/docs/metrics-router?topic=metrics-router-regions).
+-  You can only route platform metrics that are generated in regions where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Regions](/docs/metrics-router?topic=metrics-router-regions).
 
 - If you have regulatory and compliance requirements, check the route rules comply with them.
 

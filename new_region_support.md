@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-05-03"
+lastupdated: "2024-08-12"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: metrics-router
 # Required actions for newly supported regions
 {: #new_region_support}
 
-{{site.data.keyword.metrics_router_full}} is planned to be supported in the br-sao, ca-tor, jp-osa, and jp-tok regions in June 2024. As a result, all existing customers need to evaluate their {{site.data.keyword.metrics_router_full_notm}} configurations and make any required changes.
+If {{site.data.keyword.metrics_router_full}} is planned to be supported in a currently non-supported region, all existing customers will need to evaluate their {{site.data.keyword.metrics_router_full_notm}} configurations and make any required changes. IBM will announce if a new region is supported.
 {: shortdesc}
 
 ## Check whether you have the right permissions
