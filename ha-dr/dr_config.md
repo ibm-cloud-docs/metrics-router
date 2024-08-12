@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-lastupdated: "2023-12-04"
+  years:  2023, 2024
+lastupdated: "2024-08-12"
 
 keywords:
 
@@ -56,7 +56,7 @@ Target 2 provides the user with historical metrics in the Washington region (`us
 
 For users without a disaster resilient routing configuration, no historical metrics are available in a second region.
 
-For more information about configuring routes, see [Managing routes](/docs/atracker?topic=atracker-route_v2). When  [configuring routing rules](/docs/metrics-router?topic=metrics-router-route_rules_definitions) associated with your routes, your rules must be configured to route the same metrics to both target locations so each location has the same data.
+For more information about configuring routes, see [Managing routes](/docs/metrics-router?topic=metrics-router-route-manage). When [configuring routing rules](/docs/metrics-router?topic=metrics-router-route_rules_definitions) associated with your routes, your rules must be configured to route the same metrics to both target locations so each location has the same data.
 
 In addition, you must define a backup metadata region for your metadata backup. The backup metadata region must be a different region from your primary metadata region.
 
@@ -67,7 +67,7 @@ When you configure an environment with a backup target, you need to consider the
 
 * Context-based restrictions give account owners and administrators the ability to define and enforce access restrictions for {{site.data.keyword.cloud_notm}} resources based on a rule's criteria. The criteria includes the network location of access requests, the endpoint type from where the request is sent, and sometimes the API that the request tries to access. These restrictions work with traditional IAM policies, which are based on identity, to provide an extra layer of protection. For more information, see [What are context-based restrictions?](/docs/account?topic=account-context-restrictions-whatis)
 
-   If context-based rules are configured in the account, make sure that the context-based restriction rules are defined for both the primary and backup locations. 
+   If context-based rules are configured in the account, make sure that the context-based restriction rules are defined for both the primary and backup locations.
 
    You can configure context-based restrictions rules for {{site.data.keyword.mon_full_notm}} targets.
 

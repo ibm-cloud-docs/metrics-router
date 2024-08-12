@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-12"
 
 keywords:
 
@@ -189,7 +189,7 @@ In this example, only metrics from `appconnect`, `cloudant`, and `containers-kub
 
 Targets and inclusion filters are defined in API calls by using `rules`. The `rules` are defined in a JSON structure.
 
-For example, the following example creates a route that is named `my-route` and sends metrics from `atracker`, and `containers-registry` in the `us-east` region to targets `11111111-1111-1111-1111-111111111111` and `22222222-2222-2222-2222-222222222222`.
+For example, the following example creates a route that is named `my-route` and sends metrics from `codeengine`, and `container-registry` in the `us-east` region to targets `11111111-1111-1111-1111-111111111111` and `22222222-2222-2222-2222-222222222222`.
 
 ```sh
 curl -X POST https://private.<REGION>.metrics-router.cloud.ibm.com/api/v3/routes -H "Authorization: Bearer <IAM_TOKEN>" -H 'content-type: application/json' -d '{
@@ -207,7 +207,7 @@ curl -X POST https://private.<REGION>.metrics-router.cloud.ibm.com/api/v3/routes
           {
             "operand": "service_name",
             "operator": "in",
-            "values": ["atracker","containers-registry"]
+            "values": ["codeengine","container-registry"]
           }
         ]
       }

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-08-12"
 
 keywords:
 
@@ -380,7 +380,7 @@ curl -X POST https://private.us-south.metrics-router.cloud.ibm.com/api/v3/routes
           {
             "operand": "service_name",
             "operator": "in",
-            "values": ["atracker","containers-registry"]
+            "values": ["codeengine","container-registry"]
           }
         ]
       }
@@ -457,7 +457,7 @@ curl -X PATCH https://private.us-south.metrics-router.cloud.ibm.com/api/v3/route
           {
             "operand": "service_name",
             "operator": "in",
-            "values": ["atracker","containers-registry"]
+            "values": ["codeengine","container-registry"]
           }
         ]
       }
