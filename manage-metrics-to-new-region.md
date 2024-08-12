@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-09-13"
+  years:  2023, 2024
+lastupdated: "2024-08-12"
 
 keywords:
 
@@ -43,14 +43,14 @@ A target defines where platform metrics are collected. For more information abou
 {: #manage-metrics-to-new-region-2}
 
 
-A route defines the rules that indicate where platform metrics that are generated in an account are routed. Routes are global under an account and are evaluated in all regions where {{site.data.keyword.atracker_short}} is deployed. For more information, see [Understanding how routes work in your account](/docs/metrics-router?topic=metrics-router-routes&interface=cli#route_behaviour) and [Routing metrics from 1 location](/docs/metrics-router?topic=metrics-router-route-from-1-location&interface=cli).
+A route defines the rules that indicate where platform metrics that are generated in an account are routed. Routes are global under an account and are evaluated in all regions where {{site.data.keyword.metrics_router_full_notm}} is deployed. For more information, see [Understanding how routes work in your account](/docs/metrics-router?topic=metrics-router-routes&interface=cli#route_behaviour) and [Routing metrics from 1 location](/docs/metrics-router?topic=metrics-router-route-from-1-location&interface=cli).
 
 For example, in this step, you will reconfigure a route to redirect metrics that are generated in Madrid.
 
 Run the following command to create the route:
 
 ```text
-ibmcloud atracker route update --route <ROUTE_NAME> --rules
+ibmcloud metrics-router route update --route <ROUTE_NAME> --rules
 ```
 {: pre}
 
