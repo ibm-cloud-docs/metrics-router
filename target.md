@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # About targets
 {: #target}
 
-You can manage {{site.data.keyword.mon_short}} targets in your account by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A target is a resource where you can collect metrics. The resource can be located in the same {{site.data.keyword.cloud_notm}} account where metrics are generated or in a different account.
+You can manage {{site.data.keyword.mon_short}} targets in your account by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A target is a resource where you can collect metrics. The resource can be located in the same {{site.data.keyword.cloud_notm}} account where metrics are generated or in a different account.
 {: shortdesc}
 
 
@@ -102,6 +102,14 @@ The following table lists the IAM actions, their scope and the roles required to
 | Modify a target         | `metrics-router.target.update`            |
 | Delete a target         | `metrics-router.target.delete`            |
 {: caption="Table 3. Activity Tracker auditing event action" caption-side="top"}
+
+
+
+## Managing targets using the UI
+{: #targets_ui}
+{: ui}
+
+You can manage your target definition using the {{site.data.keyword.metrics_router_full_notm}} UI. For more information, see [Managing targets](/docs/metrics-router?topic=metrics-router-target-manage&interface=ui).
 
 
 

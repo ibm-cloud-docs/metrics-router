@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # Managing {{site.data.keyword.mon_short}} targets
 {: #target-manage}
 
-You can manage {{site.data.keyword.mon_short}} targets in your account by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A target is a resource where you can collect metrics.
+You can manage {{site.data.keyword.mon_short}} targets in your account by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A target is a resource where you can collect metrics.
 {: shortdesc}
 
 For more information on {{site.data.keyword.metrics_router_full_notm}} targets, see [Targets](/docs/metrics-router?topic=metrics-router-target).
@@ -40,6 +40,132 @@ You can configure {{site.data.keyword.metrics_router_full_notm}} to route metric
 {: #target-manage-iam}
 
 You must have the correct IAM permissions to manage targets. For information, see [Managing IAM access.](/docs/metrics-router?topic=metrics-router-iam)
+
+
+
+## Creating a target using the UI
+{: #target-create-ui}
+{: ui}
+
+Do the following to create a target using the UI.
+
+Only resources in your account are listed and selectable. To specify a resource in a different account, select **Specify CRN** under **Choose destination**.
+{: important}
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Targets** tab.
+
+6. Click **Create** to open the create panel.
+
+7. **Service authorization required**: Service authorization is required to allow {{site.data.keyword.metrics_router_full_notm}} to communicate with {{site.data.keyword.mon_full_notm}}. Click **Authorize now** to create the policy automatically or click **Grant access in IAM**.
+
+9.  **Choose destination**: Pick **Search by instance** or **Specify CRN**
+    - **Search by instance**: Select an {{site.data.keyword.mon_full_notm}} instance from the table or click **Create** to create a new {{site.data.keyword.mon_full_notm}} instance.
+    - **Specify CRN**: Enter the Cloud Resource Name (CRN) of the {{site.data.keyword.mon_full_notm}} instance. This enables you to enter a CRN from a different account.
+
+10. Specify the target details.
+
+    - **Target name**: Enter a meaningful name for the target.
+
+    - **Target region**: Select the target region.
+
+   - Toggle **Set as default target** to automatically set your new target as a default target in your {{site.data.keyword.metrics_router_full_notm}} settings. See the [default targets documentation](/docs/metrics-router?topic=metrics-router-planning&interface=ui#planning-4) for more details.
+
+11. Click **Create target**.
+
+
+## Updating a target using the UI
+{: #target-update-ui}
+{: ui}
+
+Do the following to update a target using the UI.
+
+Only resources in your account are listed and selectable. To specify a resource in a different account, select **Specify CRN** under **Choose destination**.
+{: important}
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Targets** tab.
+
+6. Determine which target to update and click the ![Actions icon](../icons/action-menu-icon.svg "Actions").
+
+7. Click **Unset as default** to remove your target as a default target in your {{site.data.keyword.metrics_router_full_notm}} settings. See [the default targets documentation](/docs/metrics-router?topic=metrics-router-planning&interface=cli#planning-4) for more details.
+
+8. Click **Edit** to open the update panel.
+
+9.  **Details**: Click **Edit** to update your target's name. You can also toggle **Default target** to add or remove your target as a default target in your {{site.data.keyword.metrics_router_full_notm}} settings.
+
+    You can also view the routes associated with the target.
+    {: tip}
+
+10. Click **Save** to update your target.
+
+11. **Destination**: Click **Edit** to change the {{site.data.keyword.mon_full_notm}} instance associated with your target.
+
+12. Click **Save** to update your target.
+
+## Deleting a target using the UI
+{: #target-delete-ui}
+{: ui}
+
+Do the following to delete a target using the UI.
+
+You cannot delete an {{site.data.keyword.metrics_router_full_notm}} target if it is used in a route or as a default target setting.
+{: important}
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Targets** tab.
+
+6. Determine which target to update and click the ![Actions icon](../icons/action-menu-icon.svg "Actions").
+
+7. Click **Delete** and then click **Delete** in the confirmation panel.
+
+
+## Listing all targets using the UI
+{: #target-list-ui}
+{: ui}
+
+Do the following to list all the targets using the UI.
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Targets** tab.
+
+The table shows:
+
+- Target type
+
+- Destination name
+
+- Destination region
+
+- **Routes**: The number of routes if the target is used in any defined route.
 
 
 

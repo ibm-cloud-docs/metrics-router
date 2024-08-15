@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -19,6 +19,14 @@ subcollection: metrics-router
 You can configure up to two default targets for collecting metrics data that is not explicitly managed in the {{site.data.keyword.metrics_router_full_notm}} account's routing rules.
 {: shortdesc}
 
+
+
+
+## Managing default targets using the UI
+{: #default_targets_ui}
+{: ui}
+
+You can manage your default targets using the {{site.data.keyword.metrics_router_full_notm}} UI. For more information, see [Creating a target using the UI](/docs/metrics-router?topic=metrics-router-target-manage&interface=ui#target-create-ui) and [Updating a target using the UI](/docs/metrics-router?topic=metrics-router-target-manage&interface=ui#target-update-ui).
 
 
 

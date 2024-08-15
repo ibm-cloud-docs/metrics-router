@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # Managing routes
 {: #route-manage}
 
-You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
+You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
 {: shortdesc}
 
 For more information on {{site.data.keyword.metrics_router_full_notm}} routes, see [routes](/docs/metrics-router?topic=metrics-router-routes&interface=cli).
@@ -37,6 +37,156 @@ You can configure {{site.data.keyword.metrics_router_full_notm}} to route platfo
 {: #route-manage-iam}
 
 You must have the correct IAM permissions to manage routes. For information, see [Managing IAM access.](/docs/metrics-router?topic=metrics-router-iam)
+
+
+
+## Creating a route using the UI
+{: #route-create-ui}
+{: ui}
+
+Do the following to create a route using the UI.
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Routes** tab.
+
+6. Click **Create** to open the create a route page.
+
+7. Enter a meaningful name for the route.
+
+8. Click **Next**.
+
+9. In **Routing rules**, modify the **Action** for **Rule 1**:
+
+    - Select `Send` for the rule to route metrics to the associated targets.
+
+    - Select `Drop` for the rule to drop metrics matching this rule.
+
+10. Add the [inclusion filters](/docs/metrics-router?topic=metrics-router-route_rules_definitions&interface=ui#route_rules_definitions_filters) to determine the metrics routed to the targets specified in the rule.
+
+   Select the desired filter and condition and specify the value to be matched by the inclusion filter.
+
+   To add multiple inclusion filters, click **Add filter** to add additional filters.
+
+11. Add the [target](/docs/metrics-router?topic=metrics-router-target&interface=ui) to associate with the rule by selecting a target from the list. If you do not have a target defined, click **Add target** to create a new target.
+
+12. Click **Add rule** to add additional rules to the route.
+
+    The order of route rules affects the routing behavior. Rules are processed in order and once a rule is matched, the subsequent rules are not processed.
+
+    The order of the routing rules can be changed by clicking the up and down arrows to the right of each rule definition.
+
+    If you need to remove a rule or filter, click the **Remove** icon associated with the rule or filter.
+
+    You can configure up to 10 rules per route.
+    {: note}
+
+13. After defining your route, click **Next**.
+
+14. Review the route definition ensuring the order of the rules is as intended.
+
+15. Click **Create**.
+
+
+## Updating a route using the UI
+{: #route-update-ui}
+{: ui}
+
+Do the following to update a route using the UI.
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Routes** tab.
+
+6. Determine which route to update and click the ![Actions icon](../icons/action-menu-icon.svg "Actions").
+
+7. Click **Rename** to rename the route.
+
+8. Click **Edit** to update the route rules.
+
+9. In **Routing rules**, modify the **Action** for the rule:
+
+    - Select `Send` for the rule to route metrics to the associated targets.
+
+    - Select `Drop` for the rule to drop metrics matching this rule.
+
+10. Add or modify the [inclusion filters](/docs/metrics-router?topic=metrics-router-route_rules_definitions&interface=ui#route_rules_definitions_filters) to determine the metrics routed to the targets specified in the rule.
+
+   Select the desired filter and condition and specify the value to be matched by the inclusion filter.
+
+   To add multiple inclusion filters, click **Add filter** to add additional filters.
+
+11. Modify the [target](/docs/metrics-router?topic=metrics-router-target&interface=ui) to associate with the rule by selecting a target from the list. If you do not have a target defined, click **Add target** to create a new target.
+
+12. Click **Add rule** to add additional rules to the route.
+
+    The order of route rules affects the routing behavior. Rules are processed in order and once a rule is matched, the subsequent rules are not processed.
+
+    The order of the routing rules can be changed by clicking the up and down arrows to the right of each rule definition.
+
+    If you need to remove a rule or filter, click the **Remove** icon associated with the rule or filter.
+
+    You can configure up to 10 rules per route.
+    {: note}
+
+
+13. Click **Update** to make changes to your route.
+
+
+## Viewing a route using the UI
+{: #route-view-ui}
+{: ui}
+
+Do the following to view a route using the UI.
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Routes** tab.
+
+   The configured routes are listed. The order of the routes does not affect the routing behavior since they are processed independently.
+
+   Each route displays the route name and rules.
+
+   The routes page also displays **Routing guidance** with additional information about configuring routing.
+
+
+## Deleting a route using the UI
+{: #route-delete-ui}
+{: ui}
+
+Do the following to delete a route using the UI.
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Routes** tab.
+
+6. Determine which route to delete and click the ![Actions icon](../icons/action-menu-icon.svg "Actions").
+
+7. Click **Delete** to delete the entire route. You must enter the route name before the route is deleted.
 
 
 

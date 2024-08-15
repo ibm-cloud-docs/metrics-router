@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+
+
+## 15 August 2024
+{: #metrics-router-aug1524}
+{: release-note}
+
+Configure {{site.data.keyword.metrics_router_full_notm}} using the IBM Console
+:   {{site.data.keyword.metrics_router_full_notm}} provides a new user interface through the IBM Console where you can configure routes, targets, and settings. For more information, see [Getting account settings using the UI](/docs/metrics-router?topic=metrics-router-settings&interface=ui#settings-get-ui).
 
 
 

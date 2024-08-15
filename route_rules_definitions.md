@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -108,6 +108,14 @@ Note these limitations when configuring inclusion filters.
 {: #rules_iam}
 
 Users must have the appropriate IAM roles to work with routing rules. For information on IAM roles, see [Managing IAM access.](/docs/metrics-router?topic=metrics-router-iam)
+
+
+
+## Defining routing rules by using the UI
+{: #define_rule_ui}
+{: ui}
+
+You can configure action and inclusion filter routing rules in the UI. for more information, see [Managing routes](/docs/metrics-router?topic=metrics-router-route-manage&interface=ui).
 
 
 
