@@ -151,14 +151,15 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 
 | Service     | CRN service name | CRN resource type | Metrics    |
 |-------------|-------------|-------------|-------------------|
-| [VPC virtual server instances](/docs/vpc?topic=vpc-about-advanced-virtual-servers&interface=ui) | `is` | | [Platform metrics](/docs/vpc?topic=vpc-vpc-monitoring-metrics)|
+| [VPC virtual server instances](/docs/vpc?topic=vpc-about-advanced-virtual-servers&interface=ui) | `is` | `[*]` | [Platform metrics](/docs/vpc?topic=vpc-vpc-monitoring-metrics)|
 | [Flow Logs for VPC](/docs/vpc?topic=vpc-flow-logs) | `is` | `flow-log-collector` |  [Platform metrics](/docs/vpc?topic=vpc-fl-monitoring-metrics) |
 | [Load Balancer for VPC](/docs/vpc?topic=vpc-network-load-balancers)| `is` | `load-balancer` | [Application Load Balancer platform metrics](/docs/vpc?topic=vpc-monitoring-metrics-alb) \n [Network Load Balancer platform metrics](/docs/vpc?topic=vpc-nlb_monitoring-metrics) |
 | [VPN for VPC (site-to-site VPN)](/docs/vpc?topic=vpc-using-vpn)| `is.vpn` | `vpn` | [Platform metrics](/docs/vpc?topic=vpc-vpn-monitoring-metrics) |
 | [Client VPN for VPC](/docs/vpc?topic=vpc-vpn-client-to-site-overview)| `is` | `vpn-server` | [Platform metrics](/docs/vpc?topic=vpc-vpn-client-to-site-monitoring) |
 {: caption="Table 11. List of VPC services (generation 2)" caption-side="top"}
 
-
+`[*]` - VPC virtual server instances includes multiple CRN resource types.
+ 
 In addition, some VPC resources have quotas associated with them that you can monitor through the VPC resource quota overview dashboard. For more information, see [VPC resource quota overview](/docs/vpc?topic=vpc-vpc-quota-metrics).
 
 
