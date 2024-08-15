@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: metrics-router
 # Configuring account settings
 {: #settings}
 
-You can configure your account settings for {{site.data.keyword.metrics_router_full}} by using the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. Set these settings to define where and how metrics are collected, routed, and managed in your account.
+You can configure your account settings for {{site.data.keyword.metrics_router_full}} by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and Terraform scripts. Set these settings to define where and how metrics are collected, routed, and managed in your account.
 {: shortdesc}
 
 When you configure or modify the {{site.data.keyword.metrics_router_full_notm}} account settings, consider the following information:
@@ -30,6 +30,59 @@ For more information, see [About account settings](/docs/metrics-router?topic=me
 {: #settings-access}
 
 Ensure you have the [correct IAM permissions to configure {{site.data.keyword.metrics_router_full_notm}} settings.](/docs/metrics-router?topic=metrics-router-iam)
+
+
+
+## Getting account settings using the UI
+{: #settings-get-ui}
+{: ui}
+
+Do the following to view the account settings for {{site.data.keyword.metrics_router_full_notm}} by using the UI.
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Settings** tab.
+
+On this page you can view the following settings:
+
+- **Metadata location**: Displays primary metadata region and backup metadata region.
+
+- **Permitted target regions**. Displays the targets regions where metrics can be sent.
+
+- **Default targets**: Displays the configured default targets.
+
+- **Public endpoints**: Displays if public endpoints are enabled. When disabled, the {{site.data.keyword.metrics_router_full_notm}} UI cannot be accessed.
+
+- **Reports**: Displays the configurations in JSON format.
+
+## Updating settings using the UI
+{: #settings-update-ui}
+{: ui}
+
+1. [Log in to your {{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/login){: external}.
+
+2. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Observability**.
+
+3. Click **Monitoring**.
+
+4. Click **Routing**.
+
+5. Click the **Settings** tab.
+
+6. Click **Edit** next to the setting to be changed. You can modify the following settings:
+
+- **Metadata location**: Select your desired primary metadata region and backup metadata region.
+
+- **Permitted target regions**: Select the region where targets can be created. If no regions are selected, then all regions can receive metrics.
+
+- **Default targets**: Select the target that will be used by default when routing rules do not exist or are not matched.
+
 
 
 

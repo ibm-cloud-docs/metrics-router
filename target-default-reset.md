@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -19,6 +19,14 @@ subcollection: metrics-router
 To reset the {{site.data.keyword.metrics_router_full_notm}} account's default targets, you must delete any default targets from the account configuration.
 {: shortdesc}
 
+
+
+
+## Removing all default targets using the UI
+{: #remove_default_targets_ui}
+{: ui}
+
+You can remove all default targets using the {{site.data.keyword.metrics_router_full_notm}} UI by updating your account settings and deleting the default targets. For more information, see [Configuring account settings](/docs/metrics-router?topic=metrics-router-settings&interface=ui).
 
 
 

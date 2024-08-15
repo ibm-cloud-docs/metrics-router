@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-29"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: metrics-router
 # About routes
 {: #routes}
 
-You can manage routes in your account by using  the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
+You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
 {: shortdesc}
 
 
@@ -115,6 +115,14 @@ Before you use the CLI to manage routes, complete the following steps:
 
 2. [Install the {{site.data.keyword.metrics_router_full_notm}} CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli-config).
 
+
+
+
+## Managing routes using the UI
+{: #route_ui}
+{: ui}
+
+You can manage your route definition using the {{site.data.keyword.metrics_router_full_notm}} UI. For more information, see [Managing routes](/docs/metrics-router?topic=metrics-router-route-manage&interface=ui).
 
 
 

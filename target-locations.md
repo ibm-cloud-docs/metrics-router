@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -17,6 +17,14 @@ subcollection: metrics-router
 
 To enforce target locations in your {{site.data.keyword.cloud_notm}} account, you must configure {{site.data.keyword.metrics_router_full_notm}} account settings to limit the locations.
 {: shortdesc}
+
+
+
+## Configuring permitted target regions using the UI
+{: #permitted_targets_ui}
+{: ui}
+
+You can configure permitted target regions using the {{site.data.keyword.metrics_router_full_notm}} UI. For more information, see [Configuring account settings](/docs/metrics-router?topic=metrics-router-settings&interface=ui).
 
 
 

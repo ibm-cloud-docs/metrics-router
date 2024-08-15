@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-30"
+lastupdated: "2024-08-15"
 
 keywords:
 
@@ -18,6 +18,14 @@ subcollection: metrics-router
 
 To reset the {{site.data.keyword.metrics_router_full_notm}} account's permitted target regions, you must delete the permitted target regions from the account configuration.
 {: shortdesc}
+
+
+
+## Resetting target regions using the UI
+{: #reset_permitted_targets_ui}
+{: ui}
+
+You can remove all permitted target regions using the {{site.data.keyword.metrics_router_full_notm}} UI by updating your account settings and removing all permitted target regions. For more information, see [Configuring account settings](/docs/metrics-router?topic=metrics-router-settings&interface=ui).
 
 
 
