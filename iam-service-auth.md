@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-09-25"
 
 keywords:
 
@@ -77,8 +77,12 @@ If you create an authorization between a service in another account and a target
 {: cli}
 
 
-You must have access to the target service to create an authorization between services. You can grant only the level of access that you have as a user of the target service. The autorization that you define for the {{site.data.keyword.metrics_router_full_notm}} service requires that you have `Administrator` role for the {{site.data.keyword.mon_full_notm}} service.
+You must have access to the target service to create an authorization between services. The authorization that you define for the {{site.data.keyword.metrics_router_full_notm}} service requires that you have `Administrator` role for the {{site.data.keyword.mon_full_notm}} service.
 {: important}
+
+If you have the IAM permission to create policies and authorizations, you can grant only the level of access that you have as a user of the target service. For example, if you have viewer access for the target service, you can assign only the viewer role for the authorization. If you attempt to assign a higher permission such as administrator, it might appear that permission is granted, however, only the highest level permission you have for the target service, that is viewer, will be assigned. 
+{: important}
+
 
 Run the following command to create an authorization for the {{site.data.keyword.metrics_router_full_notm}} service.
 
