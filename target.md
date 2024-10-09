@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-15"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -62,7 +62,7 @@ You can configure any of the following target types:
 | Target                                               | Type                     | Scope     | Description |
 |------------------------------------------------------|--------------------------|-----------|------------|
 | {{site.data.keyword.mon_full_notm}}                  | `sysdig-monitor`         | `Account` | Use this target to consolidate time series data to the region of your primary operations.  |
-{: caption="Table 1. List of targets" caption-side="top"}
+{: caption="List of targets" caption-side="top"}
 
 
 ## IAM Access
@@ -84,7 +84,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | Get details of a target | `metrics-router.target.read`   | Region            | `Administrator`  \n `Editor`  \n `Operator`  \n `Viewer` |
 | Modify a target         | `metrics-router.target.update` | Region            | `Administrator`  \n `Editor` |
 | Delete a target         | `metrics-router.target.delete` | Region            | `Administrator`  \n `Editor` |
-{: caption="Table 2. IAM action scopes and roles for managing targets" caption-side="top"}
+{: caption="IAM action scopes and roles for managing targets" caption-side="top"}
 
 When you use the CLI, notice that you need the `metrics-router.target.list` role to create, read, update, or delete a target.
 {: important}
@@ -101,7 +101,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | Get details of a target | `metrics-router.target.read`              |
 | Modify a target         | `metrics-router.target.update`            |
 | Delete a target         | `metrics-router.target.delete`            |
-{: caption="Table 3. Activity Tracker auditing event action" caption-side="top"}
+{: caption="Activity Tracker auditing event action" caption-side="top"}
 
 
 
@@ -140,7 +140,7 @@ The following table lists the actions that you can run to manage targets:
 | `Delete a target`            | `ibmcloud metrics-router target rm`   |
 | `Read a target`              | `ibmcloud metrics-router target get`      |
 | `List all targets`           | `ibmcloud metrics-router target ls`       |
-{: caption="Table 4. Target actions" caption-side="top"}
+{: caption="Target actions" caption-side="top"}
 
 
 For more information, see [{{site.data.keyword.metrics_router_full_notm}} v3 CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli).
@@ -171,7 +171,7 @@ The following table lists the actions that you can run to manage targets:
 | `Delete a target`            | `DELETE`       | `<ENDPOINT>/api/v3/targets/<TARGET_ID>`  |
 | `Read a target`              | `GET`          | `<ENDPOINT>/api/v3/targets/<TARGET_ID>`  |
 | `List all targets`           | `GET`          | `<ENDPOINT>/api/v3/targets`             |
-{: caption="Table 5. Target actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
+{: caption="Target actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
 
 
 For more information, see [{{site.data.keyword.metrics_router_full_notm}} v3 API](https://{DomainName}/apidocs/metrics-router).
@@ -200,4 +200,4 @@ See the following table for some HTTP response codes:
 | `404` | Not Found |	The requested resource doesn't exist or is already deleted. |
 | `429` |	Too Many Requests |	Too many requests hit the API too quickly. |
 | `500` |	Internal Server Error |	Something went wrong in {{site.data.keyword.metrics_router_full_notm}} processing. |
-{: caption="Table 6. List of HTTP response codes" caption-side="top"}
+{: caption="List of HTTP response codes" caption-side="top"}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-04-10"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -28,7 +28,7 @@ Plan the account's {{site.data.keyword.metrics_router_full_notm}} configuration 
 | **5** | **Default targets**  \n Define 1 default target for each account to configure where metrics that are not explicitly managed in the account's routing rules are routed.  \n   \n Consider defining a second default target for each account when you want to collect the data in a backup location or account. | [link](#planning-4) |
 | **6** | **Number and location of targets**  \n Define the targets where you plan to collect metrics based on your regulatory and corporate requirements. \nDefine service to service authorizations between the {{site.data.keyword.metrics_router_full_notm}} service and the {{site.data.keyword.mon_full_notm}} instances that you configured as your destination targets. | [link](#planning-5) |
 | **7** | **Routing rules**  \n Define the routing rules that indicate how to route metrics in your acccount.  \n  \n Decide if you want to drop the collection of metrics in 1 or more regions. Check any compliance requirements to confirm that you can. | [link](#planning-6) |
-{: caption="Table 1. Planning" caption-side="bottom"}
+{: caption="Planning" caption-side="bottom"}
 
 ## Locations and services
 {: #planning-0}

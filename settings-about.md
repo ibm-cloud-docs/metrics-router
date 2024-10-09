@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-15"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -97,7 +97,7 @@ The following table lists the actions that you can run to manage settings:
 |----------------------------|--------------------------------------------------|
 | Get settings information   | `ibmcloud metrics-router setting get`        |
 | Update settings            | `ibmcloud metrics-router setting update`   |
-{: caption="Table 1. Settings actions by using the {{site.data.keyword.metrics_router_full_notm}} CLI" caption-side="top"}
+{: caption="Settings actions by using the {{site.data.keyword.metrics_router_full_notm}} CLI" caption-side="top"}
 
 
 For more information, see [{{site.data.keyword.metrics_router_full_notm}} CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli).
@@ -114,7 +114,7 @@ The following table lists the actions that you can run to manage settings:
 |----------------------------|------------------|--------------------------------------------------|
 | Get settings information   | `GET`            | `<ENDPOINT>/api/v3/settings`              |
 | Update settings            | `PATCH`            | `<ENDPOINT>/api/v3/settings`  |
-{: caption="Table 2. Settings actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
+{: caption="Settings actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
 
 
 For more information about the REST API, see [the settings API](https://{DomainName}/apidocs/metrics-router/metrics-router-v3#get-settings){: external}.
@@ -145,4 +145,4 @@ See the following table for some HTTP response codes:
 | `404` | Not Found |	The requested resource doesn't exist or is already deleted. |
 | `429` |	Too Many Requests |	Too many requests hit the API too quickly. |
 | `500` |	Internal Server Error |	Something went wrong in {{site.data.keyword.metrics_router_full_notm}} processing. |
-{: caption="Table 3. List of HTTP response codes" caption-side="top"}
+{: caption="List of HTTP response codes" caption-side="top"}

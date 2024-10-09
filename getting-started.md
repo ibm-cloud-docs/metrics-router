@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -22,7 +22,7 @@ Use {{site.data.keyword.metrics_router_full}} to configure the routing of platfo
 
 You can use {{site.data.keyword.metrics_router_full_notm}}, a platform service, to manage platform metrics at the account-level by configuring targets and routes that define where data points are routed. {{site.data.keyword.metrics_router_full_notm}} can route metrics that are generated in [supported regions](/docs/metrics-router?topic=metrics-router-regions) by enabled services. For more information about {{site.data.keyword.metrics_router_full_notm}}, see [About {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-about).
 
-![A diagram that shows a sample {{site.data.keyword.metrics_router_full_notm}} architecture.](/images/metrics-routing-ov.png "{{site.data.keyword.metrics_router_full_notm}} architecture sample."){: caption="Figure 1. {{site.data.keyword.metrics_router_full_notm}} sample architecture" caption-side="bottom"}
+![A diagram that shows a sample {{site.data.keyword.metrics_router_full_notm}} architecture.](/images/metrics-routing-ov.png "{{site.data.keyword.metrics_router_full_notm}} architecture sample."){: caption="{{site.data.keyword.metrics_router_full_notm}} sample architecture" caption-side="bottom"}
 
 ## Prerequisites
 {: #getting-started-prereqs}
@@ -134,5 +134,3 @@ Where `TARGETID` is the ID of the target that you created in the previous step.
 After the target and the route is configured, you must verify that metrics are available.
 
 [Launch the {{site.data.keyword.mon_full_notm}} UI](/docs/monitoring?topic=monitoring-launch) for the {{site.data.keyword.mon_short}} instance that you configured as your target, and explore the metrics.
-
-

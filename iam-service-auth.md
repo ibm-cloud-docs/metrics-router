@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -41,7 +41,7 @@ The following table outlines the permissions that are needed on the target servi
 | View all authorizations that are configured in the account | ![Checkmark icon](../icons/checkmark-icon.svg "checkmark") | | | |
 | Create authorizations | ![Checkmark icon](../icons/checkmark-icon.svg "checkmark") | | | |
 | Delete authorizations | ![Checkmark icon](../icons/checkmark-icon.svg "checkmark") | | | |
-{: caption="Table 1. Actions on the target service that are required to manage authorizations" caption-side="top"}
+{: caption="Actions on the target service that are required to manage authorizations" caption-side="top"}
 
 Users can only see authorizations that they configure in the account.
 

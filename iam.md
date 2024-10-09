@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -46,7 +46,7 @@ The following table lists the IAM actions that are generated when you manage tar
 | `metrics-router.target.read`       | Retrieve a target and its details by specifying the ID of the target.|
 | `metrics-router.target.update`     | Update a target details by specifying the ID of the target. |
 | `metrics-router.target.delete`     | Delete a target by specifying the ID of the target. |
-{: caption="Table 1. IAM actions for managing targets" caption-side="top"}
+{: caption="IAM actions for managing targets" caption-side="top"}
 
 
 ### Routes
@@ -61,7 +61,7 @@ The following table lists the IAM actions that are generated when you manage rou
 | `metrics-router.route.read`      | Retrieve a route and its details by specifying the ID of the route. |
 | `metrics-router.route.update`    | Replace a route details by specifying the ID of the route. Validate a target by checking the credentials to the destination target. |
 | `metrics-router.route.delete`    | Delete a route by specifying the ID of the route. |
-{: caption="Table 2. IAM actions for managing routes" caption-side="top"}
+{: caption="IAM actions for managing routes" caption-side="top"}
 
 
 ### Settings
@@ -73,7 +73,7 @@ The following table lists the IAM actions that are generated when you manage set
 |---------------------------------|----------------------------|
 | `metrics-router.setting.update` | Configure the {{site.data.keyword.metrics_router_full_notm}} settings for an account. |
 | `metrics-router.setting.get`    | Get information about the {{site.data.keyword.metrics_router_full_notm}} settings for an account. |
-{: caption="Table 3. IAM actions for managing settings" caption-side="top"}
+{: caption="IAM actions for managing settings" caption-side="top"}
 
 ## IAM roles
 {: #iam-roles}
@@ -86,7 +86,7 @@ The {{site.data.keyword.metrics_router_full_notm}} service provides the followin
 | Operator                 | All resources | As an operator, you can view {{site.data.keyword.metrics_router_full_notm}} configuration resources such as routes, targets, and the account configuration settings. |
 | Editor                   | All resources | As an editor, you can view, create, update, and delete {{site.data.keyword.metrics_router_full_notm}} resources such as routes and targets. You can also view the account configuration settings.|
 | Administrator            | All resources | As an administrator, you can view, create, update, and delete {{site.data.keyword.metrics_router_full_notm}} resources. You can also assign access policies to manage {{site.data.keyword.metrics_router_full_notm}} resources to other users in the account. |
-{: caption="Table 4. IAM platform roles" caption-side="bottom"}
+{: caption="IAM platform roles" caption-side="bottom"}
 
 When you define a policy, the *Resources* scope must be set to **All resources**. If this is not set, you will not be able to manage your {{site.data.keyword.metrics_router_full_notm}} instance and you will get a return code of `403`.
 {: important}
@@ -106,7 +106,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | `metrics-router.target.read`   | Region            | `Administrator`  \n `Editor`  \n `Operator`  \n `Viewer` |
 | `metrics-router.target.update` | Region            | `Administrator`  \n `Editor` |
 | `metrics-router.target.delete` | Region            | `Administrator`  \n `Editor` |
-{: caption="Table 5. IAM action scopes and roles for managing targets" caption-side="top"}
+{: caption="IAM action scopes and roles for managing targets" caption-side="top"}
 
 When you use the CLI, notice that you need the `metrics-router.target.list` role to create, read, update, or delete a target.
 {: important}
@@ -123,7 +123,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | `metrics-router.route.update` | Account        | `Administrator`  \n `Editor` |
 | `metrics-router.route.delete` | Account        | `Administrator`  \n `Editor` | Delete a route. |
 | `metrics-router.route.list`   | Account        | `Administrator`  \n `Editor`  \n `Viewer`  \n `Operator` |
-{: caption="Table 6. IAM action scopes and roles for managing routes" caption-side="top"}
+{: caption="IAM action scopes and roles for managing routes" caption-side="top"}
 
 ### Settings
 {: #iam-roles-settings}
@@ -134,7 +134,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | ------------------------- | -------------- | ---------------------- |
 | `metrics_router.setting.get`    | Accoount      | `Administrator`  \n `Editor`  \n `Operator`  \n `Viewer`   |
 | `metrics_router.setting.update` | Account       | `Administrator`|
-{: caption="Table 7. IAM action scopes and roles for managing settings" caption-side="top"}
+{: caption="IAM action scopes and roles for managing settings" caption-side="top"}
 
 
 
