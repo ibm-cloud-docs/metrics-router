@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -35,7 +35,7 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Operator      | `metrics-router.route.list`   | List all routes. |
 | Operator      | `metrics-router.setting.get`  | View configuration settings.  |
 | Operator      | `metrics-router.onboarding.get` | For IBM use only. |
-{: caption="Table 1. {{site.data.keyword.metrics_router_full_notm}} actions for the operator role" caption-side="top"}
+{: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the operator role" caption-side="top"}
 
 
 ## Viewer
@@ -49,7 +49,7 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Viewer | `metrics-router.route.list` | List all routes. |
 | Viewer | `metrics-router.setting.get` | View configuration settings.  |
 | Viewer      | `metrics-router.onboarding.get` | For IBM use only. |
-{: caption="Table 2. {{site.data.keyword.metrics_router_full_notm}} actions for the viewer role" caption-side="top"}
+{: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the viewer role" caption-side="top"}
 
 ## Editor
 {: #iam_by_role_editor}
@@ -69,7 +69,7 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Editor | `metrics-router.route.list` | List all routes. |
 | Editor | `metrics-router.setting.get` | View configuration settings.  |
 | Editor | `metrics-router.onboarding.get` | For IBM use only. |
-{: caption="Table 3. {{site.data.keyword.metrics_router_full_notm}} actions for the editor role" caption-side="top"}
+{: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the editor role" caption-side="top"}
 
 
 ## Administrator
@@ -92,4 +92,4 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Administrator | `metrics-router.onboarding.get` | For IBM use only. |
 | Administrator | `metrics-router.onboarding.modify` | For IBM use only. |
 | Administrator | `metrics-router.onboarding.delete` | For IBM use only. |
-{: caption="Table 4. {{site.data.keyword.metrics_router_full_notm}} actions for the administrator role" caption-side="top"}
+{: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the administrator role" caption-side="top"}

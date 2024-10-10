@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-06-12"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -57,7 +57,7 @@ The following table lists the high-availability (HA) status for the regions (loc
 | North America       | Toronto (`ca-tor`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | North America       | Washington DC (`us-east`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | South America       | Sao Paulo (`br-sao`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
-{: caption="Table 1. List of locations where the service is available." caption-side="top"}
+{: caption="List of locations where the service is available." caption-side="top"}
 
 
 
@@ -113,4 +113,4 @@ The following table shows the regions where the copy of a regular backup is repl
 | North America        | Toronto (`ca-tor`)       | Washington (`us-east`)  |
 | North America        | Washington (`us-east`)   | Dallas (`us-south`)     |
 | South America        | Sao Paulo (`br-sao`)     | Washington (`us-east`)  |
-{: caption="Table 2. List of locations where a copy of the backup is available" caption-side="top"}
+{: caption="List of locations where a copy of the backup is available" caption-side="top"}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-06-12"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -37,7 +37,7 @@ For more information about your responsibilities when using {{site.data.keyword.
 |-------------------------------------------------------------------|----------------|
 | Maximum Tolerable Downtime (MTD) / Recovery Time Objective (RTO)  | Less than 24 hours |
 | Recovery Point Objective (RPO)                                    | Less than 24 hours |
-{: caption="Table 1. RPO and RTO for IBM Cloud Metrics Routing" caption-side="bottom"}
+{: caption="RPO and RTO for IBM Cloud Metrics Routing" caption-side="bottom"}
 
 ## Locations
 {: #bc-dr-locations}
@@ -58,7 +58,7 @@ The following table indicates the recovery region in the event of a DR situation
 | North America       | Toronto (`ca-tor`)       | Washington (`us-east`)  |
 | North America       | Washington DC (`us-east`)   | Dallas (`us-south`)     |
 | South America       | Sao Paulo (`br-sao`)     | Washington (`us-east`)     |
-{: caption="Table 2. List of locations where a region is recovered" caption-side="top"}
+{: caption="List of locations where a region is recovered" caption-side="top"}
 
 
 

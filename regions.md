@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2024
-lastupdated: "2024-06-12"
+  years:  2023, 2024
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -19,7 +19,7 @@ subcollection: metrics-router
 {: shortdesc}
 
 
-![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/Metrics-Router-03-Locations.svg){: caption="Figure 1. Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
+![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/Metrics-Router-03-Locations.svg){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
 
 
 | Geography             | Region                       | EU-Supported | HA Status |
@@ -34,7 +34,7 @@ subcollection: metrics-router
 | North America       | Toronto (`ca-tor`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | North America       | Washington DC (`us-east`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | South America       | Sao Paulo (`br-sao`)    | [Not applicable]{: tag-cool-gray}       | `MZR`     |
-{: caption="Table 1. List of locations for {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
+{: caption="List of locations for {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
 
 Where
 * A *geography* is a geographic area or larger political body that contains one or more regions.

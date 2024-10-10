@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -27,7 +27,7 @@ Review the following sample architecture for {{site.data.keyword.metrics_router_
 
 The following figure shows the high level architecture for {{site.data.keyword.metrics_router_full_notm}}:
 
-![A diagram that shows a sample {{site.data.keyword.metrics_router_full_notm}} architecture.](../images/Metrics-Router-01-Architecture.svg "{{site.data.keyword.metrics_router_full_notm}} architecture sample."){: caption="Figure 1. {{site.data.keyword.metrics_router_full_notm}} sample architecture" caption-side="bottom"}
+![A diagram that shows a sample {{site.data.keyword.metrics_router_full_notm}} architecture.](../images/Metrics-Router-01-Architecture.svg "{{site.data.keyword.metrics_router_full_notm}} architecture sample."){: caption="{{site.data.keyword.metrics_router_full_notm}} sample architecture" caption-side="bottom"}
 
 {{site.data.keyword.metrics_router_full_notm}} is deployed and managed per region. See [List of supported regions](/docs/metrics-router?topic=metrics-router-regions). In each region, the service runs in three physically separate data centers to ensure availability. All data and the configuration for each service deployment is retained within the region in which it is hosted.
 
@@ -87,7 +87,7 @@ Review the {{site.data.keyword.cloud_notm}} services that {{site.data.keyword.me
 | {{site.data.keyword.cloud_notm}} Platform | To authenticate requests to the service and authorize user actions, {{site.data.keyword.metrics_router_full_notm}} implements platform and service access roles in {{site.data.keyword.iamshort}} (IAM). For more information about required IAM permissions to work with the service, see [Managing access for {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-iam). Connections from {{site.data.keyword.metrics_router_full_notm}} to IAM do not use private connections. |
 | {{site.data.keyword.databases-for-postgresql_full_notm}} | {{site.data.keyword.metrics_router_full_notm}} uses {{site.data.keyword.databases-for-postgresql_full_notm}} for storing metadata. |
 | {{site.data.keyword.keymanagementserviceshort}} | {{site.data.keyword.keymanagementservicefull}} is used to store encrypted keys that are required to operate the service. This does not include Bring Your Own Key (BYOK). |
-{: caption="Table 1. {{site.data.keyword.metrics_router_full_notm}} dependencies to other {{site.data.keyword.cloud_notm}} services." caption-side="top"}
+{: caption="{{site.data.keyword.metrics_router_full_notm}} dependencies to other {{site.data.keyword.cloud_notm}} services." caption-side="top"}
 {: summary="The first column is the service. The second column is a description of the service."}
 
 

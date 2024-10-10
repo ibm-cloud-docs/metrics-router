@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-15"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -418,7 +418,7 @@ The following table lists the actions that you can run to manage targets:
 | Delete a target            | `DELETE`         | `<ENDPOINT>/api/v3/targets/<TARGET_ID>`  |
 | Read a target              | `GET`            | `<ENDPOINT>/api/v3/targets/<TARGET_ID>`  |
 | List all targets           | `GET`            | `<ENDPOINT>/api/v3/targets`             |
-{: caption="Table 1. Target actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
+{: caption="Target actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
 
 You can use private and public endpoints to manage targets. For more information about the list of `ENDPOINTS` that are available, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 
@@ -630,4 +630,4 @@ See the following table for some HTTP response codes:
 | `404` | Not Found |	The requested resource doesn't exist or is already deleted. |
 | `429` |	Too Many Requests |	Too many requests hit the API too quickly. |
 | `500` |	Internal Server Error |	Something went wrong in {{site.data.keyword.metrics_router_full_notm}} processing. |
-{: caption="Table 2. List of HTTP response codes" caption-side="top"}
+{: caption="List of HTTP response codes" caption-side="top"}

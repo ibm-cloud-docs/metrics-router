@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-15"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -40,7 +40,7 @@ There are 2 ways that services send metrics:
 | Service     | CRN service name | Metrics |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.registrylong_notm}}](/docs/Registry?topic=Registry-getting-started) |`container-registry` | [Platform metrics](/docs/Registry?topic=Registry-registry_monitor)|
-{: caption="Table 1. List of {{site.data.keyword.cloud_notm}} container services" caption-side="top"}
+{: caption="List of {{site.data.keyword.cloud_notm}} container services" caption-side="top"}
 
 
 ## Database services
@@ -50,7 +50,7 @@ There are 2 ways that services send metrics:
 | Service           |  CRN service name | Metrics |
 |-------------------|-------------------|---------|
 | [{{site.data.keyword.sqlquery_full}}](//docs/sql-query?topic=sql-query-getting-started)| `sql-query` | [Platform metrics](/docs/sql-query?topic=sql-query-metrics) |
-{: caption="Table 2. List of database services" caption-side="top"}
+{: caption="List of database services" caption-side="top"}
 
 
 ## Storage services
@@ -59,7 +59,7 @@ There are 2 ways that services send metrics:
 | Service           |  CRN service name | Metrics |
 |-------------------|-------------------|---------|
 | [{{site.data.keyword.cos_full}}](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) | `cloud-object-storage` | [Platform metrics](/docs/cloud-object-storage?topic=cloud-object-storage-mm-cos-integration) |
-{: caption="Table 3. List of storage services" caption-side="top"}
+{: caption="List of storage services" caption-side="top"}
 
 ## Developer tools
 {: #devops}
@@ -72,7 +72,7 @@ The following table lists developer tools and DevOps services that are enabled f
 | [{{site.data.keyword.appconfig_full}}](/docs/app-configuration?topic=app-configuration-getting-started)| `apprapp` | [Platform metrics](/docs/app-configuration?topic=app-configuration-ac-monitoring) |
 | [{{site.data.keyword.en_full}}](/docs/event-notifications?topic=event-notifications-getting-started)|  `event-notifications` | [Platform metrics](/docs/event-notifications?topic=event-notifications-en-monitoring) |
 | [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started) | `schematics` | [Platform metrics](/docs/schematics?topic=schematics-monitoring-instances) |
-{: caption="Table 4. List of developer tools and DevOps services" caption-side="top"}
+{: caption="List of developer tools and DevOps services" caption-side="top"}
 
 
 ## Integration services
@@ -84,7 +84,7 @@ The following table lists integration services that are enabled for {{site.data.
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-getting-started)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
 | [{{site.data.keyword.mq_full}}](/docs/mqcloud?topic=mqcloud-getting_started)| `mqcloud` | [Platform metrics](/docs/mqcloud?topic=mqcloud-monitor_sysdig) |
-{: caption="Table 5. List of integration services" caption-side="top"}
+{: caption="List of integration services" caption-side="top"}
 
 
 ## Networking services
@@ -96,7 +96,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.dns_full}}](/docs/dns-svcs?topic=dns-svcs-getting-started) | `dns-svcs` | [Platform metrics](/docs/dns-svcs?topic=dns-svcs-monitor-ibm-cloud-pm) |
 | [{{site.data.keyword.loadbalancer_full}}](/docs/loadbalancer-service) | `ibm-cloud-load-balancer` | [Platform metrics](/docs/loadbalancer-service?topic=loadbalancer-service-monitoring-metrics) |
-{: caption="Table 6. List of networking services" caption-side="top"}
+{: caption="List of networking services" caption-side="top"}
 
 
 ## {{site.data.keyword.cloud_notm}} platform services
@@ -106,7 +106,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 |-------------|--------------|---------|
 | [{{site.data.keyword.atracker_full_notm}}](/docs/atracker) | `atracker` |
 | [{{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router) | `metrics-router` |
-{: caption="Table 7. {{site.data.keyword.cloud_notm}} platform services that send metrics to {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
+{: caption="{{site.data.keyword.cloud_notm}} platform services that send metrics to {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
 
 
 ## Security services
@@ -118,7 +118,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 | [{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started) | `hs-crypto` | [Platform metrics](/docs/hs-crypto?topic=hs-crypto-operational-metrics) |
 | [{{site.data.keyword.keymanagementservicelong}}](/docs/key-protect?topic=key-protect-getting-started-tutorial#getting-started-tutorial) | `kms` | [Platform metrics](/docs/key-protect?topic=key-protect-operational-metrics) |
 | [{{site.data.keyword.secrets-manager_full}}](/docs/secrets-manager?topic=secrets-manager-getting-started) | `secrets-manager` | [Platform metrics](/docs/secrets-manager?topic=secrets-manager-operational-metrics) |
-{: caption="Table 8. List of security services" caption-side="top"}
+{: caption="List of security services" caption-side="top"}
 
 
 
@@ -129,7 +129,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 | Service     | CRN service name | Metrics |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.codeenginefull_notm}}](/docs/codeengine?topic=codeengine-getting-started) | `codeengine` | [Platform metrics](/docs/codeengine?topic=codeengine-monitor)|
-{: caption="Table 9. List of serverless services" caption-side="top"}
+{: caption="List of serverless services" caption-side="top"}
 
 
 ## VMware
@@ -141,7 +141,7 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.vmware-service_short}}](/docs/vmware-service?topic=vmware-service-getting-started) | `vmware` | [Platform metrics](/docs/vmware-service?topic=vmware-service-single-tenant-monitoring) |
 | [VMware solutions](/docs/vmwaresolutions) | `vmware-solutions` | [Platform metrics](/docs/vmwaresolutions?topic=vmwaresolutions-shared-monitor) |
-{: caption="Table 10. VMware" caption-side="top"}
+{: caption="VMware" caption-side="top"}
 
 
 
@@ -156,7 +156,7 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 | [Load Balancer for VPC](/docs/vpc?topic=vpc-network-load-balancers)| `is` | `load-balancer` | [Application Load Balancer platform metrics](/docs/vpc?topic=vpc-monitoring-metrics-alb) \n [Network Load Balancer platform metrics](/docs/vpc?topic=vpc-nlb_monitoring-metrics) |
 | [VPN for VPC (site-to-site VPN)](/docs/vpc?topic=vpc-using-vpn)| `is.vpn` | `vpn` | [Platform metrics](/docs/vpc?topic=vpc-vpn-monitoring-metrics) |
 | [Client VPN for VPC](/docs/vpc?topic=vpc-vpn-client-to-site-overview)| `is` | `vpn-server` | [Platform metrics](/docs/vpc?topic=vpc-vpn-client-to-site-monitoring) |
-{: caption="Table 11. List of VPC services (generation 2)" caption-side="top"}
+{: caption="List of VPC services (generation 2)" caption-side="top"}
 
 `[*]` - VPC virtual server instances includes multiple CRN resource types.
  
@@ -169,7 +169,7 @@ In addition, some VPC resources have quotas associated with them that you can mo
 | Service     | CRN service name | Metrics           |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-getting-started) | `power-iaas` | [Platform metrics](/docs/power-iaas?topic=power-iaas-monitor-sysdig) |
-{: caption="Table 12. Power IaaS services" caption-side="top"}
+{: caption="Power IaaS services" caption-side="top"}
 
 ## Watson AI services
 {: #watson}
@@ -177,5 +177,4 @@ In addition, some VPC resources have quotas associated with them that you can mo
 | Service     | CRN service name | Metrics           |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.lakehouse_short}}](/docs/watsonxdata) | `lakehouse` | [Platform metrics](/docs/watsonxdata?topic=watsonxdata-monitor_wxd) |
-{: caption="Table 13. Watson AI services" caption-side="top"}
-
+{: caption="Watson AI services" caption-side="top"}

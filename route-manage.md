@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-15"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -446,7 +446,7 @@ The following table lists the actions that you can run to manage routes:
 | Delete a route            | `DELETE`         | `<ENDPOINT>/api/v3/routes/<route_ID>`  |
 | Read a route              | `GET`            | `<ENDPOINT>/api/v3/routes/<route_ID>`  |
 | List all routes           | `GET`            | `<ENDPOINT>/api/v3/routes`             |
-{: caption="Table 1. route actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
+{: caption="route actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
 
 You can use private and public endpoints to manage routes. For more information about the list of `ENDPOINTS` that are available, see [Endpoints](/docs/metrics-router?topic=metrics-router-endpoints).
 
@@ -722,4 +722,4 @@ See the following table for some HTTP response codes:
 | `404` | Not Found |	The requested resource doesn't exist or is already deleted. |
 | `429` |	Too Many Requests |	Too many requests hit the API too quickly. |
 | `500` |	Internal Server Error |	Something went wrong in {{site.data.keyword.metrics_router_full_notm}} processing. |
-{: caption="Table 2. List of HTTP response codes" caption-side="top"}
+{: caption="List of HTTP response codes" caption-side="top"}

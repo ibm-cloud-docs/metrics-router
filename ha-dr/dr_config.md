@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -48,7 +48,7 @@ You can configure a backup target for data that is routed by your {{site.data.ke
 Creating a second target for backup purposes results in extra charges for running the backup target instance.
 {: important}
 
-![Example of a routing configuration that creates a backup of all metrics to a second target in a different region.](../images/Metrics-Router-05-Recovery.svg "Example of a routing configuration that creates a backup of all metrics to a second target in a different region"){: caption="Figure 1. Example of a routing configuration that creates a backup of all metrics to a second target in a different region" caption-side="bottom"}
+![Example of a routing configuration that creates a backup of all metrics to a second target in a different region.](../images/Metrics-Router-05-Recovery.svg "Example of a routing configuration that creates a backup of all metrics to a second target in a different region"){: caption="Example of a routing configuration that creates a backup of all metrics to a second target in a different region" caption-side="bottom"}
 
 In this example, the source of the metrics is in the Toronto region (`ca-tor`). Metrics from the {{site.data.keyword.cloud_notm}} service are sent by {{site.data.keyword.metrics_router_full_notm}} to an {{site.data.keyword.mon_full_notm}} instance in Dallas (`us-south`). A regional disaster resilient routing configuration is created to route metrics to an {{site.data.keyword.mon_full_notm}} instance (Target 2) in the Washington region (`us-east`) as well. All metrics are sent to both the target in the Dallas region (`us-south`) and Washington region (`us-east`).
 

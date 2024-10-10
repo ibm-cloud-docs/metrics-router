@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-15"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -86,7 +86,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | Get details of a route | `metrics-router.route.read`   | Account            | `Administrator`  \n `Editor`  \n `Operator`  \n `Viewer` |
 | Modify a route         | `metrics-router.route.update` | Account            | `Administrator`  \n `Editor` |
 | Delete a route         | `metrics-router.route.delete` | Account            | `Administrator`  \n `Editor` |
-{: caption="Table 1. IAM action scopes and roles for managing routes" caption-side="top"}
+{: caption="IAM action scopes and roles for managing routes" caption-side="top"}
 
 
 ## Auditing events
@@ -101,7 +101,7 @@ The following table lists the IAM actions, their scope and the roles required to
 | Get details of a route | `metrics-router.route.read`              |
 | Modify a route         | `metrics-router.route.update`            |
 | Delete a route         | `metrics-router.route.delete`            |
-{: caption="Table 2. Activity Tracker auditing event actions" caption-side="top"}
+{: caption="Activity Tracker auditing event actions" caption-side="top"}
 
 
 
@@ -139,7 +139,7 @@ The following table lists the actions that you can run to manage routes:
 | Delete a route            | `ibmcloud metrics-router route rm`   |
 | Read a route              | `ibmcloud metrics-router route get`      |
 | List all routes           | `ibmcloud metrics-router route ls`       |
-{: caption="Table 3. Route actions" caption-side="top"}
+{: caption="Route actions" caption-side="top"}
 
 
 For more information, see [{{site.data.keyword.metrics_router_full_notm}} v3 CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli).
@@ -166,7 +166,7 @@ The following table lists the actions that you can run to manage routes:
 | `Delete a route`                     | `DELETE`         | `<ENDPOINT>/api/v3/routes/<ROUTE_ID>`  |
 | `Get information about a route`      | `GET`            | `<ENDPOINT>/api/v3/routes/<ROUTE_ID>`  |
 | `List all routes`                    | `GET`            | `<ENDPOINT>/api/v3/routes`             |
-{: caption="Table 4. Route actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
+{: caption="Route actions by using the {{site.data.keyword.metrics_router_full_notm}} REST API" caption-side="top"}
 
 For more information about the REST API, see [Routes](https://{DomainName}/apidocs/metrics-router/metrics-router-v3#create-route){: external}.
 {: note}
@@ -196,4 +196,4 @@ See the following table for some HTTP response codes:
 | `404` | Not Found |	The requested resource doesn't exist or is already deleted. |
 | `429` |	Too Many Requests |	Too many requests reach the API too quickly. |
 | `500` |	Internal Server Error |	Something went wrong in {{site.data.keyword.metrics_router_full_notm}} processing. |
-{: caption="Table 5. List of HTTP response codes" caption-side="top"}
+{: caption="List of HTTP response codes" caption-side="top"}

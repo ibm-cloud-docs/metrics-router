@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022, 2024
-lastupdated: "2024-06-12"
+  years:  2023, 2024
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -118,7 +118,7 @@ Next, choose any of the following tasks to learn more about how to manage and wo
 | Monitoring metrics using dashboards | [link](/docs/monitoring?topic=monitoring-platform_metrics_working#platform_metrics_working_dash) |
 | Configuring an alert for a platform metric | [link](/docs/monitoring?topic=monitoring-platform_metrics_working#platform_metrics_working_alert) |
 | Controlling access by using teams | [link](/docs/monitoring?topic=monitoring-platform_metrics_working#platform_metrics_working_team) |
-{: caption="Table 1. More information about {{site.data.keyword.mon_short}} tasks" caption-side="bottom"}
+{: caption="More information about {{site.data.keyword.mon_short}} tasks" caption-side="bottom"}
 
 ## Metrics
 {: #platform-metrics-details}
@@ -140,7 +140,7 @@ Total number of data points that {{site.data.keyword.metrics_router_full_notm}} 
 | `Value Type`     | `none` |
 | `Segment By`     | `ibm_ctype`,`ibm_location`, `ibm_scope`, `ibm_service_name`, `ibm_resource_type`, `ibm_resource_name`, `ibm_resource`, `ibm_metrics_router_source_region`, `ibm_metrics_router_target_type` |
 | `Frequency`      | `60 seconds`  |
-{: caption="Table 2. Total number of metrics successfully sent to the storage target" caption-side="top"}
+{: caption="Total number of metrics successfully sent to the storage target" caption-side="top"}
 
 
 ### The current target mode
@@ -161,7 +161,7 @@ It is your responsibility to resolve misconfigured targets, at least one of the 
 | `Value Type`     | `none` |
 | `Segment By`     | `ibm_ctype`,`ibm_location`, `ibm_scope`, `ibm_service_name`, `ibm_resource_type`, `ibm_resource_name`, `ibm_resource`, `ibm_metrics_router_target_type`  |
 | `Frequency`      | `60 seconds`  |
-{: caption="Table 3. The current target mode" caption-side="top"}
+{: caption="The current target mode" caption-side="top"}
 
 
 ### Global Attributes
@@ -178,7 +178,7 @@ The following attributes are available for all metrics.
 | `Resource Type`  | `ibm_resource_type`       | The type of the resource that is measured by the service.                               | Valid value is `target`.|
 | `Scope`          | `ibm_scope`               | The scope is the account where the metric is generated. | |
 | `Service name`   | `ibm_service_name`        | The name of the service that is generating this metric.                                 | Valid value is `metrics-router`.|
-{: caption="Table 4. Global attributes" caption-side="top"}
+{: caption="Global attributes" caption-side="top"}
 
 ### More attributes
 {: #platform-metrics-additional-attributes}
@@ -189,7 +189,7 @@ The following attributes are available for one or more attributes described in t
 |------------------|---------------------------|------------------------|--------------|
 | `Target Type`    | `ibm_metrics_router_target_type` | The type of target. | Valid value is `sysdig-monitor`.|
 | `Source Region`    | `ibm_metrics_router_source_region` | The region that sent the data points. | Valid value is any region from [Locations](/docs/metrics-router?topic=metrics-router-regions). |
-{: caption="Table 5. Other attributes" caption-side="top"}
+{: caption="Other attributes" caption-side="top"}
 
 
 
@@ -201,4 +201,4 @@ The following table lists the pre-defined dashboard templates that are available
 | Dashboard Name | Dashboard description |
 |----------------|-----------------------|
 | `Metrics Routing - Overview` | Use this dashboard to monitor {{site.data.keyword.metrics_router_full_notm}} data point processing and target modes. |
- {: caption="Table 6. Pre-defined dashboard templates" caption-side="top"}
+ {: caption="Pre-defined dashboard templates" caption-side="top"}
