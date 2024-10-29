@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-06-06"
+  years:  2023, 2024
+lastupdated: "2024-10-29"
 
 keywords:
 
@@ -82,7 +82,7 @@ To delete completely all the configuration data of the account, complete the fol
 1. Delete all the routes in the account. For more information, see [Deleting a route](/docs/metrics-router?topic=metrics-router-route-manage&interface=cli#route-manage-cli-delete).
 2. Delete all the targets in the account. For more information, see [Deleting a target using the CLI](/docs/metrics-router?topic=metrics-router-target-manage&interface=cli#target-manage-cli-delete).
 3. [Remove any default targets](/docs/metrics-router?topic=metrics-router-target-default-reset).
-4. Open an IBM support ticket to request deletion of all your service metadata. For information about opening an IBM support ticket, or about support levels and ticket severities, see [Getting support](/docs/get-support).
+4. Open an IBM support ticket to request deletion of all your service metadata. For information about opening an IBM support ticket, or about support levels and ticket severities, see [Creating support cases](/docs/account?topic=account-open-case&interface=ui).
 
 
 
