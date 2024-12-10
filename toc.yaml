@@ -138,10 +138,8 @@ toc:
       - topicgroup:
           label: High availability and disaster recovery
           topics:
-          - topic: ha-dr/ha.md
-            navtitle: Understanding high availability
-          - topic: ha-dr/bc-dr.md
-            navtitle: Understanding business continuity and disaster recovery
+          - topic: ha-dr/ha-dr.md
+            navtitle: Understanding high availability and disaster recovery
           - ha-dr/dr_config.md
       - topicgroup:
           label: CLI Reference
