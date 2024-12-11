@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -49,7 +49,8 @@ There are 2 ways that services send metrics:
 
 | Service           |  CRN service name | Metrics |
 |-------------------|-------------------|---------|
-| [{{site.data.keyword.sqlquery_full}}](//docs/sql-query?topic=sql-query-getting-started)| `sql-query` | [Platform metrics](/docs/sql-query?topic=sql-query-metrics) |
+| [{{site.data.keyword.sqlquery_full}}](/docs/sql-query?topic=sql-query-getting-started)| `sql-query` | [Platform metrics](/docs/sql-query?topic=sql-query-metrics) |
+| [{{site.data.keyword.Db2_on_Cloud_short}}](/docs/Db2onCloud?topic=Db2onCloud-about)| `dashdb-for-transactions` | [Platform metrics](/docs/Db2onCloud?topic=Db2onCloud-monitor) |
 {: caption="List of database services" caption-side="top"}
 
 
