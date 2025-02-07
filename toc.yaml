@@ -138,7 +138,7 @@ toc:
       - topicgroup:
           label: High availability and disaster recovery
           topics:
-          - topic: ha-dr/ha-dr.md
+          - topic: ha-dr/ha-dr-new.md
             navtitle: Understanding high availability and disaster recovery
           - ha-dr/dr_config.md
       - topicgroup:
