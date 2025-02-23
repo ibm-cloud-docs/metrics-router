@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-16"
+  years:  2023, 2025
+lastupdated: "2025-02-23"
 
 keywords:
 
@@ -74,7 +74,7 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task                                                            | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |-----------------------------------------------------------------|-------------------------------------------------|-----------------------|
-| Restore functionality for {{site.data.keyword.metrics_router_full_notm}}  | Automatically recover and restart {{site.data.keyword.metrics_router_full_notm}} components after any disaster event. | [Complete the disaster recovery (DR) steps for {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-bc-dr). |
+| Restore functionality for {{site.data.keyword.metrics_router_full_notm}}  | Automatically recover and restart {{site.data.keyword.metrics_router_full_notm}} components after any disaster event. | [Complete the disaster recovery (DR) steps for {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-metrics-router-ha-dr). |
 | Backup {{site.data.keyword.metrics_router_full_notm}} components   | Daily backup of the {{site.data.keyword.metrics_router_full_notm}} infrastructure and components. | [Configure account settings](/docs/metrics-router?topic=metrics-router-settings), specifically, set up a primary metadata location and a backup metadata location. These locations keep information about the account routing rules and the target destination data to send data. Keep a copy of the setting configuration, definitions of targets, and definitions of routes in the account. For more information, see [Collecting information about resources](/docs/metrics-router?topic=metrics-router-config_report). |
 {: caption="Responsibilities for disaster recovery" caption-side="top"}
 
