@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-02-23"
 
 keywords:
 
@@ -20,7 +20,7 @@ subcollection: metrics-router
 {{site.data.keyword.metrics_router_full_notm}} is a highly available, multi-tenant, regional service. However, you can also configure a routing configuration to a backup instance to mitigate data loss if a regional disaster occurs.
 {: shortdesc}
 
-For more information about {{site.data.keyword.metrics_router_full_notm}} availability and recovery that is provided by the service, see [Understanding high availability](/docs/metrics-router?topic=metrics-router-ha) and [Understanding business continuity and disaster recovery](/docs/metrics-router?topic=metrics-router-bc-dr).
+For more information about {{site.data.keyword.metrics_router_full_notm}} availability and recovery that is provided by the service, see [Understanding high availability and disaster recovery](/docs/metrics-router?topic=metrics-router-metrics-router-ha-dr).
 {: note}
 
 ## Understanding targets, routes, and rules
@@ -78,7 +78,7 @@ When you configure an environment with a backup target, you need to consider the
 ## Automatic disaster management
 {: #dr_config_auto}
 
-You can choose to allow {{site.data.keyword.metrics_router_full_notm}} to handle a regional disaster as described in [Understanding high availability](/docs/metrics-router?topic=metrics-router-ha) and [Understanding business continuity and disaster recovery](/docs/metrics-router?topic=metrics-router-bc-dr).
+You can choose to allow {{site.data.keyword.metrics_router_full_notm}} to handle a regional disaster as described in [Understanding high availability and disaster recovery](/docs/metrics-router?topic=metrics-router-metrics-router-ha-dr).
 
 In this case, no extra charges for a second [target instance](#dr_config_backup) are charged. However, you also have the following risks:
 
