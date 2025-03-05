@@ -133,6 +133,8 @@ toc:
         navtitle: Regions
       - topic: core/shared-responsibilities.md
         navtitle: Understanding your responsibilities
+      - topic: service-dependency.md
+        navtitle: Service dependencies
       - topic: core/data-portability.md
         navtitle: Data portability
       - topicgroup:
