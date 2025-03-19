@@ -131,6 +131,9 @@ toc:
         navtitle: Limits
       - topic: regions.md
         navtitle: Regions
+      - link:
+          label: Considerations for Montreal
+          href: /cloud-logs/cloud-logs-montreal-temp
       - topic: core/shared-responsibilities.md
         navtitle: Understanding your responsibilities
       - topic: service-dependency.md
