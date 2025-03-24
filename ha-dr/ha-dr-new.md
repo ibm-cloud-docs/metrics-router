@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-02-07"
+lastupdated: "2025-03-24"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -32,7 +32,7 @@ You can find the supported region and data center locations in the [Locations](/
 
 ![Diagram displaying the high availability architecture for {{site.data.keyword.metrics_router_full_notm}}](../images/MR_HA_DIAGRAM.png "High availability architecture"){: caption="High availability architecture" caption-side="bottom"}
 
-{{site.data.keyword.databases-for-postgresql_full}} controls distribution of requests between postgres members, which is outlined in [High availability for PostgreSQL](/docs/databases-for-postgresql?topic=databases-for-postgresql-high-availability)
+{{site.data.keyword.databases-for-postgresql_full}} controls distribution of requests between postgres members, which is outlined in [High availability for PostgreSQL](/docs/databases-for-postgresql?topic=databases-for-postgresql-postgresql-ha-dr)
 
 {{site.data.keyword.metrics_router_full_notm}} is available in multiple regions. For more information on the regions where {{site.data.keyword.metrics_router_full_notm}} is available, see [Regions](/docs/metrics-router?topic=metrics-router-regions).
 
@@ -94,7 +94,7 @@ Where
 
 ![Diagram displaying the disaster architecture for {{site.data.keyword.metrics_router_full}}](../images/MR_DR_DIAGRAM.png "Disaster recovery architecture"){: caption="Disaster recovery architecture" caption-side="bottom"}
 
-{{site.data.keyword.databases-for-postgresql_full}} controls distrubution of requests between postgres members, which is outlined in [High availability for PostgreSQL](/docs/databases-for-postgresql?topic=databases-for-postgresql-high-availability)
+{{site.data.keyword.databases-for-postgresql_full}} controls distrubution of requests between postgres members, which is outlined in [High availability for PostgreSQL](/docs/databases-for-postgresql?topic=databases-for-postgresql-postgresql-ha-dr)
 
 {{site.data.keyword.cos_full_notm}} manages the geo buckets used to store the postgres backups for {{site.data.keyword.metrics_router_full_notm}}. Geo location bucket management is outlined in [High availability for {{site.data.keyword.cos_full_notm}}](/docs/cloud-object-storage?topic=cloud-object-storage-cos-ha-dr)
 
@@ -124,7 +124,7 @@ machine failure.
 | Feature | Description | Consideration |
 | -------------- | -------------- | -------------- |
 | Multiple configurable destinations | Details can be found for customers to create disaster resiliant configurations using {{site.data.keyword.metrics_router_full_notm}} [here](/docs/metrics-router?topic=metrics-router-dr_config)| Configuration must be implemented by the customer. |
-| Cross site read-only replica for customer's metadata | Customer target and route configurations within {{site.data.keyword.metrics_router_full_notm}} are maintained in a regional database instance as well as in a read-only replica in the recovery region. The replica can be used in the event of a regional disaster to restore the region's metadata| For more information, see [High availability for PostgreSQL](/docs/databases-for-postgresql?topic=databases-for-postgresql-high-availability) |
+| Cross site read-only replica for customer's metadata | Customer target and route configurations within {{site.data.keyword.metrics_router_full_notm}} are maintained in a regional database instance as well as in a read-only replica in the recovery region. The replica can be used in the event of a regional disaster to restore the region's metadata| For more information, see [High availability for PostgreSQL](/docs/databases-for-postgresql?topic=databases-for-postgresql-postgresql-ha-dr) |
 | Cross site database backup for customer's metadata | Customer target and route configurations within {{site.data.keyword.metrics_router_full_notm}} are maintained in a cross regional {{site.data.keyword.cos_full_notm}} bucket in the recovery geo. This backup can be used in the event of a regional disaster to restore the region's metadata | For more information see [{{site.data.keyword.cos_full_notm}} cross region endpoints](/docs/cloud-object-storage?topic=cloud-object-storage-endpoints#endpoints-geo) |
 {: caption="DR features for {{site.data.keyword.metrics_router_full_notm}}" caption-side="bottom"}
 
@@ -305,7 +305,3 @@ Complex changes are enabled and disabled with feature flags to control exposure.
 
 
 Changes that impact customer workloads are detailed in notifications. For more information, see [monitoring notifications and status](/docs/account?topic=account-viewing-cloud-status) for planned maintenance, announcements, and release notes that impact this service.
-
-
-
-
