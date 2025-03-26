@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2025-03-24"
+  years: 2024, 2025
+lastupdated: "2025-03-26"
 
 keywords:
 
@@ -42,10 +42,10 @@ The following table provides the dependency listing of this service following a 
 | IBM Cloud Container Registry | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
 | IBM Cloud Classic DNS Servers | Availability, Change management | No | Both |  Same data center  |
 | IBM Cloud Classic NTP Servers | Availability, Change management | No | Both |  Same data center  |
-| IBM Cloud Classic Infrastructure Resource Management | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Public IP Address Management | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud Classic Infrastructure Resource Management | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud Public IP Address Management | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud - containers-kubernetes | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| IBM Cloud Identity and Access Management | Availability, Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud Identity and Access Management | Availability, Change management, Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Satellite | Availability, Change management, Customer responsibility | No | Both |  Same region  |
 | IBM Cloud Service Endpoints | Availability, Change management, Disaster recovery | No | Both |  Same data center  |
 | IBM Cloud Object Storage | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
@@ -60,17 +60,17 @@ The following table provides the dependency listing of this service following a 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
-| IBM Cloud Global Search and Tagging | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud Global Search and Tagging | Availability | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Metrics Routing | Availability, Operations | No | Both |  Same region  |
 | IBM Cloud Activity Tracker event routing | Availability, Operations, Security compliance | No | Both |  Same region  |
-| TaaS Artifactory | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| TaaS Artifactory | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Monitoring | Availability, Operations | No | Both |  Same region  |
 | IBM Log Analysis and IBM Cloud Activity Tracker | Access management, Availability, Operations, Security compliance | No | Both |  Same region  |
-| Let's Encrypt | Availability, Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| Let's Encrypt | Availability, Change management, Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Event Notifications | Availability | No | Both |  Same region  |
-| PagerDuty | Availability, Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| OSS Platform | Availability, Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud CLI  | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| PagerDuty | Availability, Operations | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| OSS Platform | Availability, Operations | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud CLI  | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Secrets Manager | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
 | IBM Key Protect for IBM Cloud | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
 {: row-headers}
@@ -79,33 +79,6 @@ The following table provides the dependency listing of this service following a 
 {: tab-group="service-dependency-data-for-metrics-router"}
 {: class="comparison-tab-table"}
 {: #significant-deps}
-{: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers details about the dependency. The column headers identify the dependency. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
-
-|Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
-|:---|:---|:---|:---|:---|
-| IBM GitHub Enterprise| Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| ServiceNow| Change management, Operations, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-{: row-headers}
-{: caption="IBM Cloud Metrics Routing service dependency information - Medium dependencies" caption-side="top"}
-{: tab-title="Medium dependencies"}
-{: tab-group="service-dependency-data-for-metrics-router"}
-{: class="comparison-tab-table"}
-{: #medium-deps}
-{: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers details about the dependency. The column headers identify the dependency. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
-
-|Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
-|:---|:---|:---|:---|:---|
-| SOS File Integrity Monitoring| Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| OSS Platform| Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| SOS SIEM| Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| Slack| Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| Teleport Bastion| Disaster recovery, Operations | No | Both |  Same region  |
-{: row-headers}
-{: caption="IBM Cloud Metrics Routing service dependency information - Minimal dependencies" caption-side="top"}
-{: tab-title="Minimal dependencies"}
-{: tab-group="service-dependency-data-for-metrics-router"}
-{: class="comparison-tab-table"}
-{: #minimal-deps}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers details about the dependency. The column headers identify the dependency. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
 This table can be used to answer the following questions:
