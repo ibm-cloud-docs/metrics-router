@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-04-03"
 
 keywords:
 
@@ -13,7 +13,7 @@ subcollection: metrics-router
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Managing metrics in a new location after {{site.data.keyword.at_short}} is available
+# Managing metrics in a new location after {{site.data.keyword.metrics_router_full}} is available
 {: #manage-metrics-to-new-region}
 
 To manage metrics from {{site.data.keyword.cloud_notm}} services that generate platform metrics in a new region where the {{site.data.keyword.metrics_router_full_notm}} service is not available until a later date, complete these instructions.

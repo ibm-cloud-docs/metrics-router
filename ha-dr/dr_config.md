@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-02-23"
+lastupdated: "2025-04-03"
 
 keywords:
 
@@ -52,7 +52,7 @@ Creating a second target for backup purposes results in extra charges for runnin
 
 In this example, the source of the metrics is in the Toronto region (`ca-tor`). Metrics from the {{site.data.keyword.cloud_notm}} service are sent by {{site.data.keyword.metrics_router_full_notm}} to an {{site.data.keyword.mon_full_notm}} instance in Dallas (`us-south`). A regional disaster resilient routing configuration is created to route metrics to an {{site.data.keyword.mon_full_notm}} instance (Target 2) in the Washington region (`us-east`) as well. All metrics are sent to both the target in the Dallas region (`us-south`) and Washington region (`us-east`).
 
-Target 2 provides the user with historical metrics in the Washington region (`us-east`). If the Dallas region (`us-south`) is not available, users have Toronto (`ca-tor`) activity metrics available in the Washington region (`us-east`).
+Target 2 provides the user with historical metrics in the Washington region (`us-east`). If the Dallas region (`us-south`) is not available, users have Toronto (`ca-tor`) metrics available in the Washington region (`us-east`).
 
 For users without a disaster resilient routing configuration, no historical metrics are available in a second region.
 
