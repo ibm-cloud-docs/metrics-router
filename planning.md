@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-04-03"
 
 keywords:
 
@@ -34,7 +34,7 @@ Plan the account's {{site.data.keyword.metrics_router_full_notm}} configuration 
 {: #planning-0}
 
 Check the regions where you operate and identify how you can manage those metrics in the account:
-- Identify the locations where you can configure IBM Cloud Activity Tracker to manage metrics. Check [Locations](/docs/metrics-router?topic=metrics-router-regions).
+- Identify the locations where you can configure {{site.data.keyword.metrics_router_full_notm}} to manage metrics. Check [Locations](/docs/metrics-router?topic=metrics-router-regions).
 - Identify which services in those locations generate metrics that you can route through {{site.data.keyword.metrics_router_full_notm}}. Check [Services generating metrics](/docs/metrics-router?topic=metrics-router-cloud-services-mr).
 
 You can use {{site.data.keyword.metrics_router_full_notm}} to manage metrics at the account-level. {{site.data.keyword.metrics_router_full_notm}} can only route metrics that are generated in [supported regions](/docs/metrics-router?topic=metrics-router-regions). Other regions, where {{site.data.keyword.metrics_router_full_notm}} is not available, continue to manage metrics by using {{site.data.keyword.mon_full_notm}}.

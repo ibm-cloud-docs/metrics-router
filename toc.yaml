@@ -110,7 +110,7 @@ toc:
           label: Observability
           topics:
           - topic: observability/at_events.md
-            navtitle: Activity Tracker events
+            navtitle: Activity tracking events
           - topic: observability/platform_metrics.md
             navtitle: Platform metrics
       - topicgroup:

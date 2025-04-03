@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-03-24"
+lastupdated: "2025-04-03"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -44,7 +44,7 @@ You can find the supported region and data center locations in the [Locations](/
 
 For more information about service availability, see [Service Level Agreements (SLAs)](/docs/overview?topic=overview-slas).
 
-The following table lists the high-availability (HA) status for the regions (locations) where the {{site.data.keyword.at_full_notm}} service is available:
+The following table lists the high-availability (HA) status for the regions (locations) where the {{site.data.keyword.metrics_router_full_notm}} service is available:
 
 | Geography             | Region                   | EU-Supported | HA Status |
 |-----------------------|--------------------------|--------------|-----------|

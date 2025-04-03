@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-04-03"
 
 keywords:
 
@@ -94,14 +94,14 @@ The following table lists the IAM actions, their scope and the roles required to
 
 The following table lists the IAM actions, their scope and the roles required to manage routes.
 
-| Task                    | Activity Tracker auditing event action    |
+| Task                    | Activity tracking auditing event action    |
 | ------------------------|-------------------------------------------|
 | Create a route         | `metrics-router.route.create`            |
 | List all routes        | `metrics-router.route.list`              |
 | Get details of a route | `metrics-router.route.read`              |
 | Modify a route         | `metrics-router.route.update`            |
 | Delete a route         | `metrics-router.route.delete`            |
-{: caption="Activity Tracker auditing event actions" caption-side="top"}
+{: caption="Activity tracking auditing event actions" caption-side="top"}
 
 
 

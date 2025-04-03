@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-04-03"
 
 keywords:
 
@@ -94,14 +94,14 @@ When you use the CLI, notice that you need the `metrics-router.target.list` role
 
 The following table lists the IAM actions, their scope and the roles required to manage routes.
 
-| Task                    | Activity Tracker auditing event action    |
+| Task                    | Activity tracking auditing event action    |
 | ------------------------|-------------------------------------------|
 | Create a target         | `metrics-router.target.create`            |
 | List all targets        | `metrics-router.target.list`              |
 | Get details of a target | `metrics-router.target.read`              |
 | Modify a target         | `metrics-router.target.update`            |
 | Delete a target         | `metrics-router.target.delete`            |
-{: caption="Activity Tracker auditing event action" caption-side="top"}
+{: caption="Activity tracking auditing event action" caption-side="top"}
 
 
 
