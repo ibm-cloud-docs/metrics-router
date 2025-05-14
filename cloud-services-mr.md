@@ -57,7 +57,7 @@ There are 2 ways that services send metrics:
 | [{{site.data.keyword.databases-for-enterprisedb}}](/docs/databases-for-enterprisedb?topic=databases-for-enterprisedb-getting-started) | `databases-for-enterprisedb` | [Platform metrics](/docs/databases-for-enterprisedb?topic=databases-for-enterprisedb-monitoring) |
 | [{{site.data.keyword.databases-for-mysql}}](/docs/databases-for-mysql?topic=databases-for-mysql-getting-started&interface=cli) | `databases-for-mysql` | [Platform metrics](/docs/databases-for-mysql?topic=databases-for-mysql-monitoring) |
 | [{{site.data.keyword.databases-for-redis}}](/docs/databases-for-redis?topic=databases-for-redis-getting-started&interface=ui) | `databases-for-redis` | [Platform metrics](/docs/databases-for-redis?topic=databases-for-redis-monitoring) |
-| [{{site.data.keyword.databases-for-etcd}}]() | `databases-for-etcd` | [Platform metrics](/docs/databases-for-etcd?topic=databases-for-etcd-monitoring) |
+| [{{site.data.keyword.databases-for-etcd}}](/docs/databases-for-etcd?topic=databases-for-etcd-getting-started) | `databases-for-etcd` | [Platform metrics](/docs/databases-for-etcd?topic=databases-for-etcd-monitoring) |
 {: caption="List of database services" caption-side="top"}
 
 
