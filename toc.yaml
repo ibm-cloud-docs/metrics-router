@@ -190,3 +190,4 @@ toc:
               navtitle: Incorrect target configuration
             - topic: ts-primary-metadata.md
               navtitle: Error when configuring a target or route
+            - ts-target-email.md
