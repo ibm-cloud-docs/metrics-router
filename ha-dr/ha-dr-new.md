@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-05-28"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -207,7 +207,7 @@ It is recommended that you grant users and processes the IAM roles and actions w
 
 
 
-## How {{site.data.keyword.IBM}} helps ensure disaster recovery
+## How {{site.data.keyword.IBM}} supports disaster recovery planning
 {: #ibm-disaster-recovery}
 
 - {{site.data.keyword.IBM}} conducts annual tests of various disaster scenarios and continuously refines our recovery documentation based on findings that are found during these tests.
