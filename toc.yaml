@@ -2,7 +2,6 @@ toc:
   properties:
     subcollection: metrics-router
     service-name: metrics-router
-    version: 2
     category: logging_monitoring
     audience: service
     href: /docs/metrics-router
