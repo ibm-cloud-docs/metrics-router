@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-05-14"
+lastupdated: "2025-06-12"
 
 keywords:
 
@@ -104,6 +104,8 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.dns_full}}](/docs/dns-svcs?topic=dns-svcs-getting-started) | `dns-svcs` | [Platform metrics](/docs/dns-svcs?topic=dns-svcs-monitor-ibm-cloud-pm) |
 | [{{site.data.keyword.loadbalancer_full}}](/docs/loadbalancer-service) | `ibm-cloud-load-balancer` | [Platform metrics](/docs/loadbalancer-service?topic=loadbalancer-service-monitoring-metrics) |
+| [{{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl) | `directlink` | [Platform metrics](/docs/dl?topic=dl-monitoring) |
+| [{{site.data.keyword.tg_full_notm}}](/docs/transit-gateway?topic=transit-gateway-getting-started) | `transit` | [Platform metrics](/docs/transit-gateway?topic=transit-gateway-monitoring) |
 {: caption="List of networking services" caption-side="top"}
 
 
