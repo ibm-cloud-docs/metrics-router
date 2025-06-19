@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-06-19"
 
 keywords:
 
@@ -48,7 +48,7 @@ You can define any of the following information:
 
     Take into account any corporate or industry compliance requirements such as Financial Services Validated locations, or EU-managed regions.
 
-    If you do not configure the primary metadata region, the location of the first target that you configure in the account determines the primary metadata location.
+    You must configure the primary metadata region before creating targets and routes ensuring the configuration meets your compliance needs.
 
 * The type of endpoints that are allowed to manage the {{site.data.keyword.metrics_router_full_notm}} account configuration in the account.
 
