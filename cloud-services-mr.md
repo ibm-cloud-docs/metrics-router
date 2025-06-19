@@ -125,7 +125,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 
 | Service     | CRN service name | More info |
 |-------------|-------------|-------------------------------------------------------------------------|
-| [{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started&interface=ui) | `hs-crypto` | [Platform metrics](/docs/hs-crypto?topic=hs-crypto-operational-metrics&interface=ui) |
+| [{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started) | `hs-crypto` | [Platform metrics](/docs/hs-crypto?topic=hs-crypto-operational-metrics) |
 | [{{site.data.keyword.keymanagementservicelong}}](/docs/key-protect?topic=key-protect-getting-started-tutorial#getting-started-tutorial) | `kms` | [Platform metrics](/docs/key-protect?topic=key-protect-operational-metrics) |
 | [{{site.data.keyword.secrets-manager_full}}](/docs/secrets-manager?topic=secrets-manager-getting-started) | `secrets-manager` | [Platform metrics](/docs/secrets-manager?topic=secrets-manager-operational-metrics) |
 {: caption="List of security services" caption-side="top"}
