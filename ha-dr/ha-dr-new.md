@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-05-28"
+lastupdated: "2025-07-23"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -68,7 +68,7 @@ Where
 
     A region could be a specific postal code area, a town, a city, a state, a group of states, or even a group of countries.
 
-    A region contains [multiple availability zones](https://www.ibm.com/cloud/data-centers/){: external} to meet local access, low latency, and security requirements for the region.
+    A region contains [multiple availability zones](https://www.ibm.com/solutions/cloud-data-centers){: external} to meet local access, low latency, and security requirements for the region.
 
 * `N/A` means feature that is not applicable to that geography.
 * `MZR` means multi-zone region. [Learn more](/docs/overview?topic=overview-locations#table-mzr).
