@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-07-23"
 
 keywords:
 
@@ -32,6 +32,7 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on event
 
 {{site.data.keyword.metrics_router_full_notm}} sends activity tracking events by {{site.data.keyword.atracker_full_notm}} in the regions that are indicated in the following table.
 
+
 | Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
 |---------------------|-------------------------|-------------------|----------------------|
 | [Yes]{: tag-green} | [Yes]{: tag-green} | [Yes]{: tag-green} | [Yes]{: tag-green} |
@@ -41,6 +42,10 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on event
 {: tab-group="atracker"}
 {: class="simple-tab-table"}
 {: row-headers}
+
+
+
+
 
 | Tokyo (`jp-tok`)    | Sydney (`au-syd`) |  Osaka (`jp-osa`) | Chennai (`in-che`) |
 |---------------------|------------------|------------------|--------------------|
