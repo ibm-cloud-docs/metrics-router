@@ -28,4 +28,4 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 {: #cidr_private_mr_gen2}
 
 
-{{../../atracker/cidr_private.md}}
+{{../../atracker/_include-segments/cidr_private.md}}
