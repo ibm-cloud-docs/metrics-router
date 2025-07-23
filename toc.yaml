@@ -55,6 +55,8 @@ toc:
             navtitle: Service endpoints
           - topic: core/mng-data.md
             navtitle: Securing your data
+          - topic: core/vpe.md
+            navtitle: Using virtual private endpoints for VPC
       - topicgroup:
           label: Generating reports
           topics:

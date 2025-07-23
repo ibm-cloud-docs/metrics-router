@@ -1,5 +1,6 @@
 includes:
   - https://github.ibm.com/cloud-docs/metrics-router-cli
+  - https://github.ibm.com/cloud-docs/atracker
 translation:
   exclude:
     byFilePath:

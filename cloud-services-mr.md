@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-06-19"
+lastupdated: "2025-07-23"
 
 keywords:
 
@@ -150,7 +150,7 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 | Service     | CRN service name | Metrics           |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.vmware-service_short}}](/docs/vmware-service?topic=vmware-service-getting-started) | `vmware` | [Platform metrics](/docs/vmware-service?topic=vmware-service-single-tenant-monitoring) |
-| [VMware solutions](/docs/vmwaresolutions) | `vmware-solutions` | [Platform metrics](/docs/vmwaresolutions?topic=vmwaresolutions-shared-monitor) |
+| [VMware solutions](/docs/vmwaresolutions) | `vmware-solutions` | [Platform metrics](/docs/vmwaresolutions?topic=vmwaresolutions-single-tenant-monitoring) |
 {: caption="VMware" caption-side="top"}
 
 
