@@ -25,7 +25,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: #metrics-router-jul3125}
 
 Montreal support
-:   The{{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Montreal (`ca-mon`) region.
+:   The {{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Montreal (`ca-mon`) region.
 
 
 ## 9 July 2025
