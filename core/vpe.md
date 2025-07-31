@@ -68,10 +68,10 @@ After you create an endpoint gateway for {{site.data.keyword.metrics_router_full
 {: #vpe-api}
 {: api}
 
-After creating an endpoint gateway for the {{site.data.keyword.metrics_router_full_notm}} service, use the service endpoint's FQDN `private.<REGION>.metrics-router.cloud.ibm.com` in the URL to access the service. For example:
+After creating an endpoint gateway for the {{site.data.keyword.metrics_router_full_notm}} service, use the service endpoint's FQDN `api.private.<REGION>.metrics-router.cloud.ibm.com` in the URL to access the service. For example:
 
 ```sh
-curl https://private.ca-mon.metrics-router.cloud.ibm.com/api/v2/targets' -H "Authorization: Bearer $iam_token"
+curl https://api.private.ca-mon.metrics-router.cloud.ibm.com/api/v3/targets' -H "Authorization: Bearer $iam_token"
 ```
 {: pre}
 
@@ -80,7 +80,7 @@ curl https://private.ca-mon.metrics-router.cloud.ibm.com/api/v2/targets' -H "Aut
 {: #vpe-cli}
 {: cli}
 
-After creating an endpoint gateway for the {{site.data.keyword.metrics_router_full_notm}} service, run the following command with the service endpoint's FQDN `private.<REGION>.metrics-router.cloud.ibm.com` to access the service. For example:
+After creating an endpoint gateway for the {{site.data.keyword.metrics_router_full_notm}} service, run the following command with the service endpoint's FQDN `api.private.<REGION>.metrics-router.cloud.ibm.com` to access the service. For example:
 
 ```sh
 export METRICS_ROUTER_API_ENDPOINT=https://api.private.ca-mon.metrics-router.cloud.ibm.com/api/v3
@@ -92,12 +92,9 @@ export METRICS_ROUTER_API_ENDPOINT=https://api.private.ca-mon.metrics-router.clo
 {: #vpe-terraform}
 {: terraform}
 
-After creating an endpoint gateway for the {{site.data.keyword.metrics_router_full_notm}} service, run the following command with the service endpoint's FQDN `private.<REGION>.metrics-router.cloud.ibm.com` to access the service. For example:
+After creating an endpoint gateway for the {{site.data.keyword.metrics_router_full_notm}} service, run the following command with the service endpoint's FQDN `api.private.<REGION>.metrics-router.cloud.ibm.com` to access the service. For example:
 
 ```sh
 export IBMCLOUD_METRICS_ROUTING_API_ENDPOINT=https://api.private.ca-mon.metrics-router.cloud.ibm.com/api/v3
 ```
 {: pre}
-
-
-
