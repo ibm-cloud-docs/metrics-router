@@ -126,15 +126,13 @@ toc:
       topics:
       - topic: endpoints.md
         navtitle: Endpoints
+      - core/cidr.md
       - topic: iam_by_role.md
         navtitle: IAM actions by role
       - topic: limits.md
         navtitle: Limits
       - topic: regions.md
         navtitle: Regions
-      - link:
-          label: Considerations for Montreal
-          href: /cloud-logs/cloud-logs-montreal-temp
       - topic: core/shared-responsibilities.md
         navtitle: Understanding your responsibilities
       - topic: service-dependency.md
