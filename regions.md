@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-07-23"
+lastupdated: "2025-07-31"
 
 keywords:
 
@@ -19,9 +19,7 @@ subcollection: metrics-router
 {: shortdesc}
 
 
-![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/Metrics-Router-03-Locations.svg){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
-
-
+![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/locations_without_chennai.svg){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
 
 
 
@@ -34,6 +32,7 @@ subcollection: metrics-router
 | Europe              | London (`eu-gb`)             | [Not applicable]{: tag-cool-gray}         | `MZR`     |
 | Europe              | Madrid (`eu-es`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
 | North America       | Dallas (`us-south`)          | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| North America       | Montreal (`ca-mon`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | North America       | Toronto (`ca-tor`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | North America       | Washington DC (`us-east`)    | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | South America       | Sao Paulo (`br-sao`)    | [Not applicable]{: tag-cool-gray}       | `MZR`     |

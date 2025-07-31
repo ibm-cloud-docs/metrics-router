@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-07-31"
 
 keywords:
 
@@ -30,6 +30,7 @@ The following table shows the private API endpoints:
 | Frankfurt (`eu-de`)      | `https://private.eu-de.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.248.114  \n 166.9.248.147  \n 166.9.248.83 |
 | London (`eu-gb`)         | `https://private.eu-gb.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.244.80  \n 166.9.244.17  \n 166.9.244.43 |
 | Madrid (`eu-es`)         | `https://private.eu-es.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.225.9  \n  166.9.226.10  \n 166.9.227.9 |
+| Montreal (`ca-mon`)         | `https://private.ca-mon.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.233.52. \n 166.9.231.27. \n 166.9.232.52 |
 | Osaka (`jp-osa`)        | `https://private.jp-osa.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.247.48  \n 166.9.247.78  \n 166.9.247.112  |
 | Sao Paulo (`br-sao`)        | `https://private.br-sao.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.246.79  \n 166.9.246.111  \n 166.9.246.135 |
 | Sydney (`au-syd`)        | `https://private.au-syd.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.244.134  \n 166.9.244.103  \n 166.9.244.168 |
@@ -49,6 +50,7 @@ The following table shows the public API endpoints:
 | Frankfurt (`eu-de`)      | `https://eu-de.metrics-router.cloud.ibm.com`            | `https/443`  |
 | London (`eu-gb`)         | `https://eu-gb.metrics-router.cloud.ibm.com`            | `https/443`  |
 | Madrid (`eu-es`)         | `https://eu-es.metrics-router.cloud.ibm.com`            | `https/443`  |
+| Montreal (`ca-mon`)         | `https://ca-mon.metrics-router.cloud.ibm.com`            | `https/443`  |
 | Osaka (`jp-osa`)        | `https://jp-osa.metrics-router.cloud.ibm.com`           | `https/443`  |
 | Sao Paulo (`br-sao`)        | `https://br-sao.metrics-router.cloud.ibm.com`           | `https/443`  |
 | Sydney (`au-syd`)        | `https://au-syd.metrics-router.cloud.ibm.com`           | `https/443`  |

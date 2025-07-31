@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-07-23"
+lastupdated: "2025-07-31"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -55,6 +55,7 @@ The following table lists the high-availability (HA) status for the regions (loc
 | Europe              | London (`eu-gb`)         | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Europe              | Madrid (`eu-es`)         | [Yes]{: tag-green}        | `MZR`     |
 | North America       | Dallas (`us-south`)      | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| North America       | Montreal (`ca-mon`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | North America       | Toronto (`ca-tor`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | North America       | Washington DC (`us-east`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | South America       | Sao Paulo (`br-sao`)   | [Not applicable]{: tag-cool-gray}        | `MZR`     |
@@ -251,6 +252,7 @@ The following table shows the regions where the copy of a regular backup is repl
 | Europe               | London (`eu-gb`)         | Sydney (`au-syd`)       |
 | Europe               | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |
 | North America        | Dallas (`us-south`)      | Washington (`us-east`)  |
+| North America       | Montreal `(ca-mon)`      | Washington `(us-east)`  |
 | North America        | Toronto (`ca-tor`)       | Washington (`us-east`)  |
 | North America        | Washington (`us-east`)   | Dallas (`us-south`)     |
 | South America        | Sao Paulo (`br-sao`)     | Washington (`us-east`)  |
@@ -270,6 +272,7 @@ The following table indicates the recovery region in the event of a DR situation
 | Europe              | London (`eu-gb`)         | Frankfurt (`eu-de`)     |
 | Europe              | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |
 | North America       | Dallas (`us-south`)      | Washington (`us-east`)  |
+| North America       | Montreal `(ca-mon)`      | Toronto `(ca-tor)`  |
 | North America       | Toronto (`ca-tor`)       | Washington (`us-east`)  |
 | North America       | Washington DC (`us-east`)   | Dallas (`us-south`)     |
 | South America       | Sao Paulo (`br-sao`)     | Washington (`us-east`)     |
