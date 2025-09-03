@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2025
+lastupdated: "2025-09-03"
 
 keywords:
 
@@ -107,7 +107,7 @@ Deploying a VSI has additional costs.
 
 3. [Connect to the VSI](/docs/vpc?topic=vpc-vsi_is_connecting_linux) from a terminal in your local environment.
 
-4. After you ssh into the VSI, [install the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-install-ibmcloud-cli). Run the following command:
+4. After you ssh into the VSI, [install the IBM Cloud CLI](/docs/cli?topic=cli-install-ibmcloud-cli). Run the following command:
 
     ```shell
     curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
