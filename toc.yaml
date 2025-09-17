@@ -150,7 +150,7 @@ toc:
           topics:
           - topic: cli-config.md
             navtitle: Configuring the CLI
-          - include: ../metrics-router-cli/metrics-router-cli.md
+          - metrics-router-cli.md
       - topicgroup:
           label: API Reference
           links:
