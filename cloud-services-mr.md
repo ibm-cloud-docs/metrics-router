@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-07-23"
+lastupdated: "2025-10-23"
 
 keywords:
 
@@ -54,7 +54,6 @@ There are 2 ways that services send metrics:
 | [{{site.data.keyword.databases-for-mongodb}}](/docs/databases-for-mongodb?topic=databases-for-mongodb-getting-started-new&interface=ui) | `databases-for-mongodb` | [Platform metrics](/docs/databases-for-mongodb?topic=databases-for-mongodb-monitoring) |
 | [{{site.data.keyword.messages-for-rabbitmq}}](/docs/messages-for-rabbitmq?topic=messages-for-rabbitmq-getting-started) | `messages-for-rabbitmq` | [Platform metrics](/docs/messages-for-rabbitmq?topic=messages-for-rabbitmq-monitoring) |
 | [{{site.data.keyword.databases-for-postgresql}}](/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started&interface=ui) | `databases-for-postgresql` | [Platform metrics](/docs/databases-for-postgresql?topic=databases-for-postgresql-monitoring) |
-| [{{site.data.keyword.databases-for-enterprisedb}}](/docs/databases-for-enterprisedb?topic=databases-for-enterprisedb-getting-started) [Deprecated]{: tag-deprecated} | `databases-for-enterprisedb` | [Platform metrics](/docs/databases-for-enterprisedb?topic=databases-for-enterprisedb-monitoring) |
 | [{{site.data.keyword.databases-for-mysql}}](/docs/databases-for-mysql?topic=databases-for-mysql-getting-started&interface=cli) | `databases-for-mysql` | [Platform metrics](/docs/databases-for-mysql?topic=databases-for-mysql-monitoring) |
 | [{{site.data.keyword.databases-for-redis}}](/docs/databases-for-redis?topic=databases-for-redis-getting-started&interface=ui) | `databases-for-redis` | [Platform metrics](/docs/databases-for-redis?topic=databases-for-redis-monitoring) |
 | [{{site.data.keyword.databases-for-etcd}}](/docs/databases-for-etcd?topic=databases-for-etcd-getting-started) [Deprecated]{: tag-deprecated}  | `databases-for-etcd` | [Platform metrics](/docs/databases-for-etcd?topic=databases-for-etcd-monitoring) |
