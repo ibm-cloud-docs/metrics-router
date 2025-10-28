@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-09-18"
+lastupdated: "2025-10-28"
 
 keywords:
 
@@ -116,7 +116,7 @@ This step ensures {{site.data.keyword.metrics_router_full}} is authorized to rou
 {: #step-create-spoke-targets}
 {: terraform}
 
-Now that the hub account is now fully configured, you need to create {{site.data.keyword.metrics_router_full_notm}} targets for each spoke account where the target destination is the hub account's {{site.data.keyword.mon_full}} instance. In this example, there are only two spoke accounts, but there is no limitation to the number of spoke accounts that can be targetted to a single hub account.
+Now that the hub account is now fully configured, you need to create {{site.data.keyword.metrics_router_full_notm}} targets for each spoke account where the target destination is the hub account's {{site.data.keyword.mon_full}} instance. In this example, there are only two spoke accounts, but there is no limitation to the number of spoke accounts that can be targeted to a single hub account.
 
 Accounts must set the Primary Metadata Region before creating targets or routes. See [Configuring account settings](/docs/metrics-router?topic=metrics-router-settings).
 {: important}
@@ -153,7 +153,7 @@ This step creates {{site.data.keyword.metrics_router_full}} targets pointing to 
 {: #step-create-spoke-routes}
 {: terraform}
 
-Create {{site.data.keyword.metrics_router_full_notm}} routes for each spoke account, you can route all platform metrics to the hub or a subset of platform metrics to the hub. In this example, spoke A will route all platform metrics to the hub and spoke B will route platform metrics from specific services and locations to the hub, explictly discarding the rest.
+Create {{site.data.keyword.metrics_router_full_notm}} routes for each spoke account, you can route all platform metrics to the hub or a subset of platform metrics to the hub. In this example, spoke A will route all platform metrics to the hub and spoke B will route platform metrics from specific services and locations to the hub, explicitly discarding the rest.
 
 See [IBM Cloud services that generate metrics that are managed through IBM Cloud Metrics Routing](/docs/metrics-router?topic=metrics-router-cloud-services-mr).
 
@@ -189,7 +189,7 @@ resource "ibm_metrics_router_route" "metrics_router_route" {
   }
   name = "spoke-b-route"
 
-  # Route platform metrics for a few services, regarldess of location, to the hub.
+  # Route platform metrics for a few services, regardless of location, to the hub.
   rules {
     action = "send"
     targets {
@@ -239,4 +239,3 @@ Validate that the hub and spoke accounts are correctly configured.
 1. [Launch the {{site.data.keyword.mon_full_notm}} UI](/docs/monitoring?topic=monitoring-launch) for the hub instance.
 2. Look for **Dashboard Library > IBM** dashboard templates from the applicable Cloud services.
 3. Use `ibm_scope` label to segment alerts and dashboards by spoke account.
-
