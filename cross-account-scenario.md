@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-10-28"
+lastupdated: "2025-10-29"
 
 keywords:
 
@@ -52,6 +52,16 @@ terraform {
       version = "~>1.81.0"
     }
   }
+}
+
+variable "ibmcloud_api_key" {
+  description = "The IBM Cloud API key."
+  type        = string
+  sensitive   = true
+}
+
+provider "ibm" {
+  ibmcloud_api_key = var.ibmcloud_api_key
 }
 
 data "ibm_resource_group" "group" {
@@ -124,6 +134,26 @@ Accounts must set the Primary Metadata Region before creating targets or routes.
 ```terraform
 # NEW FILE: spoke_a/main.tf
 
+terraform {
+  required_version = ">= 0.13"
+  required_providers {
+    ibm = {
+      source  = "ibm-cloud/ibm"
+      version = "~>1.81.0"
+    }
+  }
+}
+
+variable "ibmcloud_api_key" {
+  description = "The IBM Cloud API key."
+  type        = string
+  sensitive   = true
+}
+
+provider "ibm" {
+  ibmcloud_api_key = var.ibmcloud_api_key
+}
+
 resource "ibm_metrics_router_settings" "metrics_router_settings" {
   primary_metadata_region = "<INPUT_METRICS_ROUTING_REGION>"
 }
@@ -136,6 +166,26 @@ resource "ibm_metrics_router_target" "metrics_router_target" {
 
 ```terraform
 # NEW FILE: spoke_b/main.tf
+
+terraform {
+  required_version = ">= 0.13"
+  required_providers {
+    ibm = {
+      source  = "ibm-cloud/ibm"
+      version = "~>1.81.0"
+    }
+  }
+}
+
+variable "ibmcloud_api_key" {
+  description = "The IBM Cloud API key."
+  type        = string
+  sensitive   = true
+}
+
+provider "ibm" {
+  ibmcloud_api_key = var.ibmcloud_api_key
+}
 
 resource "ibm_metrics_router_settings" "metrics_router_settings" {
   primary_metadata_region = "<INPUT_METRICS_ROUTING_REGION>"
