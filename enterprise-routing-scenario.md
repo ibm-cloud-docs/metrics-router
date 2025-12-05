@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-12-03"
+lastupdated: "2025-12-05"
 
 keywords: enterprise
 
@@ -280,7 +280,7 @@ resource "ibm_metrics_router_route" "metrics_router_route" {
 ```
 {: codeblock}
 
-This step creates the {{site.data.keyword.metrics_router_full}} enterprise routes. platform metrics will be routed to the parent {{site.data.keyword.mon_short}} instance.
+This step creates the {{site.data.keyword.metrics_router_full}} enterprise routes. Platform metrics will be routed to the parent {{site.data.keyword.mon_short}} instance.
 
 
 ## Step 5 - Restrict enterprise actions with IAM Action Control
