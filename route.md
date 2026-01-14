@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-04-03"
+  years:  2023, 2026
+lastupdated: "2026-01-14"
 
 keywords:
 
@@ -39,11 +39,11 @@ Note the following information about routes:
 
 * You can configure up to 8 locations for each rule.
 
-* You can configure up to 3 targets (`{"targets":[{"id":ID1},{"id":ID2},{"id":ID3}]`) for each rule.
+* You can configure up to 3 targets (`{ "targets": [{ "id": ID1 },{ "id": ID2 },{ "id": ID3 }] }`) for each rule.
 
 * Routes are processed independently.  If you have multiple routes with rules that match the same metric data, that data will be sent to multiple targets.
 
-* Rules in 1 route definition are processed in order. The first matching rule (for example, `location`) that matches metrics data is used to process that data.  When metrics are processed, they will not be processed by a subsequent rule within that route's definition. If you want to specify a default rule for all metrics that are not processed by other rules, you would specify the rule (`"locations" : ["*"]`) as the final rule in your `rules` definition for the `route`.
+* Rules in a single route definition are processed in order. The first matching rule (for example, `location`) that matches metrics data is used to process that data.  When metrics are processed, they will not be processed by a subsequent rule within that route's definition.
 
 * If metrics data doesn't match any rule and no default target is configured, the metrics are dropped and not routed to any target.
 
