@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2026
+lastupdated: "2026-01-14"
 
 keywords:
 
@@ -481,7 +481,10 @@ curl -X POST https://private.us-south.metrics-router.cloud.ibm.com/api/v3/target
 ```
 {: screen}
 
-In the response, you get information about the target such as the `id`, that indicates the GUID of the target, and the `crn`, that indicates the CRN of the target.
+In the response, you get information about the target such as:
+- The `id`, that indicates the GUID of the target
+- The `crn`, that indicates the CRN of the target.
+- The `write_status`, that indicates the status of the communication to the target destination. Use this information to debug problems with your target.
 
 
 ## Updating a {{site.data.keyword.mon_short}} target using the API
