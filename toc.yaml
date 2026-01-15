@@ -106,8 +106,6 @@ toc:
                 navtitle: Excluding all metrics by using the drop action
               - topic: cross-account-scenario.md
                 navtitle: Routing platform metrics across accounts
-              - topic: enterprise-routing-scenario.md
-                navtitle: Enterprise routing
       - topicgroup:
           label: Observability
           topics:
