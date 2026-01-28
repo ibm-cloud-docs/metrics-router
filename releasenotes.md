@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-08-21"
+  years:  2023, 2026
+lastupdated: "2026-01-27"
 
 keywords:
 
@@ -20,13 +20,17 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
 
+## 27 January 2026
+{: #metrics-router-jan2726}
+
+Route rules now support location hierarchies
+:   {{site.data.keyword.metrics_router_full_notm}} route rules previously only matched exact platform metric locations. Moving forward, a rule will match a metric if the metric's location is within a rule location. For example, rule location `eu-de` will now match metric locations: `eu-de`, `eu-de-1`, `eu-de-2`, and `eu-de-3`. Or rule location `jp` will now match all metrics within Japan. Run `ibmcloud catalog locations` to see the Cloud location hierarchies.
 
 ## 31 July 2025
 {: #metrics-router-jul3125}
 
 Montreal support
 :   The {{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Montreal (`ca-mon`) region.
-
 
 ## 9 July 2025
 {: #metrics-router-jul0925}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-01-14"
+lastupdated: "2026-01-27"
 
 keywords:
 
@@ -27,8 +27,6 @@ Note the following information about routes:
 
 * Routes are global under an account and are evaluated in all regions where {{site.data.keyword.metrics_router_full}} is deployed.
 
-* You can define a route from any of the supported locations where {{site.data.keyword.metrics_router_full_notm}} is available. For more information, see [Locations](/docs/metrics-router?topic=metrics-router-regions).
-
 * Routes may be accessed from any regional {{site.data.keyword.metrics_router_full_notm}} API endpoint.
 
 * You can define up to 30 routes for an account.
@@ -44,6 +42,8 @@ Note the following information about routes:
 * Routes are processed independently.  If you have multiple routes with rules that match the same metric data, that data will be sent to multiple targets.
 
 * Rules in a single route definition are processed in order. The first matching rule (for example, `location`) that matches metrics data is used to process that data.  When metrics are processed, they will not be processed by a subsequent rule within that route's definition.
+
+* Rules will match a metric if the metric's location is within a rule location. For example, rule location `eu-de` will match metric locations: `eu-de`, `eu-de-1`, `eu-de-2`, and `eu-de-3`. Or rule location `jp` will match all metrics within Japan. Run `ibmcloud catalog locations` to see the Cloud location hierarchies.
 
 * If metrics data doesn't match any rule and no default target is configured, the metrics are dropped and not routed to any target.
 
