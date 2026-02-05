@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-07-31"
+  years:  2023, 2026
+lastupdated: "2026-02-05"
 
 keywords:
 
@@ -26,6 +26,7 @@ The following table shows the private API endpoints:
 
 | Region                   | Metrics-router Private endpoint                         | Port         | IPs |
 |--------------------------|---------------------------------------------------------|--------------|-----|
+| Chennai (`in-che`)      | `https://private.in-che.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.212.16  \n 166.9.214.17  \n 166.9.216.19 |
 | Dallas (`us-south`)   | `https://private.us-south.metrics-router.cloud.ibm.com`  | `https/443`  | 166.9.228.17  \n 166.9.230.28  \n 166.9.250.230 |
 | Frankfurt (`eu-de`)      | `https://private.eu-de.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.248.114  \n 166.9.248.147  \n 166.9.248.83 |
 | London (`eu-gb`)         | `https://private.eu-gb.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.244.80  \n 166.9.244.17  \n 166.9.244.43 |
@@ -46,6 +47,7 @@ The following table shows the public API endpoints:
 
 | Region                   | Metrics-router Public endpoint                         | Port         |
 |--------------------------|---------------------------------------------------|--------------|
+| Chennai (`in-che`)   | `https://in-che.metrics-router.cloud.ibm.com`          | `https/443`  |
 | Dallas (`us-south`)   | `https://us-south.metrics-router.cloud.ibm.com`          | `https/443`  |
 | Frankfurt (`eu-de`)      | `https://eu-de.metrics-router.cloud.ibm.com`            | `https/443`  |
 | London (`eu-gb`)         | `https://eu-gb.metrics-router.cloud.ibm.com`            | `https/443`  |
