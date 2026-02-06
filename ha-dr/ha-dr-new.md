@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-07-31"
+  years:  2023, 2026
+lastupdated: "2026-02-06"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -48,6 +48,7 @@ The following table lists the high-availability (HA) status for the regions (loc
 
 | Geography             | Region                   | EU-Supported | HA Status |
 |-----------------------|--------------------------|--------------|-----------|
+| Asia Pacific        | Chennai (`in-che`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Asia Pacific        | Osaka (`jp-osa`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Asia Pacific        | Sydney (`au-syd`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Asia Pacific        | Tokyo (`jp-tok`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
@@ -245,6 +246,7 @@ The following table shows the regions where the copy of a regular backup is repl
 
 | Geography             | Region                   | Other regions that keep a copy of the backup   |
 |-----------------------|--------------------------|-------------------------|
+| Asia Pacific        | Chennai (`in-che`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific        | Osaka (`jp-osa`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific         | Sydney (`au-syd`)        | London (`eu-gb`)        |
 | Asia Pacific        | Tokyo (`jp-tok`)        | Osaka (`jp-osa`)     |
@@ -265,6 +267,7 @@ The following table indicates the recovery region in the event of a DR situation
 
 | Geography             | Source region            | Recovery region   |
 |-----------------------|--------------------------|--------------|
+| Asia Pacific        | chennai (`in-che`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific        | Osaka (`jp-osa`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific        | Sydney (`au-syd`)        | Frankfurt (`eu-de`)     |
 | Asia Pacific        | Tokyo (`jp-tok`)        | Osaka (`jp-osa`)     |
