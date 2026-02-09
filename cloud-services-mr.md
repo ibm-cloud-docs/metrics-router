@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-11-17"
+  years:  2023, 2026
+lastupdated: "2026-02-09"
 
 keywords:
 
@@ -89,7 +89,7 @@ The following table lists integration services that are enabled for {{site.data.
 | Service     | CRN service name | Metrics |
 |-------------|-------------|-------------------|
 | [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-getting-started)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
-| [{{site.data.keyword.mq_full}}](/docs/mqcloud?topic=mqcloud-getting_started)| `mqcloud` | [Platform metrics](/docs/mqcloud?topic=mqcloud-monitor_sysdig) |
+| [{{site.data.keyword.mq_full}}](/docs/mqcloud?topic=mqcloud-getting_started)| `mqcloud` | [Platform metrics](https://www.ibm.com/docs/en/mq-as-a-service?topic=how-monitoring-queue-manager-sysdig){: external} |
 {: caption="List of integration services" caption-side="top"}
 
 
@@ -167,7 +167,7 @@ The following table lists Cloud services that are enabled for {{site.data.keywor
 {: caption="List of VPC services (generation 2)" caption-side="top"}
 
 `[*]` - VPC virtual server instances includes multiple CRN resource types.
- 
+
 In addition, some VPC resources have quotas associated with them that you can monitor through the VPC resource quota overview dashboard. For more information, see [VPC resource quota overview](/docs/vpc?topic=vpc-vpc-quota-metrics).
 
 
