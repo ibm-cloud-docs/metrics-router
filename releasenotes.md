@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-01-27"
+lastupdated: "2026-02-05"
 
 keywords:
 
@@ -19,6 +19,12 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+## 09 February 2026
+{: #metrics-router-feb0926}
+
+Chennai support
+:   The {{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Chennai (`in-che`) region.
 
 ## 27 January 2026
 {: #metrics-router-jan2726}
