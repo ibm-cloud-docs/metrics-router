@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-10-21"
+  years:  2023, 2026
+lastupdated: "2026-02-09"
 
 keywords:
 
@@ -18,8 +18,7 @@ subcollection: metrics-router
 {{site.data.keyword.metrics_router_full_notm}} is available in the following locations:
 {: shortdesc}
 
-
-![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/locations_without_chennai.svg){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
+![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/Metric-Router-Services-Locations.svg){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
 
 
 
@@ -28,6 +27,7 @@ subcollection: metrics-router
 | Asia Pacific        | Osaka (`jp-osa`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Asia Pacific        | Sydney (`au-syd`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Asia Pacific        | Tokyo (`jp-tok`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Asia Pacific        | Chennai (`in-che`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Europe              | Frankfurt (`eu-de`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
 | Europe              | London (`eu-gb`)             | [Not applicable]{: tag-cool-gray}         | `MZR`     |
 | Europe              | Madrid (`eu-es`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
