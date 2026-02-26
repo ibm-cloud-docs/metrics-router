@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2026
+lastupdated: "2026-02-26"
 
 keywords:
 
@@ -34,7 +34,6 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Operator      | `metrics-router.route.read`   | View a route. |
 | Operator      | `metrics-router.route.list`   | List all routes. |
 | Operator      | `metrics-router.setting.get`  | View configuration settings.  |
-| Operator      | `metrics-router.onboarding.get` | For IBM use only. |
 {: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the operator role" caption-side="top"}
 
 
@@ -48,7 +47,6 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Viewer | `metrics-router.route.read` | View a route. |
 | Viewer | `metrics-router.route.list` | List all routes. |
 | Viewer | `metrics-router.setting.get` | View configuration settings.  |
-| Viewer      | `metrics-router.onboarding.get` | For IBM use only. |
 {: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the viewer role" caption-side="top"}
 
 ## Editor
@@ -68,7 +66,6 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Editor | `metrics-router.route.delete` | Delete a route. |
 | Editor | `metrics-router.route.list` | List all routes. |
 | Editor | `metrics-router.setting.get` | View configuration settings.  |
-| Editor | `metrics-router.onboarding.get` | For IBM use only. |
 {: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the editor role" caption-side="top"}
 
 
@@ -89,7 +86,12 @@ For {{site.data.keyword.metrics_router_full_notm}}, the IAM actions and Metrics 
 | Administrator | `metrics-router.route.list` | List all routes. |
 | Administrator | `metrics-router.setting.get` | View configuration settings.  |
 | Administrator | `metrics-router.setting.update` | Update configuration settings. |
-| Administrator | `metrics-router.onboarding.get` | For IBM use only. |
-| Administrator | `metrics-router.onboarding.modify` | For IBM use only. |
-| Administrator | `metrics-router.onboarding.delete` | For IBM use only. |
+| Administrator | `metrics-router.enterprise-target.create` | Create an enterprise target. `[*]` |
+| Administrator | `metrics-router.enterprise-target.update` | Update an enterprise target. |
+| Administrator | `metrics-router.enterprise-target.delete` | Delete an enterprise target. |
+| Administrator | `metrics-router.enterprise-route.create` | Create an enterprise route. `[*]` |
+| Administrator | `metrics-router.enterprise-route.update` | Update an enterprise route. |
+| Administrator | `metrics-router.enterprise-route.delete` | Delete an enterprise route. |
 {: caption="{{site.data.keyword.metrics_router_full_notm}} actions for the administrator role" caption-side="top"}
+
+`[*]` For more information, see [Enterprise-managed routing](/docs/metrics-router?topic=metrics-router-enterprise-routing-scenario).
