@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-02-09"
+lastupdated: "2026-03-12"
 
 keywords:
 
@@ -105,6 +105,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Sao Paulo  | 169.57.216.240/28 |
 | Sao Paulo  | 163.107.72.176/28 |
 | Sao Paulo  | 163.109.67.0/28 |
+| Sao Paulo  | 13.116.94.173/32 |
+| Sao Paulo  | 163.107.84.14/32 |
+| Sao Paulo  | 163.109.87.106/32 |
 {: caption="Sao Paulo public CIDR blocks" caption-side="top"}
 
 ### Sydney
@@ -244,6 +247,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Sao Paulo  | 10.151.85.192/26 |
 | Sao Paulo  | 10.14.7.128/26 |
 | Sao Paulo  | 10.15.22.192/26 |
+| Sao Paulo  | 10.51.187.131/32 |
+| Sao Paulo  | 10.12.68.164/32 |
+| Sao Paulo  | 10.12.89.237/32 |
 {: caption="Sao Paulo private CIDR blocks" caption-side="top"}
 
 ### Sydney
