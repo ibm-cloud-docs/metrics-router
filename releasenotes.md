@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-02-05"
+lastupdated: "2026-05-07"
 
 keywords:
 
@@ -20,26 +20,38 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
 
+## 06 May 2026
+{: #metrics-router-may0626}
+{: release-note}
+
+CIDR blocks added
+:   Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Madrid (eu-es), London (eu-gb), and Toronto (ca-tor). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
+
+
 ## 09 February 2026
 {: #metrics-router-feb0926}
+{: release-note}
 
 Chennai support
 :   The {{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Chennai (`in-che`) region.
 
 ## 27 January 2026
 {: #metrics-router-jan2726}
+{: release-note}
 
 Route rules now support location hierarchies
 :   {{site.data.keyword.metrics_router_full_notm}} route rules previously only matched exact platform metric locations. Moving forward, a rule will match a metric if the metric's location is within a rule location. For example, rule location `eu-de` will now match metric locations: `eu-de`, `eu-de-1`, `eu-de-2`, and `eu-de-3`. Or rule location `jp` will now match all metrics within Japan. Run `ibmcloud catalog locations` to see the Cloud location hierarchies.
 
 ## 31 July 2025
 {: #metrics-router-jul3125}
+{: release-note}
 
 Montreal support
 :   The {{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Montreal (`ca-mon`) region.
 
 ## 9 July 2025
 {: #metrics-router-jul0925}
+{: release-note}
 
 Updated Montreal considerations
 :   As {{site.data.keyword.cloud_notm}} provides support for the Montreal (`ca-mon`) region, you need to understand how {{site.data.keyword.cloud_notm}} Observability services are made available and the actions you need to take to operate in Montreal.
