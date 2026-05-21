@@ -1,12 +1,13 @@
 ---
 
 copyright:
-  years: 2024, 2025
-lastupdated: "2025-10-28"
+  years: 2024, 2026
+lastupdated: "2026-05-21"
 
 keywords:
 
 subcollection: metrics-router
+
 
 ---
 
@@ -38,19 +39,19 @@ Minimal
 ## Data and Control plane deployment
 {: #data-and-control-plane-deployment}
 
-The following dependencies apply to the following deployment locations: Chennai 01, Dallas (us-south), Frankfurt (eu-de), London (eu-gb), Madrid (eu-es), Osaka (jp-osa), Sao Paulo (br-sao), Sydney (au-syd), Tokyo (jp-tok), Toronto (ca-tor), Washington DC (us-east).
+The following dependencies apply to the following deployment locations: Chennai - Airtel (in-che), Dallas (us-south), Frankfurt (eu-de), London (eu-gb), Madrid (eu-es), Osaka (jp-osa), Sao Paulo (br-sao), Sydney (au-syd), Tokyo (jp-tok), Toronto (ca-tor), Washington DC (us-east).
 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
-| {{site.data.keyword.cis_full}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| {{site.data.keyword.registrylong}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.cis_full}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.registrylong}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  us-south  |
 | IBM Cloud Classic DNS Servers | Availability, Change management | No | Both |  Same data center  |
 | IBM Cloud Classic NTP Servers | Availability, Change management | No | Both |  Same data center  |
 | IBM Cloud Classic Infrastructure Resource Management | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Public IP Address Management | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | {{site.data.keyword.iamlong}} | Availability, Change management, Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| {{site.data.keyword.satellitelong}} | Availability, Change management, Customer responsibility | No | Both |  Same region  |
+| {{site.data.keyword.satellitelong}} | Availability, Change management | No | Both |  Same region  |
 | IBM Cloud Service Endpoints | Availability, Change management, Disaster recovery | No | Both |  Same data center  |
 | {{site.data.keyword.cos_full}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
 {: row-headers}
@@ -58,7 +59,7 @@ The following dependencies apply to the following deployment locations: Chennai 
 {: tab-title="Critical dependencies"}
 {: tab-group="service-dependency-data-for-metrics-router-Data-and-Control-plane-deployment"}
 {: class="comparison-tab-table"}
-{: #critical-deps}
+{: #critical-deps-data-and-control-plane-deployment}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers detail the specific dependent service. The column headers identify the details about the dependency and its impact. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
@@ -66,9 +67,9 @@ The following dependencies apply to the following deployment locations: Chennai 
 | IBM Cloud Global Search and Tagging | Availability | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | {{site.data.keyword.metrics_router_full}} | Availability, Operations | No | Both |  Same region  |
 | {{site.data.keyword.atracker_full}} | Availability, Operations, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.logs_full}} | Availability, Operations | No | Both |  Same region  |
 | TaaS Artifactory | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | {{site.data.keyword.monitoringlong}} | Availability, Operations | No | Both |  Same region  |
-| IBM Log Analysis and IBM Cloud Activity Tracker | Access management, Availability, Operations, Security compliance | No | Both |  Same region  |
 | Let's Encrypt | Availability, Change management, Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | {{site.data.keyword.en_full}} | Availability | No | Both |  Same region  |
 | PagerDuty | Availability, Operations | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
@@ -81,7 +82,7 @@ The following dependencies apply to the following deployment locations: Chennai 
 {: tab-title="Significant dependencies"}
 {: tab-group="service-dependency-data-for-metrics-router-Data-and-Control-plane-deployment"}
 {: class="comparison-tab-table"}
-{: #significant-deps}
+{: #significant-deps-data-and-control-plane-deployment}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers detail the specific dependent service. The column headers identify the details about the dependency and its impact. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
@@ -93,7 +94,7 @@ The following dependencies apply to the following deployment locations: Chennai 
 {: tab-title="Medium dependencies"}
 {: tab-group="service-dependency-data-for-metrics-router-Data-and-Control-plane-deployment"}
 {: class="comparison-tab-table"}
-{: #medium-deps}
+{: #medium-deps-data-and-control-plane-deployment}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers detail the specific dependent service. The column headers identify the details about the dependency and its impact. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
@@ -103,17 +104,21 @@ The following dependencies apply to the following deployment locations: Chennai 
 | SOS SIEM| Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | Slack| Operations | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | Teleport Bastion| Disaster recovery, Operations | No | Both |  Same region  |
+| None| Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| CrowdStrike Falcon| Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 {: row-headers}
 {: caption="IBM Cloud Metrics Routing - Data and Control plane deployment service dependency information - Minimal dependencies" caption-side="top"}
 {: tab-title="Minimal dependencies"}
 {: tab-group="service-dependency-data-for-metrics-router-Data-and-Control-plane-deployment"}
 {: class="comparison-tab-table"}
-{: #minimal-deps}
+{: #minimal-deps-data-and-control-plane-deployment}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers detail the specific dependent service. The column headers identify the details about the dependency and its impact. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
 
 ## Understanding service dependency data
 {: #understand-dependency-data}
+
+
 
 If you have any questions about the service dependency data as you review the service dependency information in the tables, you can refer to the following FAQ:
 

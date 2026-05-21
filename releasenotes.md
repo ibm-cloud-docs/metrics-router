@@ -20,6 +20,14 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
 
+## 11 May 2026
+{: #metrics-router-may1126}
+{: release-note}
+
+CIDR blocks added
+:   Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Mumbai (in-mum). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
+
+
 ## 06 May 2026
 {: #metrics-router-may0626}
 {: release-note}
