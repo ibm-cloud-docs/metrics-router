@@ -67,6 +67,7 @@ The following dependencies apply to the following deployment locations: Chennai 
 | IBM Cloud Global Search and Tagging | Availability | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | {{site.data.keyword.metrics_router_full}} | Availability, Operations | No | Both |  Same region  |
 | {{site.data.keyword.atracker_full}} | Availability, Operations, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.logs_full}} | Availability, Operations | No | Both |  Same region  |
 | TaaS Artifactory | Availability, Change management | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | {{site.data.keyword.monitoringlong}} | Availability, Operations | No | Both |  Same region  |
 | Let's Encrypt | Availability, Change management, Security compliance | No | Both |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
