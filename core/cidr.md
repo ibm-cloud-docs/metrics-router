@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-05-07"
+lastupdated: "2026-05-27"
 
 keywords:
 
@@ -177,6 +177,15 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | US-South | 169.61.48.48/28 |
 {: caption="US-South public CIDR blocks" caption-side="top"}
 
+### Mumbai
+{: #cidr_public_mr_gen2_mum}
+
+| Region   | CIDR block |
+|----------|------------|
+| Mumbai   | 169.38.215.19/32 |
+| Mumbai   | 169.38.238.76/32 |
+| Mumbai   | 169.38.44.154/32 |
+{: caption="Mumbai public CIDR blocks" caption-side="top"}
 
 
 ## Private CIDR blocks
@@ -320,3 +329,13 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | US-South | 10.185.179.192/26 |
 | US-South | 10.241.242.128/25 |
 {: caption="US-South private CIDR blocks" caption-side="top"}
+
+### Mumbai
+{: #cidr_private_mr_gen2_mum}
+
+| Region   | CIDR block |
+|----------|------------|
+| Mumbai   | 10.223.11.141/32 |
+| Mumbai   | 10.223.96.165/32 |
+| Mumbai   | 10.249.117.132/32 |
+{: caption="Mumbai private CIDR blocks" caption-side="top"}
