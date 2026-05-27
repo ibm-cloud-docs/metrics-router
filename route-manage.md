@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2026
+lastupdated: "2026-05-27"
 
 keywords:
 
@@ -20,7 +20,8 @@ You can manage routes in your account by using the {{site.data.keyword.metrics_r
 
 For more information on {{site.data.keyword.metrics_router_full_notm}} routes, see [routes](/docs/metrics-router?topic=metrics-router-routes&interface=cli).
 
-
+Alternatively, you can use pre-built, open-source and enterprise-ready [Terraform IBM Modules (TIM)](https://registry.terraform.io/modules/terraform-ibm-modules/cloud-monitoring/ibm/latest/submodules/metrics_routing){: external} provides a best-practice implementation for creating and managing {{site.data.keyword.mon_short}} routes.
+{: tip}
 
 ## About routes
 {: #route-manage-about}

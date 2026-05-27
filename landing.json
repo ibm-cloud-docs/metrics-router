@@ -33,7 +33,7 @@
   "section_devtools": {
     "api": "/apidocs/metrics-router",
     "cli": "/docs/metrics-router?topic=metrics-router-metrics-router-cli",
-    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/metrics_router_route"
+    "terraform": "https://registry.terraform.io/modules/terraform-ibm-modules/cloud-monitoring/ibm/latest/submodules/metrics_routing"
   },
   "section_updates": {
     "view_more": "/docs/metrics-router?topic=metrics-router-metrics-router-release-notes"

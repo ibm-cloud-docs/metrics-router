@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-01-27"
+lastupdated: "2026-05-27"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: metrics-router
 # About routes
 {: #routes}
 
-You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, and the {{site.data.keyword.metrics_router_full_notm}} Terraform provider. A route defines the rules that indicate what metrics are routed in a region and where to route them.
+You can manage routes in your account by using the {{site.data.keyword.metrics_router_full_notm}} UI, the {{site.data.keyword.metrics_router_full_notm}} CLI, the {{site.data.keyword.metrics_router_full_notm}} REST API, the {{site.data.keyword.metrics_router_full_notm}} Terraform provider and the [Terraform IBM Modules (TIM) for {{site.data.keyword.metrics_router_full_notm}}](https://registry.terraform.io/modules/terraform-ibm-modules/cloud-monitoring/ibm/latest/submodules/metrics_routing){: external}. A route defines the rules that indicate what metrics are routed in a region and where to route them.
 {: shortdesc}
 
 
