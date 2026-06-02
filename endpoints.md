@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-02-05"
+lastupdated: "2026-06-02"
 
 keywords:
 
@@ -32,6 +32,7 @@ The following table shows the private API endpoints:
 | London (`eu-gb`)         | `https://private.eu-gb.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.244.80  \n 166.9.244.17  \n 166.9.244.43 |
 | Madrid (`eu-es`)         | `https://private.eu-es.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.225.9  \n  166.9.226.10  \n 166.9.227.9 |
 | Montreal (`ca-mon`)         | `https://private.ca-mon.metrics-router.cloud.ibm.com`    | `https/443`  | 166.9.233.52  \n 166.9.231.27  \n 166.9.232.52 |
+| Mumbai (`in-mum`)      | `https://private.in-mum.metrics-router.cloud.ibm.com`    | `https/443`  |  166.9.214.27  \n166.9.212.27  \n166.9.216.27 |
 | Osaka (`jp-osa`)        | `https://private.jp-osa.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.247.48  \n 166.9.247.78  \n 166.9.247.112  |
 | Sao Paulo (`br-sao`)        | `https://private.br-sao.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.246.79  \n 166.9.246.111  \n 166.9.246.135 |
 | Sydney (`au-syd`)        | `https://private.au-syd.metrics-router.cloud.ibm.com`   | `https/443`  | 166.9.244.134  \n 166.9.244.103  \n 166.9.244.168 |
@@ -53,6 +54,7 @@ The following table shows the public API endpoints:
 | London (`eu-gb`)         | `https://eu-gb.metrics-router.cloud.ibm.com`            | `https/443`  |
 | Madrid (`eu-es`)         | `https://eu-es.metrics-router.cloud.ibm.com`            | `https/443`  |
 | Montreal (`ca-mon`)         | `https://ca-mon.metrics-router.cloud.ibm.com`            | `https/443`  |
+| Mumbai (`in-mum`)        | `https://in-mum.metrics-router.cloud.ibm.com`          | `https/443`  |
 | Osaka (`jp-osa`)        | `https://jp-osa.metrics-router.cloud.ibm.com`           | `https/443`  |
 | Sao Paulo (`br-sao`)        | `https://br-sao.metrics-router.cloud.ibm.com`           | `https/443`  |
 | Sydney (`au-syd`)        | `https://au-syd.metrics-router.cloud.ibm.com`           | `https/443`  |

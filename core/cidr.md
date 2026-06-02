@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-06-01"
+lastupdated: "2026-06-02"
 
 keywords:
 
@@ -93,16 +93,6 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 {: caption="Montreal public CIDR blocks" caption-side="top"}
 
 
-
-### Mumbai
-{: #cidr_public_mr_gen2_mum}
-
-| Region   | CIDR block |
-|----------|------------|
-| Mumbai  | 169.38.215.19/32 |
-| Mumbai  | 169.38.44.154/32 |
-| Mumbai  | 169.38.238.76/32 |
-{: caption="Mumbai public CIDR blocks" caption-side="top"}
 
 ### Osaka
 {: #cidr_public_mr_gen2_jp_osa}
@@ -200,13 +190,13 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 {: caption="Dallas public CIDR blocks" caption-side="top"}
 
 ### Mumbai
-{: #cidr_public_mr_gen2_mum}
+{: #cidr_public_mr_gen2_in_mum}
 
 | Region   | CIDR block |
 |----------|------------|
-| Mumbai   | 169.38.215.19/32 |
-| Mumbai   | 169.38.238.76/32 |
-| Mumbai   | 169.38.44.154/32 |
+| Mumbai  | 169.38.215.19/32	|
+| Mumbai  | 169.38.238.76/32 |
+| Mumbai  | 169.38.44.154/32 |
 {: caption="Mumbai public CIDR blocks" caption-side="top"}
 
 
@@ -278,15 +268,6 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 
 
 
-### Mumbai
-{: #cidr_private_mr_gen2_mum}
-
-| Region   | CIDR block |
-|----------|------------|
-| Mumbai  | 10.223.11.141/32 |
-| Mumbai  | 10.223.96.165/32 |
-| Mumbai  | 10.249.117.132/32 |
-{: caption="Mumbai private CIDR blocks" caption-side="top"}
 
 ### Osaka
 {: #cidr_private_mr_gen2_jp_osa}
@@ -374,12 +355,13 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Dallas | 10.46.38.115/32 |
 {: caption="Dallas private CIDR blocks" caption-side="top"}
 
+
 ### Mumbai
-{: #cidr_private_mr_gen2_mum}
+{: #cidr_private_mr_gen2_in_mum}
 
 | Region   | CIDR block |
 |----------|------------|
-| Mumbai   | 10.223.11.141/32 |
-| Mumbai   | 10.223.96.165/32 |
-| Mumbai   | 10.249.117.132/32 |
+| Mumbai  | 10.223.11.141/32 |
+| Mumbai  | 10.223.96.165/32 |
+| Mumbai  | 10.249.117.132/32 |
 {: caption="Mumbai private CIDR blocks" caption-side="top"}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-02-06"
+lastupdated: "2026-06-02"
 
 keywords: HA for IBM Cloud Metrics Routing, DR for IBM Cloud Metrics Routing, IBM Cloud Metrics Routing recovery time objective, IBM Cloud Metrics Routing recovery point objective
 
@@ -52,6 +52,7 @@ The following table lists the high-availability (HA) status for the regions (loc
 | Asia Pacific        | Osaka (`jp-osa`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Asia Pacific        | Sydney (`au-syd`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
 | Asia Pacific        | Tokyo (`jp-tok`)        | [Not applicable]{: tag-cool-gray}  | `MZR`     |
+| Asia Pacific        | Mumbai (`in-mum`)       | [Not applicable]{: tag-cool-gray}  | `SZR`     |
 | Europe              | Frankfurt (`eu-de`)      | [Yes]{: tag-green}        | `MZR`     |
 | Europe              | London (`eu-gb`)         | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Europe              | Madrid (`eu-es`)         | [Yes]{: tag-green}        | `MZR`     |
@@ -250,6 +251,7 @@ The following table shows the regions where the copy of a regular backup is repl
 | Asia Pacific        | Osaka (`jp-osa`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific         | Sydney (`au-syd`)        | London (`eu-gb`)        |
 | Asia Pacific        | Tokyo (`jp-tok`)        | Osaka (`jp-osa`)     |
+| Asia Pacific        | Mumbai (`in-mum`)        | Tokyo (`jp-tok`)     |
 | Europe               | Frankfurt (`eu-de`)      | Madrid (`eu-es`)        |
 | Europe               | London (`eu-gb`)         | Sydney (`au-syd`)       |
 | Europe               | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |
@@ -271,6 +273,7 @@ The following table indicates the recovery region in the event of a DR situation
 | Asia Pacific        | Osaka (`jp-osa`)        | Tokyo (`jp-tok`)     |
 | Asia Pacific        | Sydney (`au-syd`)        | Frankfurt (`eu-de`)     |
 | Asia Pacific        | Tokyo (`jp-tok`)        | Osaka (`jp-osa`)     |
+| Asia Pacific        | Mumbai (`in-mum`)        | Tokyo (`jp-tok`)     |
 | Europe              | Frankfurt (`eu-de`)      | Madrid (`eu-es`)        |
 | Europe              | London (`eu-gb`)         | Frankfurt (`eu-de`)     |
 | Europe              | Madrid (`eu-es`)         | Frankfurt (`eu-de`)     |
