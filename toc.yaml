@@ -170,6 +170,9 @@ toc:
           - link:
               label: Route
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/metrics_router_route
+          - link:
+              label: Terraform IBM Modules for Metrics Router
+              href: https://registry.terraform.io/modules/terraform-ibm-modules/cloud-monitoring/ibm/latest/submodules/metrics_routing
   - navgroup:
       id: help
       topics:

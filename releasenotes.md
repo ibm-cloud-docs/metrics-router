@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-05-07"
+lastupdated: "2026-06-02"
 
 keywords:
 
@@ -20,12 +20,20 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
 
-## 11 May 2026
-{: #metrics-router-may1126}
+## 02 June 2026
+{: #metrics-router-june0226}
 {: release-note}
 
 CIDR blocks added
-:   Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Mumbai (in-mum). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
+:   Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Dallas (us-south), Frankfurt (eu-de), Tokyo (jp-tok), and Washington DC (us-east). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
+
+
+## 01 June 2026
+{: #metrics-router-june0126}
+{: release-note}
+
+Mumbai support
+:   The {{site.data.keyword.metrics_router_full_notm}} service is fully supported in the Mumbai (`in-mum`) region. See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 
 ## 06 May 2026

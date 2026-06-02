@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2026
+lastupdated: "2026-05-27"
 
 keywords:
 
@@ -134,3 +134,6 @@ Where `TARGETID` is the ID of the target that you created in the previous step.
 After the target and the route is configured, you must verify that metrics are available.
 
 [Launch the {{site.data.keyword.mon_full_notm}} UI](/docs/monitoring?topic=monitoring-launch) for the {{site.data.keyword.mon_short}} instance that you configured as your target, and explore the metrics.
+
+Alternatively, you can use pre-built, open-source and enterprise-ready [Terraform IBM Modules (TIM)](https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-about-tim){: external} for [{{site.data.keyword.mon_full_notm}}](https://registry.terraform.io/modules/terraform-ibm-modules/cloud-monitoring/ibm/latest/submodules/metrics_routing){: external} to configure targets, routes and account settings. This module simplifies the creation and management of targets and routes following the best practices.
+{: tip}

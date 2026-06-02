@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-05-07"
+lastupdated: "2026-06-02"
 
 keywords:
 
@@ -45,6 +45,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Frankfurt  | 161.156.108.224/28 |
 | Frankfurt  | 149.81.105.32/27 |
 | Frankfurt  | 149.81.106.144/28 |
+| Frankfurt  | 149.81.4.201/32 |
+| Frankfurt  | 161.156.85.178/32 |
+| Frankfurt  | 149.81.215.5/32 |
 {: caption="Frankfurt public CIDR blocks" caption-side="top"}
 
 ### London
@@ -136,6 +139,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Tokyo  | 162.133.87.192/28 |
 | Tokyo  | 128.168.107.0/28 |
 | Tokyo  | 165.192.86.64/28 |
+| Tokyo  | 162.133.129.17/32 |
+| Tokyo  | 128.168.137.23/32 |
+| Tokyo  | 165.192.133.197/32 |
 {: caption="Tokyo public CIDR blocks" caption-side="top"}
 
 ### Toronto
@@ -151,32 +157,47 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Toronto  | 163.75.85.102/32 |
 {: caption="Toronto public CIDR blocks" caption-side="top"}
 
-### US East
+### Washington DC
 {: #cidr_public_mr_gen2_us_east}
 
 | Region   | CIDR block |
 |----------|------------|
-| US-East  | 52.116.102.64/28  |
-| US-East  | 150.239.78.0/27 |
-| US-East  | 169.60.74.224/27 |
-| US-East  | 169.60.103.240/28 |
-| US-East  | 52.117.68.128/27 |
-| US-East  | 52.117.116.160/28 |
-{: caption="US-East public CIDR blocks" caption-side="top"}
+| Washington DC  | 52.116.102.64/28  |
+| Washington DC  | 150.239.78.0/27 |
+| Washington DC  | 169.60.74.224/27 |
+| Washington DC  | 169.60.103.240/28 |
+| Washington DC  | 52.117.68.128/27 |
+| Washington DC  | 52.117.116.160/28 |
+| Washington DC  | 52.116.125.68/32 |
+| Washington DC  | 169.63.176.252/32 |
+| Washington DC  | 150.239.225.59/32 |
+{: caption="Washington DC public CIDR blocks" caption-side="top"}
 
-### US South
+### Dallas
 {: #cidr_public_mr_gen2_us-south}
 
 | Region | CIDR block |
 |--------|------------|
-| US-South | 52.117.144.176/28 |
-| US-South | 52.118.128.64/27 |
-| US-South | 50.22.67.32/27  |
-| US-South | 169.59.240.48/28 |
-| US-South | 52.117.31.64/27 |
-| US-South | 169.61.48.48/28 |
-{: caption="US-South public CIDR blocks" caption-side="top"}
+| Dallas | 52.117.144.176/28 |
+| Dallas | 52.118.128.64/27 |
+| Dallas | 50.22.67.32/27  |
+| Dallas | 169.59.240.48/28 |
+| Dallas | 52.117.31.64/27 |
+| Dallas | 169.61.48.48/28 |
+| Dallas | 52.116.133.131/32 |
+| Dallas | 52.118.207.24/32 |
+| Dallas | 67.18.97.33/32 |
+{: caption="Dallas public CIDR blocks" caption-side="top"}
 
+### Mumbai
+{: #cidr_public_mr_gen2_in_mum}
+
+| Region   | CIDR block |
+|----------|------------|
+| Mumbai  | 169.38.215.19/32	|
+| Mumbai  | 169.38.238.76/32 |
+| Mumbai  | 169.38.44.154/32 |
+{: caption="Mumbai public CIDR blocks" caption-side="top"}
 
 
 ## Private CIDR blocks
@@ -202,6 +223,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Frankfurt  | 10.85.82.0/26 |
 | Frankfurt  | 10.240.156.128/26 |
 | Frankfurt  | 10.123.179.128/26 |
+| Frankfurt  | 10.16.204.203/32 |
+| Frankfurt  | 10.16.208.52/32 |
+| Frankfurt  | 10.16.223.34/32 |
 {: caption="Frankfurt private CIDR blocks" caption-side="top"}
 
 ### London
@@ -241,6 +265,7 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Montreal  | 10.46.76.217/32 |
 | Montreal  | 10.46.80.217/32 |
 {: caption="Montreal private CIDR blocks" caption-side="top"}
+
 
 
 
@@ -285,6 +310,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Tokyo  | 10.212.20.0/26  |
 | Tokyo  | 10.192.202.128/26 |
 | Tokyo  | 10.193.66.0/26 |
+| Tokyo  | 10.223.195.244/32 |
+| Tokyo  | 10.223.206.211/32 |
+| Tokyo  | 10.223.220.189/32 |
 {: caption="Tokyo private CIDR blocks" caption-side="top"}
 
 ### Toronto
@@ -300,23 +328,40 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Toronto  | 10.223.182.47/32 |
 {: caption="Toronto private CIDR blocks" caption-side="top"}
 
-### US East
+### Washington DC
 {: #cidr_private_mr_gen2_us_east}
 
 | Region   | CIDR block |
 |----------|------------|
-| US-East  | 10.39.3.192/26 |
-| US-East  | 10.188.255.128/26 |
-| US-East  | 10.213.37.128/26 |
-{: caption="US-East private CIDR blocks" caption-side="top"}
+| Washington DC  | 10.39.3.192/26 |
+| Washington DC  | 10.188.255.128/26 |
+| Washington DC  | 10.213.37.128/26 |
+| Washington DC  | 10.22.41.74/32 |
+| Washington DC  | 10.249.94.28/32 |
+| Washington DC  | 10.249.154.208/32 |
+{: caption="Washington DC private CIDR blocks" caption-side="top"}
 
-### US South
+### Dallas
 {: #cidr_private_mr_gen2_us_south}
 
 | Region | CIDR block |
 |--------|------------|
-| US-South | 10.36.54.0/26 |
-| US-South | 10.177.221.0/26 |
-| US-South | 10.185.179.192/26 |
-| US-South | 10.241.242.128/25 |
-{: caption="US-South private CIDR blocks" caption-side="top"}
+| Dallas | 10.36.54.0/26 |
+| Dallas | 10.177.221.0/26 |
+| Dallas | 10.185.179.192/26 |
+| Dallas | 10.241.242.128/25 |
+| Dallas | 10.12.123.51/32 |
+| Dallas | 10.22.29.141/32 |
+| Dallas | 10.46.38.115/32 |
+{: caption="Dallas private CIDR blocks" caption-side="top"}
+
+
+### Mumbai
+{: #cidr_private_mr_gen2_in_mum}
+
+| Region   | CIDR block |
+|----------|------------|
+| Mumbai  | 10.223.11.141/32 |
+| Mumbai  | 10.223.96.165/32 |
+| Mumbai  | 10.249.117.132/32 |
+{: caption="Mumbai private CIDR blocks" caption-side="top"}

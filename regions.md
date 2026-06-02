@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-02-09"
+lastupdated: "2026-06-02"
 
 keywords:
 
@@ -28,6 +28,7 @@ subcollection: metrics-router
 | Asia Pacific        | Sydney (`au-syd`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Asia Pacific        | Tokyo (`jp-tok`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
 | Asia Pacific        | Chennai (`in-che`)            | [Not applicable]{: tag-cool-gray}        | `MZR`     |
+| Asia Pacific        | Mumbai (`in-mum`)             | [Not applicable]{: tag-cool-gray}        | `SZR`     |
 | Europe              | Frankfurt (`eu-de`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |
 | Europe              | London (`eu-gb`)             | [Not applicable]{: tag-cool-gray}         | `MZR`     |
 | Europe              | Madrid (`eu-es`) `[*]`      | [Yes]{: tag-green}        | `MZR`     |

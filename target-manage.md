@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-01-14"
+lastupdated: "2026-05-27"
 
 keywords:
 
@@ -20,7 +20,8 @@ You can manage {{site.data.keyword.mon_short}} targets in your account by using 
 
 For more information on {{site.data.keyword.metrics_router_full_notm}} targets, see [Targets](/docs/metrics-router?topic=metrics-router-target).
 
-
+Alternatively, you can use pre-built, open-source and enterprise-ready [Terraform IBM Modules (TIM)](https://registry.terraform.io/modules/terraform-ibm-modules/cloud-monitoring/ibm/latest/submodules/metrics_routing){: external} provides a best-practice implementation for creating and managing {{site.data.keyword.mon_short}} targets.
+{: tip}
 
 ## About {{site.data.keyword.mon_short}} targets
 {: #target-manage-about}
