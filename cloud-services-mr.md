@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-02-09"
+lastupdated: "2026-06-23"
 
 keywords:
 
@@ -115,6 +115,7 @@ The following table lists services that are enabled for {{site.data.keyword.mon_
 | [{{site.data.keyword.atracker_full_notm}}](/docs/atracker) | `atracker` |
 | [{{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router) | `metrics-router` |
 {: caption="{{site.data.keyword.cloud_notm}} platform services that send metrics to {{site.data.keyword.metrics_router_full_notm}}" caption-side="top"}
+
 
 
 ## Security services
