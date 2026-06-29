@@ -18,7 +18,7 @@ subcollection: metrics-router
 {{site.data.keyword.metrics_router_full_notm}} is available in the following locations:
 {: shortdesc}
 
-![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](images/metrics-router-location.png){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
+![The image shows the locations where the {{site.data.keyword.metrics_router_full_notm}} service is available.](/images/metrics-router-location.png){: caption="Displays the regions where you can create and manage {{site.data.keyword.metrics_router_full_notm}} resources." caption-side="bottom"}
 
 
 
