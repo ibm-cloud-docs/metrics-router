@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-07-22"
+lastupdated: "2026-07-28"
 
 keywords:
 
@@ -67,6 +67,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | London  | 161.156.198.18/32 |
 | London  | 141.125.157.238/32 |
 | London  | 158.176.191.148/32 |
+| London  | 141.125.110.25/32 |
+| London  | 158.176.175.102/32 |
+| London  | 161.156.203.65/32 |
 {: caption="London public CIDR blocks" caption-side="top"}
 
 ### Madrid
@@ -82,6 +85,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Madrid  | 13.120.86.11/32 |
 | Madrid  | 13.121.88.193/32 |
 | Madrid  | 13.122.95.60/32 |
+| Madrid  | 13.120.90.54/32 |
+| Madrid  | 13.121.83.235/32 |
+| Madrid  | 13.122.84.89/32 |
 {: caption="Madrid public CIDR blocks" caption-side="top"}
 
 
@@ -123,6 +129,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Sao Paulo  | 13.116.94.173/32 |
 | Sao Paulo  | 163.107.84.14/32 |
 | Sao Paulo  | 163.109.87.106/32 |
+| Sao Paulo  | 13.116.81.156/32 |
+| Sao Paulo  | 163.107.88.0/32 |
+| Sao Paulo  | 163.109.84.177/32 |
 {: caption="Sao Paulo public CIDR blocks" caption-side="top"}
 
 ### Sydney
@@ -161,6 +170,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Toronto  | 163.66.93.174/32 |
 | Toronto  | 163.74.95.233/32 |
 | Toronto  | 163.75.85.102/32 |
+| Toronto  | 163.75.83.248/32 |
+| Toronto  | 163.66.92.224/32 |
+| Toronto  | 163.74.90.198/32 |
 {: caption="Toronto public CIDR blocks" caption-side="top"}
 
 ### Washington DC
@@ -251,6 +263,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | London  | 10.16.55.25/32 |
 | London  | 10.16.62.191/32 |
 | London  | 10.249.110.241/32 |
+| London  | 10.249.102.221/32 |
+| London  | 10.223.19.242/32 |
+| London  | 10.223.20.183/32 |
 {: caption="London private CIDR blocks" caption-side="top"}
 
 ### Madrid
@@ -265,6 +280,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Madrid  | 10.22.182.22/32 |
 | Madrid  | 10.22.185.114/32 |
 | Madrid  | 10.22.211.95/32 |
+| Madrid  | 10.22.182.105/32 |
+| Madrid  | 10.22.189.50/32 |
+| Madrid  | 10.22.202.221/32 |
 {: caption="Madrid private CIDR blocks" caption-side="top"}
 
 
@@ -305,6 +323,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Sao Paulo  | 10.51.187.131/32 |
 | Sao Paulo  | 10.12.68.164/32 |
 | Sao Paulo  | 10.12.89.237/32 |
+| Sao Paulo  | 10.51.186.78/32 |
+| Sao Paulo  | 10.51.189.151/32 |
+| Sao Paulo  | 10.12.84.15/32 |
 {: caption="Sao Paulo private CIDR blocks" caption-side="top"}
 
 ### Sydney
@@ -341,6 +362,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Toronto  | 10.223.159.102/32 |
 | Toronto  | 10.223.165.184/32 |
 | Toronto  | 10.223.182.47/32 |
+| Toronto  | 10.223.149.209/32 |
+| Toronto  | 10.223.161.134/32 |
+| Toronto  | 10.223.181.97/32 |
 {: caption="Toronto private CIDR blocks" caption-side="top"}
 
 ### Washington DC
