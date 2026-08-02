@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-07-28"
+lastupdated: "2026-07-31"
 
 keywords:
 
@@ -48,9 +48,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Frankfurt  | 161.156.108.224/28 |
 | Frankfurt  | 149.81.105.32/27 |
 | Frankfurt  | 149.81.106.144/28 |
-| Frankfurt  | 149.81.4.201/32 |
-| Frankfurt  | 161.156.85.178/32 |
-| Frankfurt  | 149.81.215.5/32 |
+| Frankfurt  | 149.81.1.253/32 |
+| Frankfurt  | 161.156.80.24/32 |
+| Frankfurt  | 149.81.237.54/32 |
 {: caption="Frankfurt public CIDR blocks" caption-side="top"}
 
 ### London
@@ -202,9 +202,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Dallas | 169.59.240.48/28 |
 | Dallas | 52.117.31.64/27 |
 | Dallas | 169.61.48.48/28 |
-| Dallas | 52.116.133.131/32 |
-| Dallas | 52.118.207.24/32 |
-| Dallas | 67.18.97.33/32 |
+| Dallas | 52.118.147.38/32 |
+| Dallas | 52.116.193.9/32 |
+| Dallas | 67.18.114.61/32 |
 {: caption="Dallas public CIDR blocks" caption-side="top"}
 
 ### Mumbai
@@ -247,9 +247,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Frankfurt  | 10.85.82.0/26 |
 | Frankfurt  | 10.240.156.128/26 |
 | Frankfurt  | 10.123.179.128/26 |
-| Frankfurt  | 10.16.204.203/32 |
-| Frankfurt  | 10.16.208.52/32 |
-| Frankfurt  | 10.16.223.34/32 |
+| Frankfurt  | 10.22.100.177/32 |
+| Frankfurt  | 10.223.46.40/32 |
+| Frankfurt  | 10.223.52.194/32 |
 {: caption="Frankfurt private CIDR blocks" caption-side="top"}
 
 ### London
@@ -389,9 +389,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Dallas | 10.177.221.0/26 |
 | Dallas | 10.185.179.192/26 |
 | Dallas | 10.241.242.128/25 |
-| Dallas | 10.12.123.51/32 |
-| Dallas | 10.22.29.141/32 |
-| Dallas | 10.46.38.115/32 |
+| Dallas | 10.46.226.51/32 |
+| Dallas | 10.12.159.182/32 |
+| Dallas | 10.46.21.126/32 |
 {: caption="Dallas private CIDR blocks" caption-side="top"}
 
 
