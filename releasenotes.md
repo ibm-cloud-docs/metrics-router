@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-08-02"
+lastupdated: "2026-08-07"
 
 keywords:
 
@@ -19,6 +19,14 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
+
+
+## 06 August 2026
+{: #metrics-router-august0626}
+{: release-note}
+
+CIDR blocks added
+:  Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Tokyo (jp-tok). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 30 July 2026
 {: #metrics-router-july3026}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2026
-lastupdated: "2026-07-31"
+lastupdated: "2026-08-07"
 
 keywords:
 
@@ -154,9 +154,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Tokyo  | 162.133.87.192/28 |
 | Tokyo  | 128.168.107.0/28 |
 | Tokyo  | 165.192.86.64/28 |
-| Tokyo  | 162.133.129.17/32 |
-| Tokyo  | 128.168.137.23/32 |
-| Tokyo  | 165.192.133.197/32 |
+| Tokyo  | 162.133.130.196/32 |
+| Tokyo  | 128.168.133.93/32 |
+| Tokyo  | 165.192.140.242/32 |
 {: caption="Tokyo public CIDR blocks" caption-side="top"}
 
 ### Toronto
@@ -346,9 +346,9 @@ The following Classless Inter-Domain Routing (CIDR) blocks are available:
 | Tokyo  | 10.212.20.0/26  |
 | Tokyo  | 10.192.202.128/26 |
 | Tokyo  | 10.193.66.0/26 |
-| Tokyo  | 10.223.195.244/32 |
-| Tokyo  | 10.223.206.211/32 |
-| Tokyo  | 10.223.220.189/32 |
+| Tokyo  | 10.223.196.118/32 |
+| Tokyo  | 10.223.210.122/32 |
+| Tokyo  | 10.223.223.174/32 |
 {: caption="Tokyo private CIDR blocks" caption-side="top"}
 
 ### Toronto
