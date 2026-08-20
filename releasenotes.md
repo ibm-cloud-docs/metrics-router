@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-08-07"
+lastupdated: "2026-08-20"
 
 keywords:
 
@@ -20,6 +20,12 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.metrics_router_full}}.
 {: shortdesc}
 
+## 20 August 2026
+{: #metrics-router-august2026}
+{: release-note}
+
+CIDR blocks added
+:  Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Sydney (au-syd) and Osaka (jp-osa). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 06 August 2026
 {: #metrics-router-august0626}
