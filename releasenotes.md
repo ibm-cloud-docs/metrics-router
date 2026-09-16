@@ -2,12 +2,11 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-09-16"
 
-keywords:
+keywords: IBM Cloud metrics router
 
 subcollection: metrics-router
-
 content-type: release-note
 
 ---
@@ -21,42 +20,42 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: shortdesc}
 
 ## 20 August 2026
-{: #metrics-router-august2026}
+{: #metrics-router-aug2026}
 {: release-note}
 
 CIDR blocks added
 :  Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Sydney (au-syd) and Osaka (jp-osa). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 06 August 2026
-{: #metrics-router-august0626}
+{: #metrics-router-aug0626}
 {: release-note}
 
 CIDR blocks added
 :  Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Tokyo (jp-tok). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 30 July 2026
-{: #metrics-router-july3026}
+{: #metrics-router-jul3026}
 {: release-note}
 
 CIDR blocks added
 :   Public and private CIDR blocks are added to {{site.data.keyword.metrics_router_full_notm}} for Dallas (us-south) and Frankfurt (eu-de). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 27 July 2026
-{: #metrics-router-july2726}
+{: #metrics-router-jul2726}
 {: release-note}
 
 CIDR blocks added
 :  Public and private CIDR blocks are added to {{site.data.keyword.metrics-router_full_notm}} for Londo(eu-gb), Madrid(eu-es), Sao paulo(br-sao) and Toronto (ca-tor). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 21 July 2026
-{: #metrics-router-july2126}
+{: #metrics-router-jul2126}
 {: release-note}
 
 CIDR blocks added
 :  Public and private CIDR blocks are added to {{site.data.keyword.metrics-router_full_notm}} for Montreal (ca-mon), Chennai (in-che) and Mumbai (in-mum). See [CIDR blocks](/docs/metrics-router?topic=metrics-router-cidr).
 
 ## 02 June 2026
-{: #metrics-router-june0226}
+{: #metrics-router-jun0226}
 {: release-note}
 
 CIDR blocks added
@@ -64,7 +63,7 @@ CIDR blocks added
 
 
 ## 01 June 2026
-{: #metrics-router-june0126}
+{: #metrics-router-jun0126}
 {: release-note}
 
 Mumbai support
