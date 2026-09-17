@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-06-23"
+lastupdated: "2026-09-17"
 
 keywords:
 
@@ -49,7 +49,7 @@ There are 2 ways that services send metrics:
 
 | Service           |  CRN service name | Metrics |
 |-------------------|-------------------|---------|
-| [{{site.data.keyword.Db2_on_Cloud_short}}](/docs/Db2onCloud?topic=Db2onCloud-about)| `dashdb-for-transactions` | [Platform metrics](/docs/Db2onCloud?topic=Db2onCloud-monitor) |
+| [{{site.data.keyword.Db2_on_Cloud_short}}](/docs/db2-saas?topic=db2-saas-about)| `dashdb-for-transactions` | [Platform metrics](/docs/db2-saas?topic=db2-saas-monitor) |
 | [{{site.data.keyword.databases-for-elasticsearch}}](/docs/databases-for-elasticsearch?topic=databases-for-elasticsearch-getting-started&interface=ui) | `databases-for-elasticsearch` | [Platform metrics](/docs/databases-for-elasticsearch?topic=databases-for-elasticsearch-monitoring) |
 | [{{site.data.keyword.databases-for-mongodb}}](/docs/databases-for-mongodb?topic=databases-for-mongodb-getting-started-new&interface=ui) | `databases-for-mongodb` | [Platform metrics](/docs/databases-for-mongodb?topic=databases-for-mongodb-monitoring) |
 | [{{site.data.keyword.messages-for-rabbitmq}}](/docs/messages-for-rabbitmq?topic=messages-for-rabbitmq-getting-started) | `messages-for-rabbitmq` | [Platform metrics](/docs/messages-for-rabbitmq?topic=messages-for-rabbitmq-monitoring) |
@@ -88,12 +88,12 @@ The following table lists integration services that are enabled for {{site.data.
 
 | Service     | CRN service name | Metrics |
 |-------------|-------------|-------------------|
-| [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-getting-started)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
+| [{{site.data.keyword.messagehub}}](/docs/EventStreams?topic=EventStreams-quick_setup_guide&interface=ui)| `messagehub` | [Platform metrics](/docs/EventStreams?topic=EventStreams-metrics) |
 | [{{site.data.keyword.mq_full}}](/docs/mqcloud?topic=mqcloud-getting_started)| `mqcloud` | [Platform metrics](https://www.ibm.com/docs/en/mq-as-a-service?topic=how-monitoring-queue-manager-sysdig){: external} |
 {: caption="List of integration services" caption-side="top"}
 
 
-## Networking services
+## Networking service
 {: #networking}
 
 The following table lists services that are enabled for {{site.data.keyword.mon_full_notm}}:

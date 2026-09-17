@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-09-03"
+  years:  2023, 2026
+lastupdated: "2026-09-17"
 
 keywords:
 
@@ -44,7 +44,7 @@ You can configure your account to manage private and public endpoints by using t
 
 - If you prefer to work with the command line, you must install the {{site.data.keyword.cloud_notm}} CLI. For more information, see [Installing the {{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli). In addition, you must install the {{site.data.keyword.metrics_router_full_notm}} CLI plugin. For more information, see [{{site.data.keyword.metrics_router_full_notm}} CLI](/docs/metrics-router?topic=metrics-router-metrics-router-cli).
 
-- Your user ID needs **administrator platform permissions** to manage the {{site.data.keyword.metrics_router_full_notm}} service. Contact the account owner. The account owner can grant another user access to the account for the purposes of managing user access, and managing account resources. [Learn more](/docs/account?topic=account-userroles).
+- Your user ID needs **administrator platform permissions** to manage the {{site.data.keyword.metrics_router_full_notm}} service. Contact the account owner. The account owner can grant another user access to the account for the purposes of managing user access, and managing account resources. [Learn more](/docs/iam?topic=iam-userroles).
 
 
 ## Check your account is VRF enabled
