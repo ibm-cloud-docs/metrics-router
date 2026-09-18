@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-10-09"
+  years:  2023, 2026
+lastupdated: "2026-09-17"
 
 keywords:
 
@@ -91,7 +91,7 @@ The {{site.data.keyword.metrics_router_full_notm}} service provides the followin
 When you define a policy, the *Resources* scope must be set to **All resources**. If this is not set, you will not be able to manage your {{site.data.keyword.metrics_router_full_notm}} instance and you will get a return code of `403`.
 {: important}
 
-If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
+If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/iam?topic=iam-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
 ### Targets
@@ -149,13 +149,13 @@ You can assign access to {{site.data.keyword.metrics_router_full_notm}} by using
 
     Access groups are used to streamline access management by assigning access to a group once, then you can add or remove users as needed from the group to control their access.
 
-    An access group can be created to organize a set of users, service IDs, and trusted profiles into a single entity that makes it easy for you to assign access. You can assign a single policy to the group instead of assigning the same access multiple times for an individual user or service ID.For more information, see [Setting up access groups](/docs/account?topic=account-groups).
+    An access group can be created to organize a set of users, service IDs, and trusted profiles into a single entity that makes it easy for you to assign access. You can assign a single policy to the group instead of assigning the same access multiple times for an individual user or service ID.For more information, see [Setting up access groups](/docs/iam?topic=iam-groups&interface=ui).
 
     To organize a set of users and service IDs into a single entity that makes it easy for you to manage IAM permissions, use access groups. You can assign a single policy to the group instead of assigning the same access multiple times per individual user or service ID.
     {: tip}
 
 * Trusted profiles
 
-    You can use trusted profiles to grant different {{site.data.keyword.cloud}} identities access to resources in your account. Automatically grant federated users access to your account with conditions based on SAML attributes from your corporate directory. Or, use trusted profiles to set up fine-grained authorization for applications that are running in compute resources. This way, you aren't required to create service IDs or API keys for the compute resources. You can also establish trust with {{site.data.keyword.cloud_notm}} services or service IDs in another account to grant cross-account access. For more information, see [Creating trusted profiles](/docs/account?topic=account-create-trusted-profile).
+    You can use trusted profiles to grant different {{site.data.keyword.cloud}} identities access to resources in your account. Automatically grant federated users access to your account with conditions based on SAML attributes from your corporate directory. Or, use trusted profiles to set up fine-grained authorization for applications that are running in compute resources. This way, you aren't required to create service IDs or API keys for the compute resources. You can also establish trust with {{site.data.keyword.cloud_notm}} services or service IDs in another account to grant cross-account access. For more information, see [Creating trusted profiles](/docs/iam?topic=iam-create-trusted-profile&interface=ui).
 
 For more information, see [Assigning access to {{site.data.keyword.metrics_router_full_notm}}](/docs/metrics-router?topic=metrics-router-iam-assign-access).

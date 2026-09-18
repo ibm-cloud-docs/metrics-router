@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2025
-lastupdated: "2025-02-23"
+  years:  2023, 2026
+lastupdated: "2026-09-17"
 
 keywords:
 
@@ -28,7 +28,7 @@ Review the following sections for the specific responsibilities for you and for 
 | Task              | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |-------------------|-------------------------------------------------|-----------------------|
 | Incident and operations management | Maintain service instances and infrastructure workloads. | Maintain incident and operations management of your data. |
-| Monitor incidents  | Provide notifications for planned maintenance, security bulletins, or unplanned outages. | Set preferences to [receive emails about platform notifications](/docs/account?topic=account-email-prefs).   \n Monitor the [IBM Cloud announcements page](https://{DomainName}/status?selected=announcement) for general announcements. |
+| Monitor incidents  | Provide notifications for planned maintenance, security bulletins, or unplanned outages. | Set preferences to [receive emails about platform notifications](/docs/support?topic=support-email-prefs).   \n Monitor the [IBM Cloud announcements page](https://{DomainName}/status?selected=announcement) for general announcements. |
 | Maintain {{site.data.keyword.cloud_notm}} high availability SLA for {{site.data.keyword.metrics_router_full_notm}}   | Provide {{site.data.keyword.metrics_router_full_notm}}  functionality across availability zones in a Multi-Zone Region (MZR).    \n Provide replication, fail-over features, and infrastructure maintenance and updates. | Keep your {{site.data.keyword.metrics_router_full_notm}}  configuration in a version control system so that you can reconfigure a region if needed.  \n  Comply with [Operational responsibilities when using {{site.data.keyword.mon_full_notm}}](/docs/monitoring?topic=monitoring-shared-responsibilities). |
 | Monitor metrics for {{site.data.keyword.metrics_router_full_notm}}  | [Participating Cloud services](/docs/metrics-router?topic=metrics-router-cloud-services-mr) publish relevant data to their subscribing clients. Clients have the ability to receive this data once their account is configured. | [Configure your account](/docs/metrics-router?topic=metrics-router-getting-started) where Cloud service subscriptions publish metrics to receive the published metrics. Notice that {{site.data.keyword.metrics_router_full_notm}}  can only route metrics that are generated in [supported regions](/docs/metrics-router?topic=metrics-router-regions). Other regions, where {{site.data.keyword.metrics_router_full_notm}}  is not available, continue to manage events by using {{site.data.keyword.mon_short}} service. |
 | Monitor {{site.data.keyword.metrics_router_full_notm}} targets  |  |  Check the health and status of the targets through {{site.data.keyword.mon_short}} by configuring alerts to notify of problems writing metrics to a target, and generate notifications, for example, to the {{site.data.keyword.mon_full_notm}} service. |
